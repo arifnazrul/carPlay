@@ -8,13 +8,24 @@
 
 import UIKit
 
+//extension UIApplication {
+//
+//    var statusBarView: UIView? {
+//        return value(forKey: "statusBar") as? UIView
+//    }
+//
+//}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        UIApplication.shared.statusBarView?.backgroundColor = UIColor.red
+
         return true
     }
 
