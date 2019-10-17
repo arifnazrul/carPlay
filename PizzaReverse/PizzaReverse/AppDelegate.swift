@@ -8,17 +8,42 @@
 
 import UIKit
 import Intents
+import CarPlay
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CPMapTemplateDelegate, CPApplicationDelegate {
 
     var window: UIWindow?
+    var carPlayWindow: CPWindow?
+    var interfaceController: CPInterfaceController?
+    var mapTemplate: CPMapTemplate?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        print("App started")
         return true
     }
+    
+    func application(_ application: UIApplication, didConnectCarInterfaceController interfaceController: CPInterfaceController, to window: CPWindow) {
+        self.interfaceController = interfaceController
+        self.carPlayWindow = window
+        
+        window.rootViewController = CarplayViewController()
+        
+        let mapTemplate = CPMapTemplate()
+        mapTemplate.mapDelegate = self
+        self.mapTemplate = mapTemplate
+        
+        interfaceController.setRootTemplate(mapTemplate, animated: true)
+        
+        print("Car play connected")
+    }
+    
+    func application(_ application: UIApplication, didDisconnectCarInterfaceController interfaceController: CPInterfaceController, from window: CPWindow) {
+        print("Car play disconnected")
+    }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
