@@ -7,27 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D7F81E5235392C5008106D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F81E4235392C5008106D3 /* AppDelegate.swift */; };
-		3D7F81E7235392C5008106D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F81E6235392C5008106D3 /* SceneDelegate.swift */; };
-		3D7F81E9235392C5008106D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F81E8235392C5008106D3 /* ViewController.swift */; };
-		3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EA235392C5008106D3 /* Main.storyboard */; };
-		3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81ED235392C7008106D3 /* Assets.xcassets */; };
-		3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */; };
+		2C7718D023585DBA00B7F6F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7718CF23585DBA00B7F6F5 /* ViewController.swift */; };
+		2C7718D323585DBA00B7F6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7718D123585DBA00B7F6F5 /* Main.storyboard */; };
+		2C7718D523585DBA00B7F6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7718D423585DBA00B7F6F5 /* Assets.xcassets */; };
+		2C7718D823585DBA00B7F6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7718D623585DBA00B7F6F5 /* LaunchScreen.storyboard */; };
+		2C7718E323585DBA00B7F6F5 /* JD_FarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7718E223585DBA00B7F6F5 /* JD_FarmerTests.swift */; };
+		2C7718EE23585DBA00B7F6F5 /* JD_FarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7718ED23585DBA00B7F6F5 /* JD_FarmerUITests.swift */; };
+		2C7718FE23585EB900B7F6F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7718FD23585EB900B7F6F5 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2C7718DF23585DBA00B7F6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C7718C223585DBA00B7F6F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7718C923585DBA00B7F6F5;
+			remoteInfo = "JD Farmer";
+		};
+		2C7718EA23585DBA00B7F6F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C7718C223585DBA00B7F6F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7718C923585DBA00B7F6F5;
+			remoteInfo = "JD Farmer";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		3D7F81E1235392C5008106D3 /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7F81E4235392C5008106D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D7F81E6235392C5008106D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D7F81E8235392C5008106D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D7F81EB235392C5008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D7F81ED235392C7008106D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D7F81F0235392C7008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D7F81F2235392C7008106D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7718CA23585DBA00B7F6F5 /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7718CF23585DBA00B7F6F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C7718D223585DBA00B7F6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C7718D423585DBA00B7F6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C7718D723585DBA00B7F6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C7718D923585DBA00B7F6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7718DE23585DBA00B7F6F5 /* JD FarmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7718E223585DBA00B7F6F5 /* JD_FarmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerTests.swift; sourceTree = "<group>"; };
+		2C7718E423585DBA00B7F6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7718E923585DBA00B7F6F5 /* JD FarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7718ED23585DBA00B7F6F5 /* JD_FarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerUITests.swift; sourceTree = "<group>"; };
+		2C7718EF23585DBA00B7F6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C7718FD23585EB900B7F6F5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D7F81DE235392C5008106D3 /* Frameworks */ = {
+		2C7718C723585DBA00B7F6F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7718DB23585DBA00B7F6F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7718E623585DBA00B7F6F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,80 +74,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D7F81D8235392C5008106D3 = {
+		2C7718C123585DBA00B7F6F5 = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E3235392C5008106D3 /* JD Farmer */,
-				3D7F81E2235392C5008106D3 /* Products */,
+				2C7718CC23585DBA00B7F6F5 /* JD Farmer */,
+				2C7718E123585DBA00B7F6F5 /* JD FarmerTests */,
+				2C7718EC23585DBA00B7F6F5 /* JD FarmerUITests */,
+				2C7718CB23585DBA00B7F6F5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3D7F81E2235392C5008106D3 /* Products */ = {
+		2C7718CB23585DBA00B7F6F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E1235392C5008106D3 /* JD Farmer.app */,
+				2C7718CA23585DBA00B7F6F5 /* JD Farmer.app */,
+				2C7718DE23585DBA00B7F6F5 /* JD FarmerTests.xctest */,
+				2C7718E923585DBA00B7F6F5 /* JD FarmerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D7F81E3235392C5008106D3 /* JD Farmer */ = {
+		2C7718CC23585DBA00B7F6F5 /* JD Farmer */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81FB2355F5EF008106D3 /* SupportFiles */,
-				3D7F81FA2355F5CC008106D3 /* Models */,
-				3D7F81F92355F5AE008106D3 /* Views */,
-				3D7F81F82355F596008106D3 /* Controllers */,
-				3D7F81ED235392C7008106D3 /* Assets.xcassets */,
-				3D7F81F2235392C7008106D3 /* Info.plist */,
+				2C77190223585F5600B7F6F5 /* Views */,
+				2C77190123585F4D00B7F6F5 /* Models */,
+				2C77190023585F4500B7F6F5 /* Controllers */,
+				2C7718FF23585F1200B7F6F5 /* SupportFiles */,
+				2C7718D423585DBA00B7F6F5 /* Assets.xcassets */,
+				2C7718D923585DBA00B7F6F5 /* Info.plist */,
 			);
 			path = "JD Farmer";
 			sourceTree = "<group>";
 		};
-		3D7F81F82355F596008106D3 /* Controllers */ = {
+		2C7718E123585DBA00B7F6F5 /* JD FarmerTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81FC2355F637008106D3 /* Login */,
+				2C7718E223585DBA00B7F6F5 /* JD_FarmerTests.swift */,
+				2C7718E423585DBA00B7F6F5 /* Info.plist */,
+			);
+			path = "JD FarmerTests";
+			sourceTree = "<group>";
+		};
+		2C7718EC23585DBA00B7F6F5 /* JD FarmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C7718ED23585DBA00B7F6F5 /* JD_FarmerUITests.swift */,
+				2C7718EF23585DBA00B7F6F5 /* Info.plist */,
+			);
+			path = "JD FarmerUITests";
+			sourceTree = "<group>";
+		};
+		2C7718FF23585F1200B7F6F5 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2C7718FD23585EB900B7F6F5 /* AppDelegate.swift */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		2C77190023585F4500B7F6F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C77190423585FE700B7F6F5 /* Login */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		3D7F81F92355F5AE008106D3 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				3D7F81FD2355F642008106D3 /* Login */,
-				3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		3D7F81FA2355F5CC008106D3 /* Models */ = {
+		2C77190123585F4D00B7F6F5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3D7F81FB2355F5EF008106D3 /* SupportFiles */ = {
+		2C77190223585F5600B7F6F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E4235392C5008106D3 /* AppDelegate.swift */,
-				3D7F81E6235392C5008106D3 /* SceneDelegate.swift */,
+				2C77190323585FD900B7F6F5 /* Login */,
+				2C7718D623585DBA00B7F6F5 /* LaunchScreen.storyboard */,
 			);
-			path = SupportFiles;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		3D7F81FC2355F637008106D3 /* Login */ = {
+		2C77190323585FD900B7F6F5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E8235392C5008106D3 /* ViewController.swift */,
+				2C7718D123585DBA00B7F6F5 /* Main.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		3D7F81FD2355F642008106D3 /* Login */ = {
+		2C77190423585FE700B7F6F5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81EA235392C5008106D3 /* Main.storyboard */,
+				2C7718CF23585DBA00B7F6F5 /* ViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -118,13 +176,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D7F81E0235392C5008106D3 /* JD Farmer */ = {
+		2C7718C923585DBA00B7F6F5 /* JD Farmer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D7F81F5235392C7008106D3 /* Build configuration list for PBXNativeTarget "JD Farmer" */;
+			buildConfigurationList = 2C7718F223585DBA00B7F6F5 /* Build configuration list for PBXNativeTarget "JD Farmer" */;
 			buildPhases = (
-				3D7F81DD235392C5008106D3 /* Sources */,
-				3D7F81DE235392C5008106D3 /* Frameworks */,
-				3D7F81DF235392C5008106D3 /* Resources */,
+				2C7718C623585DBA00B7F6F5 /* Sources */,
+				2C7718C723585DBA00B7F6F5 /* Frameworks */,
+				2C7718C823585DBA00B7F6F5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,25 +190,69 @@
 			);
 			name = "JD Farmer";
 			productName = "JD Farmer";
-			productReference = 3D7F81E1235392C5008106D3 /* JD Farmer.app */;
+			productReference = 2C7718CA23585DBA00B7F6F5 /* JD Farmer.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2C7718DD23585DBA00B7F6F5 /* JD FarmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7718F523585DBA00B7F6F5 /* Build configuration list for PBXNativeTarget "JD FarmerTests" */;
+			buildPhases = (
+				2C7718DA23585DBA00B7F6F5 /* Sources */,
+				2C7718DB23585DBA00B7F6F5 /* Frameworks */,
+				2C7718DC23585DBA00B7F6F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7718E023585DBA00B7F6F5 /* PBXTargetDependency */,
+			);
+			name = "JD FarmerTests";
+			productName = "JD FarmerTests";
+			productReference = 2C7718DE23585DBA00B7F6F5 /* JD FarmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C7718E823585DBA00B7F6F5 /* JD FarmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7718F823585DBA00B7F6F5 /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */;
+			buildPhases = (
+				2C7718E523585DBA00B7F6F5 /* Sources */,
+				2C7718E623585DBA00B7F6F5 /* Frameworks */,
+				2C7718E723585DBA00B7F6F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7718EB23585DBA00B7F6F5 /* PBXTargetDependency */,
+			);
+			name = "JD FarmerUITests";
+			productName = "JD FarmerUITests";
+			productReference = 2C7718E923585DBA00B7F6F5 /* JD FarmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3D7F81D9235392C5008106D3 /* Project object */ = {
+		2C7718C223585DBA00B7F6F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "John Deere";
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ajdari, Arian";
 				TargetAttributes = {
-					3D7F81E0235392C5008106D3 = {
-						CreatedOnToolsVersion = 11.1;
+					2C7718C923585DBA00B7F6F5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2C7718DD23585DBA00B7F6F5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2C7718C923585DBA00B7F6F5;
+					};
+					2C7718E823585DBA00B7F6F5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2C7718C923585DBA00B7F6F5;
 					};
 				};
 			};
-			buildConfigurationList = 3D7F81DC235392C5008106D3 /* Build configuration list for PBXProject "JD Farmer" */;
+			buildConfigurationList = 2C7718C523585DBA00B7F6F5 /* Build configuration list for PBXProject "JD Farmer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,55 +260,99 @@
 				en,
 				Base,
 			);
-			mainGroup = 3D7F81D8235392C5008106D3;
-			productRefGroup = 3D7F81E2235392C5008106D3 /* Products */;
+			mainGroup = 2C7718C123585DBA00B7F6F5;
+			productRefGroup = 2C7718CB23585DBA00B7F6F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D7F81E0235392C5008106D3 /* JD Farmer */,
+				2C7718C923585DBA00B7F6F5 /* JD Farmer */,
+				2C7718DD23585DBA00B7F6F5 /* JD FarmerTests */,
+				2C7718E823585DBA00B7F6F5 /* JD FarmerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D7F81DF235392C5008106D3 /* Resources */ = {
+		2C7718C823585DBA00B7F6F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */,
-				3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */,
-				3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */,
+				2C7718D823585DBA00B7F6F5 /* LaunchScreen.storyboard in Resources */,
+				2C7718D523585DBA00B7F6F5 /* Assets.xcassets in Resources */,
+				2C7718D323585DBA00B7F6F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7718DC23585DBA00B7F6F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7718E723585DBA00B7F6F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D7F81DD235392C5008106D3 /* Sources */ = {
+		2C7718C623585DBA00B7F6F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7F81E9235392C5008106D3 /* ViewController.swift in Sources */,
-				3D7F81E5235392C5008106D3 /* AppDelegate.swift in Sources */,
-				3D7F81E7235392C5008106D3 /* SceneDelegate.swift in Sources */,
+				2C7718FE23585EB900B7F6F5 /* AppDelegate.swift in Sources */,
+				2C7718D023585DBA00B7F6F5 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7718DA23585DBA00B7F6F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7718E323585DBA00B7F6F5 /* JD_FarmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7718E523585DBA00B7F6F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7718EE23585DBA00B7F6F5 /* JD_FarmerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2C7718E023585DBA00B7F6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7718C923585DBA00B7F6F5 /* JD Farmer */;
+			targetProxy = 2C7718DF23585DBA00B7F6F5 /* PBXContainerItemProxy */;
+		};
+		2C7718EB23585DBA00B7F6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7718C923585DBA00B7F6F5 /* JD Farmer */;
+			targetProxy = 2C7718EA23585DBA00B7F6F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		3D7F81EA235392C5008106D3 /* Main.storyboard */ = {
+		2C7718D123585DBA00B7F6F5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D7F81EB235392C5008106D3 /* Base */,
+				2C7718D223585DBA00B7F6F5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */ = {
+		2C7718D623585DBA00B7F6F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D7F81F0235392C7008106D3 /* Base */,
+				2C7718D723585DBA00B7F6F5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -214,7 +360,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3D7F81F3235392C7008106D3 /* Debug */ = {
+		2C7718F023585DBA00B7F6F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,6 +392,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -264,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +421,7 @@
 			};
 			name = Debug;
 		};
-		3D7F81F4235392C7008106D3 /* Release */ = {
+		2C7718F123585DBA00B7F6F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,6 +453,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -318,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -328,63 +476,164 @@
 			};
 			name = Release;
 		};
-		3D7F81F6235392C7008106D3 /* Debug */ = {
+		2C7718F323585DBA00B7F6F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GYZ83KN5T7;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndeere.JD-Farmer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3D7F81F7235392C7008106D3 /* Release */ = {
+		2C7718F423585DBA00B7F6F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndeere.JD-Farmer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
+		2C7718F623585DBA00B7F6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Farmer.app/JD Farmer";
+			};
+			name = Debug;
+		};
+		2C7718F723585DBA00B7F6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Farmer.app/JD Farmer";
+			};
+			name = Release;
+		};
+		2C7718F923585DBA00B7F6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JD Farmer";
+			};
+			name = Debug;
+		};
+		2C7718FA23585DBA00B7F6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JD Farmer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D7F81DC235392C5008106D3 /* Build configuration list for PBXProject "JD Farmer" */ = {
+		2C7718C523585DBA00B7F6F5 /* Build configuration list for PBXProject "JD Farmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7F81F3235392C7008106D3 /* Debug */,
-				3D7F81F4235392C7008106D3 /* Release */,
+				2C7718F023585DBA00B7F6F5 /* Debug */,
+				2C7718F123585DBA00B7F6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D7F81F5235392C7008106D3 /* Build configuration list for PBXNativeTarget "JD Farmer" */ = {
+		2C7718F223585DBA00B7F6F5 /* Build configuration list for PBXNativeTarget "JD Farmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7F81F6235392C7008106D3 /* Debug */,
-				3D7F81F7235392C7008106D3 /* Release */,
+				2C7718F323585DBA00B7F6F5 /* Debug */,
+				2C7718F423585DBA00B7F6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7718F523585DBA00B7F6F5 /* Build configuration list for PBXNativeTarget "JD FarmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7718F623585DBA00B7F6F5 /* Debug */,
+				2C7718F723585DBA00B7F6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7718F823585DBA00B7F6F5 /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7718F923585DBA00B7F6F5 /* Debug */,
+				2C7718FA23585DBA00B7F6F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3D7F81D9235392C5008106D3 /* Project object */;
+	rootObject = 2C7718C223585DBA00B7F6F5 /* Project object */;
 }
