@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0DDE48235A0EDF00493988 /* CarPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0DDE47235A0EDF00493988 /* CarPlayViewController.swift */; };
+		2C0DDE4A235A0FAE00493988 /* CarPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C0DDE49235A0FAE00493988 /* CarPlayView.xib */; };
 		2C4E447C2359EDD400F4AC87 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E447B2359EDD400F4AC87 /* IntentHandler.swift */; };
 		2C4E44832359EDD400F4AC87 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4E445B2359E89700F4AC87 /* IntentsUI.framework */; };
 		2C4E44862359EDD400F4AC87 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E44852359EDD400F4AC87 /* IntentViewController.swift */; };
@@ -80,6 +82,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C0DDE47235A0EDF00493988 /* CarPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewController.swift; sourceTree = "<group>"; };
+		2C0DDE49235A0FAE00493988 /* CarPlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarPlayView.xib; sourceTree = "<group>"; };
 		2C4E444B2359E7C600F4AC87 /* JD Farmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JD Farmer.entitlements"; sourceTree = "<group>"; };
 		2C4E445B2359E89700F4AC87 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		2C4E44792359EDD400F4AC87 /* JDFarmerReadNoteIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JDFarmerReadNoteIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,6 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				2C77190423585FE700B7F6F5 /* Login */,
+				2C0DDE47235A0EDF00493988 /* CarPlayViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			children = (
 				2C77190323585FD900B7F6F5 /* Login */,
 				2C7718D623585DBA00B7F6F5 /* LaunchScreen.storyboard */,
+				2C0DDE49235A0FAE00493988 /* CarPlayView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -454,6 +460,7 @@
 				2C7718D823585DBA00B7F6F5 /* LaunchScreen.storyboard in Resources */,
 				2C7718D523585DBA00B7F6F5 /* Assets.xcassets in Resources */,
 				2C7718D323585DBA00B7F6F5 /* Main.storyboard in Resources */,
+				2C0DDE4A235A0FAE00493988 /* CarPlayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C4E44A22359F4A600F4AC87 /* MostRecentNoteIntentHandler.swift in Sources */,
+				2C0DDE48235A0EDF00493988 /* CarPlayViewController.swift in Sources */,
 				2C7718FE23585EB900B7F6F5 /* AppDelegate.swift in Sources */,
 				2C4E449A2359EE9F00F4AC87 /* JDFarmerIntents.intentdefinition in Sources */,
 				2C7718D023585DBA00B7F6F5 /* ViewController.swift in Sources */,

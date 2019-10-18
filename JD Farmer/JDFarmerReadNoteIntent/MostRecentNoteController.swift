@@ -11,7 +11,7 @@ import Foundation
 struct MostRecentNoteController{
     
     func fetchMostRecentNote(completion: @escaping (_ noteContent:String?) -> Void) {
-        let noteContent = "Most recent note"
+        let noteContent = "water level on the field 17 is higher than optimal. Check with your agronomists."
         
         completion(noteContent)
     }

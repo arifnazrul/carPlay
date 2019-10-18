@@ -61,7 +61,7 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Your most recent note says ${mostRecentNote}</string>
+						<string>Your most recent note is ${mostRecentNote}</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>OR7u2S</string>
 						<key>INIntentResponseCodeName</key>

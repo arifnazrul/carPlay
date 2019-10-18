@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     func donateInteraction() {
         let intent = MostRecentNoteIntent()
         
-        intent.suggestedInvocationPhrase = "The most recent"
+        intent.suggestedInvocationPhrase = "JD Farmer read note"
         
         let interaction = INInteraction(intent: intent, response: nil)
         
