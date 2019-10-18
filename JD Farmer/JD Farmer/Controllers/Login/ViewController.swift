@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Intents
+import os.log
 
 class ViewController: UIViewController {
     @IBOutlet weak var labelSignIn: UILabel!
@@ -16,7 +18,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         //        UIApplication.shared.statusBarView?.backgroundColor = UIColor.red
         
-        let jdGreen = UIColor(red: 54/255, green: 124/255, blue: 43/255, alpha: 1.0)
+        /*let jdGreen = UIColor(red: 54/255, green: 124/255, blue: 43/255, alpha: 1.0)
         
         // change the status bar color more difficult way
         if #available(iOS 13.0, *) {
@@ -40,6 +42,27 @@ class ViewController: UIViewController {
         } else {
             let statusBar = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView
             statusBar?.backgroundColor = jdGreen
+        }*/
+        
+        //code for the MostRecentNoteIntent
+        donateInteraction()
+    }
+    
+    func donateInteraction() {
+        let intent = MostRecentNoteIntent()
+        
+        intent.suggestedInvocationPhrase = "The most recent"
+        
+        let interaction = INInteraction(intent: intent, response: nil)
+        
+        interaction.donate { (error) in
+            if error != nil {
+                if let error = error as NSError? {
+                    os_log("Interaction donation failed: %@", log: OSLog.default, type: .error, error)
+                } else {
+                    os_log("Successfully donated interaction")
+                }
+            }
         }
     }
     
