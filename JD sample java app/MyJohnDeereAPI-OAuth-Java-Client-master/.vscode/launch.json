@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Partnerships",
+            "request": "launch",
+            "mainClass": "com.deere.democlient.apis.Partnerships",
+            "projectName": "DemoClient"
+        }
+    ]
+}
