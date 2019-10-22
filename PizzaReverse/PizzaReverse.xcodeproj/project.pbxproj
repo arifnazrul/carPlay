@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C878022235885CE00D449F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C878021235885CE00D449F4 /* AppDelegate.swift */; };
+		2C878024235885CE00D449F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C878023235885CE00D449F4 /* ViewController.swift */; };
+		2C878027235885CE00D449F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C878025235885CE00D449F4 /* Main.storyboard */; };
+		2C878029235885CF00D449F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C878028235885CF00D449F4 /* Assets.xcassets */; };
+		2C87802C235885CF00D449F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C87802A235885CF00D449F4 /* LaunchScreen.storyboard */; };
+		2C87803B2358879100D449F4 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87803A2358879100D449F4 /* IntentHandler.swift */; };
+		2C8780442358879200D449F4 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8780432358879200D449F4 /* IntentsUI.framework */; };
+		2C8780472358879200D449F4 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8780462358879200D449F4 /* IntentViewController.swift */; };
+		2C87804A2358879200D449F4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8780482358879200D449F4 /* MainInterface.storyboard */; };
+		2C87804E2358879200D449F4 /* Intents HandlerUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C8780412358879200D449F4 /* Intents HandlerUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C8780512358879200D449F4 /* Intents Handler.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C8780382358879100D449F4 /* Intents Handler.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D1FA36B2358989D001C3C48 /* CarPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1FA36A2358989D001C3C48 /* CarPlay.framework */; };
+		3D1FA36D23589905001C3C48 /* CarPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D1FA36C23589905001C3C48 /* CarPlayView.xib */; };
+		3D1FA36F23589CF2001C3C48 /* CarplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1FA36E23589CF1001C3C48 /* CarplayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C87804C2358879200D449F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C878016235885CE00D449F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8780402358879200D449F4;
+			remoteInfo = "Intents HandlerUI";
+		};
+		2C87804F2358879200D449F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C878016235885CE00D449F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C8780372358879100D449F4;
+			remoteInfo = "Intents Handler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2C8780582358879200D449F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C8780512358879200D449F4 /* Intents Handler.appex in Embed App Extensions */,
+				2C87804E2358879200D449F4 /* Intents HandlerUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C87801E235885CE00D449F4 /* PizzaReverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaReverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C878021235885CE00D449F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C878023235885CE00D449F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C878026235885CE00D449F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C878028235885CF00D449F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C87802B235885CF00D449F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C87802D235885CF00D449F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C878033235885F000D449F4 /* PizzaReverse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PizzaReverse.entitlements; sourceTree = "<group>"; };
+		2C8780382358879100D449F4 /* Intents Handler.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Intents Handler.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C87803A2358879100D449F4 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2C87803C2358879100D449F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8780412358879200D449F4 /* Intents HandlerUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Intents HandlerUI.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8780432358879200D449F4 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		2C8780462358879200D449F4 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		2C8780492358879200D449F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2C87804B2358879200D449F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1FA36A2358989D001C3C48 /* CarPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarPlay.framework; path = System/Library/Frameworks/CarPlay.framework; sourceTree = SDKROOT; };
+		3D1FA36C23589905001C3C48 /* CarPlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarPlayView.xib; sourceTree = "<group>"; };
+		3D1FA36E23589CF1001C3C48 /* CarplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarplayViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C87801B235885CE00D449F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1FA36B2358989D001C3C48 /* CarPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8780352358879100D449F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C87803E2358879200D449F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8780442358879200D449F4 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C878015235885CE00D449F4 = {
+			isa = PBXGroup;
+			children = (
+				2C878020235885CE00D449F4 /* PizzaReverse */,
+				2C8780392358879100D449F4 /* Intents Handler */,
+				2C8780452358879200D449F4 /* Intents HandlerUI */,
+				2C8780422358879200D449F4 /* Frameworks */,
+				2C87801F235885CE00D449F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C87801F235885CE00D449F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C87801E235885CE00D449F4 /* PizzaReverse.app */,
+				2C8780382358879100D449F4 /* Intents Handler.appex */,
+				2C8780412358879200D449F4 /* Intents HandlerUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C878020235885CE00D449F4 /* PizzaReverse */ = {
+			isa = PBXGroup;
+			children = (
+				2C878033235885F000D449F4 /* PizzaReverse.entitlements */,
+				2C878021235885CE00D449F4 /* AppDelegate.swift */,
+				2C878023235885CE00D449F4 /* ViewController.swift */,
+				2C878025235885CE00D449F4 /* Main.storyboard */,
+				2C878028235885CF00D449F4 /* Assets.xcassets */,
+				2C87802A235885CF00D449F4 /* LaunchScreen.storyboard */,
+				2C87802D235885CF00D449F4 /* Info.plist */,
+				3D1FA36C23589905001C3C48 /* CarPlayView.xib */,
+				3D1FA36E23589CF1001C3C48 /* CarplayViewController.swift */,
+			);
+			path = PizzaReverse;
+			sourceTree = "<group>";
+		};
+		2C8780392358879100D449F4 /* Intents Handler */ = {
+			isa = PBXGroup;
+			children = (
+				2C87803A2358879100D449F4 /* IntentHandler.swift */,
+				2C87803C2358879100D449F4 /* Info.plist */,
+			);
+			path = "Intents Handler";
+			sourceTree = "<group>";
+		};
+		2C8780422358879200D449F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D1FA36A2358989D001C3C48 /* CarPlay.framework */,
+				2C8780432358879200D449F4 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C8780452358879200D449F4 /* Intents HandlerUI */ = {
+			isa = PBXGroup;
+			children = (
+				2C8780462358879200D449F4 /* IntentViewController.swift */,
+				2C8780482358879200D449F4 /* MainInterface.storyboard */,
+				2C87804B2358879200D449F4 /* Info.plist */,
+			);
+			path = "Intents HandlerUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C87801D235885CE00D449F4 /* PizzaReverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C878030235885CF00D449F4 /* Build configuration list for PBXNativeTarget "PizzaReverse" */;
+			buildPhases = (
+				2C87801A235885CE00D449F4 /* Sources */,
+				2C87801B235885CE00D449F4 /* Frameworks */,
+				2C87801C235885CE00D449F4 /* Resources */,
+				2C8780582358879200D449F4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C87804D2358879200D449F4 /* PBXTargetDependency */,
+				2C8780502358879200D449F4 /* PBXTargetDependency */,
+			);
+			name = PizzaReverse;
+			productName = PizzaReverse;
+			productReference = 2C87801E235885CE00D449F4 /* PizzaReverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8780372358879100D449F4 /* Intents Handler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8780552358879200D449F4 /* Build configuration list for PBXNativeTarget "Intents Handler" */;
+			buildPhases = (
+				2C8780342358879100D449F4 /* Sources */,
+				2C8780352358879100D449F4 /* Frameworks */,
+				2C8780362358879100D449F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intents Handler";
+			productName = "Intents Handler";
+			productReference = 2C8780382358879100D449F4 /* Intents Handler.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2C8780402358879200D449F4 /* Intents HandlerUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8780522358879200D449F4 /* Build configuration list for PBXNativeTarget "Intents HandlerUI" */;
+			buildPhases = (
+				2C87803D2358879200D449F4 /* Sources */,
+				2C87803E2358879200D449F4 /* Frameworks */,
+				2C87803F2358879200D449F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intents HandlerUI";
+			productName = "Intents HandlerUI";
+			productReference = 2C8780412358879200D449F4 /* Intents HandlerUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C878016235885CE00D449F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ajdari, Arian";
+				TargetAttributes = {
+					2C87801D235885CE00D449F4 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					2C8780372358879100D449F4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2C8780402358879200D449F4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2C878019235885CE00D449F4 /* Build configuration list for PBXProject "PizzaReverse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C878015235885CE00D449F4;
+			productRefGroup = 2C87801F235885CE00D449F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C87801D235885CE00D449F4 /* PizzaReverse */,
+				2C8780372358879100D449F4 /* Intents Handler */,
+				2C8780402358879200D449F4 /* Intents HandlerUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C87801C235885CE00D449F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C87802C235885CF00D449F4 /* LaunchScreen.storyboard in Resources */,
+				2C878029235885CF00D449F4 /* Assets.xcassets in Resources */,
+				2C878027235885CE00D449F4 /* Main.storyboard in Resources */,
+				3D1FA36D23589905001C3C48 /* CarPlayView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8780362358879100D449F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C87803F2358879200D449F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C87804A2358879200D449F4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C87801A235885CE00D449F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C878024235885CE00D449F4 /* ViewController.swift in Sources */,
+				3D1FA36F23589CF2001C3C48 /* CarplayViewController.swift in Sources */,
+				2C878022235885CE00D449F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8780342358879100D449F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C87803B2358879100D449F4 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C87803D2358879200D449F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8780472358879200D449F4 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C87804D2358879200D449F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8780402358879200D449F4 /* Intents HandlerUI */;
+			targetProxy = 2C87804C2358879200D449F4 /* PBXContainerItemProxy */;
+		};
+		2C8780502358879200D449F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C8780372358879100D449F4 /* Intents Handler */;
+			targetProxy = 2C87804F2358879200D449F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C878025235885CE00D449F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C878026235885CE00D449F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C87802A235885CF00D449F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C87802B235885CF00D449F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C8780482358879200D449F4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8780492358879200D449F4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C87802E235885CF00D449F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C87802F235885CF00D449F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C878031235885CF00D449F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PizzaReverse/PizzaReverse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PizzaReverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arian.PizzaReverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C878032235885CF00D449F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PizzaReverse/PizzaReverse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PizzaReverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arian.PizzaReverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C8780532358879200D449F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Intents HandlerUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.PizzaReverse.Intents-HandlerUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8780542358879200D449F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Intents HandlerUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.PizzaReverse.Intents-HandlerUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C8780562358879200D449F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Intents Handler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.PizzaReverse.Intents-Handler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8780572358879200D449F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Intents Handler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.PizzaReverse.Intents-Handler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C878019235885CE00D449F4 /* Build configuration list for PBXProject "PizzaReverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C87802E235885CF00D449F4 /* Debug */,
+				2C87802F235885CF00D449F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C878030235885CF00D449F4 /* Build configuration list for PBXNativeTarget "PizzaReverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C878031235885CF00D449F4 /* Debug */,
+				2C878032235885CF00D449F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8780522358879200D449F4 /* Build configuration list for PBXNativeTarget "Intents HandlerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8780532358879200D449F4 /* Debug */,
+				2C8780542358879200D449F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8780552358879200D449F4 /* Build configuration list for PBXNativeTarget "Intents Handler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8780562358879200D449F4 /* Debug */,
+				2C8780572358879200D449F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C878016235885CE00D449F4 /* Project object */;
+}
