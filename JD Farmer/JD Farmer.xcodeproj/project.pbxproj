@@ -7,27 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D7F81E5235392C5008106D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F81E4235392C5008106D3 /* AppDelegate.swift */; };
-		3D7F81E7235392C5008106D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F81E6235392C5008106D3 /* SceneDelegate.swift */; };
-		3D7F81E9235392C5008106D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7F81E8235392C5008106D3 /* ViewController.swift */; };
-		3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EA235392C5008106D3 /* Main.storyboard */; };
-		3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81ED235392C7008106D3 /* Assets.xcassets */; };
-		3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */; };
+		2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0B23671BB600727CAE /* AppDelegate.swift */; };
+		2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0D23671BB600727CAE /* SceneDelegate.swift */; };
+		2CA71A1023671BB600727CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0F23671BB600727CAE /* ContentView.swift */; };
+		2CA71A1223671BB800727CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA71A1123671BB800727CAE /* Assets.xcassets */; };
+		2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA71A1423671BB800727CAE /* Preview Assets.xcassets */; };
+		2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA71A1623671BB800727CAE /* LaunchScreen.storyboard */; };
+		2CA71A2323671BB800727CAE /* JD_FarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */; };
+		2CA71A2E23671BB800727CAE /* JD_FarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */; };
+		2CA71A48236720E300727CAE /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A47236720E300727CAE /* DummyModel.swift */; };
+		2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4A2367210700727CAE /* DummyUtility.swift */; };
+		2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4C236721BA00727CAE /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2CA71A1F23671BB800727CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA71A0723671BB600727CAE;
+			remoteInfo = "JD Farmer";
+		};
+		2CA71A2A23671BB800727CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA71A0723671BB600727CAE;
+			remoteInfo = "JD Farmer";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		3D7F81E1235392C5008106D3 /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7F81E4235392C5008106D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D7F81E6235392C5008106D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D7F81E8235392C5008106D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3D7F81EB235392C5008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D7F81ED235392C7008106D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D7F81F0235392C7008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D7F81F2235392C7008106D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA71A0823671BB600727CAE /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CA71A0D23671BB600727CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CA71A0F23671BB600727CAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CA71A1123671BB800727CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CA71A1423671BB800727CAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CA71A1723671BB800727CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CA71A1923671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerTests.swift; sourceTree = "<group>"; };
+		2CA71A2423671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerUITests.swift; sourceTree = "<group>"; };
+		2CA71A2F23671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA71A47236720E300727CAE /* DummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModel.swift; sourceTree = "<group>"; };
+		2CA71A4A2367210700727CAE /* DummyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUtility.swift; sourceTree = "<group>"; };
+		2CA71A4C236721BA00727CAE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		2CA71A4E2367231D00727CAE /* JD Farmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JD Farmer.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3D7F81DE235392C5008106D3 /* Frameworks */ = {
+		2CA71A0523671BB600727CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA71A1B23671BB800727CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA71A2623671BB800727CAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,94 +83,144 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3D7F81D8235392C5008106D3 = {
+		2CA719FF23671BB600727CAE = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E3235392C5008106D3 /* JD Farmer */,
-				3D7F81E2235392C5008106D3 /* Products */,
+				2CA71A0A23671BB600727CAE /* JD Farmer */,
+				2CA71A2123671BB800727CAE /* JD FarmerTests */,
+				2CA71A2C23671BB800727CAE /* JD FarmerUITests */,
+				2CA71A0923671BB600727CAE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3D7F81E2235392C5008106D3 /* Products */ = {
+		2CA71A0923671BB600727CAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E1235392C5008106D3 /* JD Farmer.app */,
+				2CA71A0823671BB600727CAE /* JD Farmer.app */,
+				2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */,
+				2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3D7F81E3235392C5008106D3 /* JD Farmer */ = {
+		2CA71A0A23671BB600727CAE /* JD Farmer */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81FB2355F5EF008106D3 /* SupportFiles */,
-				3D7F81FA2355F5CC008106D3 /* Models */,
-				3D7F81F92355F5AE008106D3 /* Views */,
-				3D7F81F82355F596008106D3 /* Controllers */,
-				3D7F81ED235392C7008106D3 /* Assets.xcassets */,
-				3D7F81F2235392C7008106D3 /* Info.plist */,
+				2CA71A4E2367231D00727CAE /* JD Farmer.entitlements */,
+				2CA71A4C236721BA00727CAE /* Intents.intentdefinition */,
+				2CA71A1123671BB800727CAE /* Assets.xcassets */,
+				2CA71A0B23671BB600727CAE /* AppDelegate.swift */,
+				2CA71A1923671BB800727CAE /* Info.plist */,
+				2CA71A3E23671C1100727CAE /* Utilities */,
+				2CA71A3B23671BFD00727CAE /* Views */,
+				2CA71A3D23671C0A00727CAE /* Models */,
+				2CA71A3C23671C0300727CAE /* Controllers */,
+				2CA71A1323671BB800727CAE /* Preview Content */,
 			);
 			path = "JD Farmer";
 			sourceTree = "<group>";
 		};
-		3D7F81F82355F596008106D3 /* Controllers */ = {
+		2CA71A1323671BB800727CAE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81FC2355F637008106D3 /* Login */,
+				2CA71A1423671BB800727CAE /* Preview Assets.xcassets */,
 			);
-			path = Controllers;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3D7F81F92355F5AE008106D3 /* Views */ = {
+		2CA71A2123671BB800727CAE /* JD FarmerTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81FD2355F642008106D3 /* Login */,
-				3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */,
+				2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */,
+				2CA71A2423671BB800727CAE /* Info.plist */,
+			);
+			path = "JD FarmerTests";
+			sourceTree = "<group>";
+		};
+		2CA71A2C23671BB800727CAE /* JD FarmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */,
+				2CA71A2F23671BB800727CAE /* Info.plist */,
+			);
+			path = "JD FarmerUITests";
+			sourceTree = "<group>";
+		};
+		2CA71A3B23671BFD00727CAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CA71A1623671BB800727CAE /* LaunchScreen.storyboard */,
+				2CA71A4223671C4300727CAE /* CarPlay */,
+				2CA71A4123671C3C00727CAE /* IPhone */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		3D7F81FA2355F5CC008106D3 /* Models */ = {
+		2CA71A3C23671C0300727CAE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2CA71A3F23671C1B00727CAE /* CarPlay */,
+				2CA71A4023671C2100727CAE /* IPhone */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CA71A3D23671C0A00727CAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CA71A47236720E300727CAE /* DummyModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3D7F81FB2355F5EF008106D3 /* SupportFiles */ = {
+		2CA71A3E23671C1100727CAE /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E4235392C5008106D3 /* AppDelegate.swift */,
-				3D7F81E6235392C5008106D3 /* SceneDelegate.swift */,
+				2CA71A4A2367210700727CAE /* DummyUtility.swift */,
 			);
-			path = SupportFiles;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
-		3D7F81FC2355F637008106D3 /* Login */ = {
+		2CA71A3F23671C1B00727CAE /* CarPlay */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81E8235392C5008106D3 /* ViewController.swift */,
 			);
-			path = Login;
+			path = CarPlay;
 			sourceTree = "<group>";
 		};
-		3D7F81FD2355F642008106D3 /* Login */ = {
+		2CA71A4023671C2100727CAE /* IPhone */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81EA235392C5008106D3 /* Main.storyboard */,
+				2CA71A0D23671BB600727CAE /* SceneDelegate.swift */,
+				2CA71A0F23671BB600727CAE /* ContentView.swift */,
 			);
-			path = Login;
+			path = IPhone;
+			sourceTree = "<group>";
+		};
+		2CA71A4123671C3C00727CAE /* IPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IPhone;
+			sourceTree = "<group>";
+		};
+		2CA71A4223671C4300727CAE /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CarPlay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D7F81E0235392C5008106D3 /* JD Farmer */ = {
+		2CA71A0723671BB600727CAE /* JD Farmer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D7F81F5235392C7008106D3 /* Build configuration list for PBXNativeTarget "JD Farmer" */;
+			buildConfigurationList = 2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Farmer" */;
 			buildPhases = (
-				3D7F81DD235392C5008106D3 /* Sources */,
-				3D7F81DE235392C5008106D3 /* Frameworks */,
-				3D7F81DF235392C5008106D3 /* Resources */,
+				2CA71A0423671BB600727CAE /* Sources */,
+				2CA71A0523671BB600727CAE /* Frameworks */,
+				2CA71A0623671BB600727CAE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,25 +228,69 @@
 			);
 			name = "JD Farmer";
 			productName = "JD Farmer";
-			productReference = 3D7F81E1235392C5008106D3 /* JD Farmer.app */;
+			productReference = 2CA71A0823671BB600727CAE /* JD Farmer.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2CA71A1D23671BB800727CAE /* JD FarmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerTests" */;
+			buildPhases = (
+				2CA71A1A23671BB800727CAE /* Sources */,
+				2CA71A1B23671BB800727CAE /* Frameworks */,
+				2CA71A1C23671BB800727CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA71A2023671BB800727CAE /* PBXTargetDependency */,
+			);
+			name = "JD FarmerTests";
+			productName = "JD FarmerTests";
+			productReference = 2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CA71A2823671BB800727CAE /* JD FarmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */;
+			buildPhases = (
+				2CA71A2523671BB800727CAE /* Sources */,
+				2CA71A2623671BB800727CAE /* Frameworks */,
+				2CA71A2723671BB800727CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA71A2B23671BB800727CAE /* PBXTargetDependency */,
+			);
+			name = "JD FarmerUITests";
+			productName = "JD FarmerUITests";
+			productReference = 2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3D7F81D9235392C5008106D3 /* Project object */ = {
+		2CA71A0023671BB600727CAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "John Deere";
+				ORGANIZATIONNAME = "Ajdari, Arian";
 				TargetAttributes = {
-					3D7F81E0235392C5008106D3 = {
+					2CA71A0723671BB600727CAE = {
 						CreatedOnToolsVersion = 11.1;
+					};
+					2CA71A1D23671BB800727CAE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2CA71A0723671BB600727CAE;
+					};
+					2CA71A2823671BB800727CAE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 2CA71A0723671BB600727CAE;
 					};
 				};
 			};
-			buildConfigurationList = 3D7F81DC235392C5008106D3 /* Build configuration list for PBXProject "JD Farmer" */;
+			buildConfigurationList = 2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Farmer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,55 +298,95 @@
 				en,
 				Base,
 			);
-			mainGroup = 3D7F81D8235392C5008106D3;
-			productRefGroup = 3D7F81E2235392C5008106D3 /* Products */;
+			mainGroup = 2CA719FF23671BB600727CAE;
+			productRefGroup = 2CA71A0923671BB600727CAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D7F81E0235392C5008106D3 /* JD Farmer */,
+				2CA71A0723671BB600727CAE /* JD Farmer */,
+				2CA71A1D23671BB800727CAE /* JD FarmerTests */,
+				2CA71A2823671BB800727CAE /* JD FarmerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D7F81DF235392C5008106D3 /* Resources */ = {
+		2CA71A0623671BB600727CAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */,
-				3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */,
-				3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */,
+				2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */,
+				2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */,
+				2CA71A1223671BB800727CAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA71A1C23671BB800727CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA71A2723671BB800727CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D7F81DD235392C5008106D3 /* Sources */ = {
+		2CA71A0423671BB600727CAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7F81E9235392C5008106D3 /* ViewController.swift in Sources */,
-				3D7F81E5235392C5008106D3 /* AppDelegate.swift in Sources */,
-				3D7F81E7235392C5008106D3 /* SceneDelegate.swift in Sources */,
+				2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */,
+				2CA71A48236720E300727CAE /* DummyModel.swift in Sources */,
+				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
+				2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */,
+				2CA71A1023671BB600727CAE /* ContentView.swift in Sources */,
+				2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA71A1A23671BB800727CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA71A2323671BB800727CAE /* JD_FarmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA71A2523671BB800727CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA71A2E23671BB800727CAE /* JD_FarmerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		3D7F81EA235392C5008106D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D7F81EB235392C5008106D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		2CA71A2023671BB800727CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA71A0723671BB600727CAE /* JD Farmer */;
+			targetProxy = 2CA71A1F23671BB800727CAE /* PBXContainerItemProxy */;
 		};
-		3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */ = {
+		2CA71A2B23671BB800727CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA71A0723671BB600727CAE /* JD Farmer */;
+			targetProxy = 2CA71A2A23671BB800727CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CA71A1623671BB800727CAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D7F81F0235392C7008106D3 /* Base */,
+				2CA71A1723671BB800727CAE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -214,7 +394,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3D7F81F3235392C7008106D3 /* Debug */ = {
+		2CA71A3023671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +454,7 @@
 			};
 			name = Debug;
 		};
-		3D7F81F4235392C7008106D3 /* Release */ = {
+		2CA71A3123671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,63 +508,172 @@
 			};
 			name = Release;
 		};
-		3D7F81F6235392C7008106D3 /* Debug */ = {
+		2CA71A3323671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JD Farmer/JD Farmer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GYZ83KN5T7;
+				DEVELOPMENT_ASSET_PATHS = "\"JD Farmer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndeere.JD-Farmer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		3D7F81F7235392C7008106D3 /* Release */ = {
+		2CA71A3423671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "JD Farmer/JD Farmer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JD Farmer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.johndeere.JD-Farmer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2CA71A3623671BB800727CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Farmer.app/JD Farmer";
+			};
+			name = Debug;
+		};
+		2CA71A3723671BB800727CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Farmer.app/JD Farmer";
+			};
+			name = Release;
+		};
+		2CA71A3923671BB800727CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JD Farmer";
+			};
+			name = Debug;
+		};
+		2CA71A3A23671BB800727CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP2THKM2M4;
+				INFOPLIST_FILE = "JD FarmerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-FarmerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JD Farmer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D7F81DC235392C5008106D3 /* Build configuration list for PBXProject "JD Farmer" */ = {
+		2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Farmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7F81F3235392C7008106D3 /* Debug */,
-				3D7F81F4235392C7008106D3 /* Release */,
+				2CA71A3023671BB800727CAE /* Debug */,
+				2CA71A3123671BB800727CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D7F81F5235392C7008106D3 /* Build configuration list for PBXNativeTarget "JD Farmer" */ = {
+		2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Farmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7F81F6235392C7008106D3 /* Debug */,
-				3D7F81F7235392C7008106D3 /* Release */,
+				2CA71A3323671BB800727CAE /* Debug */,
+				2CA71A3423671BB800727CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA71A3623671BB800727CAE /* Debug */,
+				2CA71A3723671BB800727CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA71A3923671BB800727CAE /* Debug */,
+				2CA71A3A23671BB800727CAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3D7F81D9235392C5008106D3 /* Project object */;
+	rootObject = 2CA71A0023671BB600727CAE /* Project object */;
 }

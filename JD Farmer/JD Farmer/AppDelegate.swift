@@ -2,30 +2,19 @@
 //  AppDelegate.swift
 //  JD Farmer
 //
-//  Created by MD NABID IMTEAJ on 13/10/19.
-//  Copyright © 2019 John Deere. All rights reserved.
+//  Created by Ajdari, Arian on 28.10.19.
+//  Copyright © 2019 Ajdari, Arian. All rights reserved.
 //
 
 import UIKit
 
-//extension UIApplication {
-//
-//    var statusBarView: UIView? {
-//        return value(forKey: "statusBar") as? UIView
-//    }
-//
-//}
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        UIApplication.shared.statusBarView?.backgroundColor = UIColor.red
-
         return true
     }
 
