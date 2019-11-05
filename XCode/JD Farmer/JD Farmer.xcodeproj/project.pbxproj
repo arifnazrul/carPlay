@@ -78,6 +78,7 @@
 		3D7F81F92355F5AE008106D3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */,
 				67D14C9F2371CDF900A3D534 /* Carplay */,
 				67D14C9E2371CDE700A3D534 /* iPhone */,
 			);
@@ -111,7 +112,6 @@
 		3D7F81FD2355F642008106D3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */,
 				3D7F81EA235392C5008106D3 /* Main.storyboard */,
 			);
 			path = Login;
