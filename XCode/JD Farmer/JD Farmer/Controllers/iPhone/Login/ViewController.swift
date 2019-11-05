@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  JD Farmer
 //
-//  Created by MD NABID IMTEAJ on 13/10/19.
+//  Created by Priom Biswas on 05/11/19.
 //  Copyright © 2019 John Deere. All rights reserved.
 //
 
