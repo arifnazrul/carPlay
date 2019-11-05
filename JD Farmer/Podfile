@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JD Farmer' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JD Farmer
+
+  pod 'RealmSwift'
+
+  target 'JD FarmerTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JD FarmerUITests' do
+    # Pods for testing
+  end
+
+end

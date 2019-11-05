@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DD3C5A484BFA0F059C1ADF5 /* Pods_JD_FarmerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */; };
 		2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0B23671BB600727CAE /* AppDelegate.swift */; };
 		2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0D23671BB600727CAE /* SceneDelegate.swift */; };
 		2CA71A1023671BB600727CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0F23671BB600727CAE /* ContentView.swift */; };
@@ -18,6 +19,8 @@
 		2CA71A48236720E300727CAE /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A47236720E300727CAE /* DummyModel.swift */; };
 		2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4A2367210700727CAE /* DummyUtility.swift */; };
 		2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4C236721BA00727CAE /* Intents.intentdefinition */; };
+		C88618FE70143C28A1FC3060 /* Pods_JD_Farmer_JD_FarmerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */; };
+		DFBB0B810344DB43E71DFF62 /* Pods_JD_Farmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD FarmerTests.debug.xcconfig"; path = "Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD FarmerTests.release.xcconfig"; path = "Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests.release.xcconfig"; sourceTree = "<group>"; };
 		2CA71A0823671BB600727CAE /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA71A0D23671BB600727CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +61,13 @@
 		2CA71A4A2367210700727CAE /* DummyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUtility.swift; sourceTree = "<group>"; };
 		2CA71A4C236721BA00727CAE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		2CA71A4E2367231D00727CAE /* JD Farmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JD Farmer.entitlements"; sourceTree = "<group>"; };
+		362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Farmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.debug.xcconfig"; sourceTree = "<group>"; };
+		6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Farmer_JD_FarmerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_FarmerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.release.xcconfig"; sourceTree = "<group>"; };
+		E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFBB0B810344DB43E71DFF62 /* Pods_JD_Farmer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD3C5A484BFA0F059C1ADF5 /* Pods_JD_FarmerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +91,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88618FE70143C28A1FC3060 /* Pods_JD_Farmer_JD_FarmerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1942787D24ADC969894532F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */,
+				6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */,
+				7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2CA719FF23671BB600727CAE = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +115,8 @@
 				2CA71A2123671BB800727CAE /* JD FarmerTests */,
 				2CA71A2C23671BB800727CAE /* JD FarmerUITests */,
 				2CA71A0923671BB600727CAE /* Products */,
+				3E87DB84F809F17092FC78DB /* Pods */,
+				1942787D24ADC969894532F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -211,6 +238,20 @@
 			path = CarPlay;
 			sourceTree = "<group>";
 		};
+		3E87DB84F809F17092FC78DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */,
+				E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */,
+				E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */,
+				EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */,
+				00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */,
+				0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Farmer" */;
 			buildPhases = (
+				51BC4168514391CCA703BEEC /* [CP] Check Pods Manifest.lock */,
 				2CA71A0423671BB600727CAE /* Sources */,
 				2CA71A0523671BB600727CAE /* Frameworks */,
 				2CA71A0623671BB600727CAE /* Resources */,
+				8AEF3551509E6F5B0445A368 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerTests" */;
 			buildPhases = (
+				B1DD0DA4702651EA2CFC3E5E /* [CP] Check Pods Manifest.lock */,
 				2CA71A1A23671BB800727CAE /* Sources */,
 				2CA71A1B23671BB800727CAE /* Frameworks */,
 				2CA71A1C23671BB800727CAE /* Resources */,
@@ -253,9 +297,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */;
 			buildPhases = (
+				6DBD0E7F5CC84D41DF0A4FBA /* [CP] Check Pods Manifest.lock */,
 				2CA71A2523671BB800727CAE /* Sources */,
 				2CA71A2623671BB800727CAE /* Frameworks */,
 				2CA71A2723671BB800727CAE /* Resources */,
+				48A0A78D402AA1ACFDA2D6AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -336,6 +382,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48A0A78D402AA1ACFDA2D6AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51BC4168514391CCA703BEEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JD Farmer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DBD0E7F5CC84D41DF0A4FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JD Farmer-JD FarmerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AEF3551509E6F5B0445A368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer/Pods-JD Farmer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer/Pods-JD Farmer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD Farmer/Pods-JD Farmer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1DD0DA4702651EA2CFC3E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JD FarmerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CA71A0423671BB600727CAE /* Sources */ = {
@@ -510,6 +659,7 @@
 		};
 		2CA71A3323671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "JD Farmer/JD Farmer.entitlements";
@@ -531,6 +681,7 @@
 		};
 		2CA71A3423671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "JD Farmer/JD Farmer.entitlements";
@@ -552,6 +703,7 @@
 		};
 		2CA71A3623671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -574,6 +726,7 @@
 		};
 		2CA71A3723671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +749,7 @@
 		};
 		2CA71A3923671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,6 +770,7 @@
 		};
 		2CA71A3A23671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
