@@ -1,11 +1,7 @@
 {
   "images" : [
     {
-      "idiom" : "universal"
-    },
-    {
       "idiom" : "universal",
-      "filename" : "john-deere-vector-logo.png",
       "scale" : "1x"
     },
     {
