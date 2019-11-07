@@ -12,10 +12,12 @@ target 'JD Farmer' do
   target 'JD FarmerTests' do
     inherit! :search_paths
     # Pods for testing
+	pod 'RealmSwift'
   end
 
   target 'JD FarmerUITests' do
     # Pods for testing
+	pod 'RealmSwift'
   end
 
 end

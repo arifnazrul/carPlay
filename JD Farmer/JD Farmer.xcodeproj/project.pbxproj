@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,13 @@
 		2CA71A48236720E300727CAE /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A47236720E300727CAE /* DummyModel.swift */; };
 		2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4A2367210700727CAE /* DummyUtility.swift */; };
 		2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4C236721BA00727CAE /* Intents.intentdefinition */; };
+		7914C2D1237473AB008E2B24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D0237473AB008E2B24 /* User.swift */; };
+		7914C2D32374806A008E2B24 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D22374806A008E2B24 /* Organization.swift */; };
+		7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D423748169008E2B24 /* UserOrganization.swift */; };
+		7914C2D7237481E3008E2B24 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D6237481E3008E2B24 /* Field.swift */; };
+		7914C2D9237482CB008E2B24 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D8237482CB008E2B24 /* Visit.swift */; };
+		7914C2DB2374832F008E2B24 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DA2374832F008E2B24 /* Notification.swift */; };
+		7914C2DD237483F2008E2B24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DC237483F2008E2B24 /* Note.swift */; };
 		C88618FE70143C28A1FC3060 /* Pods_JD_Farmer_JD_FarmerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */; };
 		DFBB0B810344DB43E71DFF62 /* Pods_JD_Farmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +71,13 @@
 		362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Farmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.debug.xcconfig"; sourceTree = "<group>"; };
 		6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Farmer_JD_FarmerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7914C2D0237473AB008E2B24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7914C2D22374806A008E2B24 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		7914C2D423748169008E2B24 /* UserOrganization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrganization.swift; sourceTree = "<group>"; };
+		7914C2D6237481E3008E2B24 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		7914C2D8237482CB008E2B24 /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		7914C2DA2374832F008E2B24 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		7914C2DC237483F2008E2B24 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_FarmerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.release.xcconfig"; sourceTree = "<group>"; };
 		E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +210,13 @@
 			isa = PBXGroup;
 			children = (
 				2CA71A47236720E300727CAE /* DummyModel.swift */,
+				7914C2D0237473AB008E2B24 /* User.swift */,
+				7914C2D22374806A008E2B24 /* Organization.swift */,
+				7914C2D423748169008E2B24 /* UserOrganization.swift */,
+				7914C2D6237481E3008E2B24 /* Field.swift */,
+				7914C2D8237482CB008E2B24 /* Visit.swift */,
+				7914C2DA2374832F008E2B24 /* Notification.swift */,
+				7914C2DC237483F2008E2B24 /* Note.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -248,7 +269,6 @@
 				00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */,
 				0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,6 +302,7 @@
 				2CA71A1A23671BB800727CAE /* Sources */,
 				2CA71A1B23671BB800727CAE /* Frameworks */,
 				2CA71A1C23671BB800727CAE /* Resources */,
+				F1660028EB08785C1271A6CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -484,6 +505,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F1660028EB08785C1271A6CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -491,12 +529,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7914C2D7237481E3008E2B24 /* Field.swift in Sources */,
+				7914C2DD237483F2008E2B24 /* Note.swift in Sources */,
 				2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */,
 				2CA71A48236720E300727CAE /* DummyModel.swift in Sources */,
+				7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */,
+				7914C2D32374806A008E2B24 /* Organization.swift in Sources */,
 				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
 				2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */,
 				2CA71A1023671BB600727CAE /* ContentView.swift in Sources */,
+				7914C2DB2374832F008E2B24 /* Notification.swift in Sources */,
 				2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */,
+				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
+				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
