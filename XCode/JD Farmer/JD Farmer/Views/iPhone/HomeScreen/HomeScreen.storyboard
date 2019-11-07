@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plugin.png" translatesAutoresizingMaskIntoConstraints="NO" id="U4g-VO-Rb0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plugin" translatesAutoresizingMaskIntoConstraints="NO" id="U4g-VO-Rb0">
                                 <rect key="frame" x="20" y="287" width="374" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -46,7 +46,7 @@ UGx1ZyBpbiB5b3VyIGRldmljZSADA+KAqAN0byBBcHBsZSBDYXJQbGF5IA
                                         <color key="textColor" red="0.88659977791878175" green="0.81827019680303592" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lbf-oF-bt3">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu-icon" translatesAutoresizingMaskIntoConstraints="NO" id="Lbf-oF-bt3">
                                         <rect key="frame" x="369" y="81" width="27" height="26"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -64,7 +64,7 @@ UGx1ZyBpbiB5b3VyIGRldmljZSADA+KAqAN0byBBcHBsZSBDYXJQbGF5IA
         </scene>
     </scenes>
     <resources>
-        <image name="menu-icon.png" width="28" height="27"/>
-        <image name="plugin.png" width="158" height="158"/>
+        <image name="menu-icon" width="28" height="27"/>
+        <image name="plugin" width="158" height="158"/>
     </resources>
 </document>
