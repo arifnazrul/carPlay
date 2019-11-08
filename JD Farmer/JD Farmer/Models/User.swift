@@ -12,11 +12,15 @@ import RealmSwift
 class User: Object {
     
     ///Primary key
-    @objc dynamic var ID_User: UUID?
+    @objc dynamic var ID_User = UUID().uuidString
     ///Username
     @objc dynamic var username: String?
     ///Password
     ///TODO - Implement some encription, BCrypt
     @objc dynamic var password: String?
+    
+    override static func primaryKey() -> String? {
+        return "ID_User"
+    }
     
 }

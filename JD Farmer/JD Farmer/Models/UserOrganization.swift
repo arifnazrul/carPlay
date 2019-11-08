@@ -12,10 +12,14 @@ import RealmSwift
 class UserOrganization: Object {
     
     ///Primary key
-    @objc dynamic var ID_UserOrganization: UUID?
+    @objc dynamic var ID_UserOrganization = UUID().uuidString
     ///Foreign key to User
-    @objc dynamic var User_ID: UUID?
+    @objc dynamic var User_ID = User.primaryKey()
     ///Foreign key to Organization
-    @objc dynamic var Organization_ID: UUID?
+    @objc dynamic var Organization_ID = Organization.primaryKey()
+    
+    override static func primaryKey() -> String? {
+        return "ID_UserOrganization"
+    }
     
 }

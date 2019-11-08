@@ -29,8 +29,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
          */
         let realm = try! Realm()
         
-        print(Realm.Configuration.defaultConfiguration.fileURL)
+       // print(Realm.Configuration.defaultConfiguration.fileURL)
          
+        let data = parseJSON(path: "/Users/capstone/Desktop/InitialDummyData.json")
+        
+//        var users = data["User"]
+        ///TODO: Define a relative path
+       DatabaseConfiguration.init(path: "/Users/capstone/Desktop/InitialDummyData.json")
+    
+       
         
         
         // Use a UIHostingController as window root view controller.

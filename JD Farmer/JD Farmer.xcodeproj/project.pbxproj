@@ -16,7 +16,6 @@
 		2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA71A1623671BB800727CAE /* LaunchScreen.storyboard */; };
 		2CA71A2323671BB800727CAE /* JD_FarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */; };
 		2CA71A2E23671BB800727CAE /* JD_FarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */; };
-		2CA71A48236720E300727CAE /* DummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A47236720E300727CAE /* DummyModel.swift */; };
 		2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4A2367210700727CAE /* DummyUtility.swift */; };
 		2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4C236721BA00727CAE /* Intents.intentdefinition */; };
 		7914C2D1237473AB008E2B24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D0237473AB008E2B24 /* User.swift */; };
@@ -26,6 +25,8 @@
 		7914C2D9237482CB008E2B24 /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D8237482CB008E2B24 /* Visit.swift */; };
 		7914C2DB2374832F008E2B24 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DA2374832F008E2B24 /* Notification.swift */; };
 		7914C2DD237483F2008E2B24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DC237483F2008E2B24 /* Note.swift */; };
+		7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3052375A5E2008E2B24 /* JSONParser.swift */; };
+		7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */; };
 		C88618FE70143C28A1FC3060 /* Pods_JD_Farmer_JD_FarmerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */; };
 		DFBB0B810344DB43E71DFF62 /* Pods_JD_Farmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +65,6 @@
 		2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerUITests.swift; sourceTree = "<group>"; };
 		2CA71A2F23671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CA71A47236720E300727CAE /* DummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModel.swift; sourceTree = "<group>"; };
 		2CA71A4A2367210700727CAE /* DummyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUtility.swift; sourceTree = "<group>"; };
 		2CA71A4C236721BA00727CAE /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		2CA71A4E2367231D00727CAE /* JD Farmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JD Farmer.entitlements"; sourceTree = "<group>"; };
@@ -78,6 +78,8 @@
 		7914C2D8237482CB008E2B24 /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
 		7914C2DA2374832F008E2B24 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		7914C2DC237483F2008E2B24 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7914C3052375A5E2008E2B24 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConfiguration.swift; sourceTree = "<group>"; };
 		7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_FarmerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.release.xcconfig"; sourceTree = "<group>"; };
 		E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,7 +211,6 @@
 		2CA71A3D23671C0A00727CAE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2CA71A47236720E300727CAE /* DummyModel.swift */,
 				7914C2D0237473AB008E2B24 /* User.swift */,
 				7914C2D22374806A008E2B24 /* Organization.swift */,
 				7914C2D423748169008E2B24 /* UserOrganization.swift */,
@@ -217,6 +218,7 @@
 				7914C2D8237482CB008E2B24 /* Visit.swift */,
 				7914C2DA2374832F008E2B24 /* Notification.swift */,
 				7914C2DC237483F2008E2B24 /* Note.swift */,
+				7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				2CA71A4A2367210700727CAE /* DummyUtility.swift */,
+				7914C3052375A5E2008E2B24 /* JSONParser.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -532,14 +535,15 @@
 				7914C2D7237481E3008E2B24 /* Field.swift in Sources */,
 				7914C2DD237483F2008E2B24 /* Note.swift in Sources */,
 				2CA71A4D236721BA00727CAE /* Intents.intentdefinition in Sources */,
-				2CA71A48236720E300727CAE /* DummyModel.swift in Sources */,
 				7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */,
+				7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */,
 				7914C2D32374806A008E2B24 /* Organization.swift in Sources */,
 				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
 				2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */,
 				2CA71A1023671BB600727CAE /* ContentView.swift in Sources */,
 				7914C2DB2374832F008E2B24 /* Notification.swift in Sources */,
 				2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */,
+				7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */,
 				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
 			);

@@ -12,14 +12,17 @@ import RealmSwift
 class Field: Object {
     
     ///Primary key
-    @objc dynamic var ID_Field: UUID?
+    @objc dynamic var ID_Field = UUID().uuidString
     ///Foreign key of the Organization
-    @objc dynamic var Organization_ID: UUID?
+    @objc dynamic var Organization_ID = Organization.primaryKey()
     ///Name
     @objc dynamic var name: String?
     ///Coordinates of the field
 //    TODO: Figure out the best way to save the field coordinates
     @objc dynamic var coordinates: String?
     
+    override static func primaryKey() -> String? {
+        return "ID_Field"
+    }
     
 }

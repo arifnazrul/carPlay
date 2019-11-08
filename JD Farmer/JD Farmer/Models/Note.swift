@@ -12,12 +12,16 @@ import RealmSwift
 class  Note: Object {
     
     ///Primary key
-    @objc dynamic var ID_Note: UUID?
+    @objc dynamic var ID_Note = UUID().uuidString
     ///Foreign key of the Field
-    @objc dynamic var Field_ID: UUID?
+    @objc dynamic var Field_ID = Field.primaryKey()
     ///Content of the note
     @objc dynamic var content: String?
     ///Date of the creation
     @objc dynamic var date: Date?
+    
+    override static func primaryKey() -> String? {
+        return "ID_Note"
+    }
     
 }
