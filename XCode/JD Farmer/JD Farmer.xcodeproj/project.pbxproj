@@ -13,8 +13,6 @@
 		3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EA235392C5008106D3 /* Main.storyboard */; };
 		3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81ED235392C7008106D3 /* Assets.xcassets */; };
 		3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */; };
-		802CA39E2372D63A00CC9905 /* plugin.png in Resources */ = {isa = PBXBuildFile; fileRef = 802CA39D2372D63900CC9905 /* plugin.png */; };
-		802CA3A02372D67400CC9905 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 802CA39F2372D67400CC9905 /* menu-icon.png */; };
 		8062EE962372CB0A008D38B9 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +25,6 @@
 		3D7F81ED235392C7008106D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7F81F0235392C7008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7F81F2235392C7008106D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		802CA39D2372D63900CC9905 /* plugin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plugin.png; path = ../../../../plugin.png; sourceTree = "<group>"; };
-		802CA39F2372D67400CC9905 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menu-icon.png"; path = "../../../../menu-icon.png"; sourceTree = "<group>"; };
 		8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,8 +63,6 @@
 				3D7F81F92355F5AE008106D3 /* Views */,
 				3D7F81F82355F596008106D3 /* Controllers */,
 				3D7F81ED235392C7008106D3 /* Assets.xcassets */,
-				802CA39D2372D63900CC9905 /* plugin.png */,
-				802CA39F2372D67400CC9905 /* menu-icon.png */,
 				3D7F81F2235392C7008106D3 /* Info.plist */,
 			);
 			path = "JD Farmer";
@@ -109,27 +103,11 @@
 			path = SupportFiles;
 			sourceTree = "<group>";
 		};
-		3D7F81FC2355F637008106D3 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				3D7F81E8235392C5008106D3 /* ViewController.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		3D7F81FD2355F642008106D3 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				3D7F81EA235392C5008106D3 /* Main.storyboard */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		67D14C9E2371CDE700A3D534 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				8062EE942372C920008D38B9 /* HomeScreen */,
-				3D7F81FD2355F642008106D3 /* Login */,
+				3D7F81EA235392C5008106D3 /* Main.storyboard */,
+				8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -144,7 +122,7 @@
 		67D14CA02371CE3300A3D534 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				3D7F81FC2355F637008106D3 /* Login */,
+				3D7F81E8235392C5008106D3 /* ViewController.swift */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -154,14 +132,6 @@
 			children = (
 			);
 			path = Carplay;
-			sourceTree = "<group>";
-		};
-		8062EE942372C920008D38B9 /* HomeScreen */ = {
-			isa = PBXGroup;
-			children = (
-				8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */,
-			);
-			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,8 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802CA39E2372D63A00CC9905 /* plugin.png in Resources */,
-				802CA3A02372D67400CC9905 /* menu-icon.png in Resources */,
 				3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */,
 				8062EE962372CB0A008D38B9 /* HomeScreen.storyboard in Resources */,
 				3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */,
