@@ -42,9 +42,17 @@ UGx1ZyBpbiB5b3VyIGRldmljZSADA+KAqAN0byBBcHBsZSBDYXJQbGF5IA
                                         <color key="textColor" red="0.88659977791878175" green="0.81827019680303592" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="menu-icon" translatesAutoresizingMaskIntoConstraints="NO" id="aZs-yu-to8">
+                                        <rect key="frame" x="375" y="86" width="28" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.013095186916612206" green="0.36293096318462781" blue="0.0031356449552485087" alpha="0.8789597602739726" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="plug-in-icon" translatesAutoresizingMaskIntoConstraints="NO" id="jjU-93-cQ1">
+                                <rect key="frame" x="128" y="303" width="158" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="4xT-yN-PHl"/>
@@ -55,4 +63,8 @@ UGx1ZyBpbiB5b3VyIGRldmljZSADA+KAqAN0byBBcHBsZSBDYXJQbGF5IA
             <point key="canvasLocation" x="-1.4492753623188408" y="67.633928571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menu-icon" width="28" height="27"/>
+        <image name="plug-in-icon" width="158" height="158"/>
+    </resources>
 </document>
