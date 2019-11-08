@@ -9,6 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
+    var menuShowing = false
+    
+    
+   
+    
     @IBOutlet weak var labelSignIn: UILabel!
     
     override func viewDidLoad() {
@@ -44,11 +53,24 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func openMenu(_ sender: Any) {
+        
+        if (menuShowing) {
+            leadingConstraint.constant = -240
+        }
+        else{
+            leadingConstraint.constant = 0
+        }
+        
+        menuShowing = !menuShowing
+       }
     
     @IBAction func signInButton(_ sender: UIButton) {
        //let storyBoard: UIStoryboard = UIStoryboard(name: "HomeScreen", bundle: nil)
        //let homeController = storyBoard.instantiateViewController(withIdentifier: "home") as! HomeController
        //self.present(homeController, animated: true, completion: nil)
     }
+    
+    
 }
 

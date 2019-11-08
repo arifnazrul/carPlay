@@ -73,6 +73,7 @@
                                                 </state>
                                                 <connections>
                                                     <action selector="signInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9R-t7-TCz"/>
+                                                    <segue destination="kQR-u9-b7b" kind="show" id="Vxe-ma-3Fd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -118,8 +119,110 @@
             </objects>
             <point key="canvasLocation" x="-484" y="90"/>
         </scene>
+        <!--JD Farmer-->
+        <scene sceneID="lfY-MV-luH">
+            <objects>
+                <viewController id="bnv-Vu-rkE" customClass="ViewController" customModule="JD_Farmer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aHv-JI-IKh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="plug-in-icon" translatesAutoresizingMaskIntoConstraints="NO" id="QD0-5c-J9a">
+                                <rect key="frame" x="129" y="269" width="158" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wdu-qa-dkU">
+                                <rect key="frame" x="0.0" y="56" width="240" height="752"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7e-ei-5Wu">
+                                        <rect key="frame" x="21" y="44" width="98" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <state key="normal" title="Notes">
+                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="hHt-iN-g9M" kind="show" id="WvO-cP-bpO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="mEu-rJ-Cyo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Wdu-qa-dkU" firstAttribute="top" secondItem="A3N-9D-2OG" secondAttribute="top" id="JK8-xG-hvj"/>
+                            <constraint firstItem="A3N-9D-2OG" firstAttribute="bottom" secondItem="Wdu-qa-dkU" secondAttribute="bottom" id="UTH-Ap-MgL"/>
+                            <constraint firstItem="Wdu-qa-dkU" firstAttribute="leading" secondItem="A3N-9D-2OG" secondAttribute="leading" constant="-240" id="qKM-ba-Mml"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="A3N-9D-2OG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="JD Farmer" id="eh9-UT-7pi">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="jpO-XZ-HDp">
+                            <connections>
+                                <action selector="openMenu:" destination="bnv-Vu-rkE" id="tbf-fm-uem"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leadingConstraint" destination="qKM-ba-Mml" id="QaU-st-y9r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pam-Fo-tF5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1214.4927536231885" y="95.758928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7jf-ob-c30">
+            <objects>
+                <viewController id="hHt-iN-g9M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pha-o7-SEE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOO-Rv-OmE">
+                                <rect key="frame" x="106" y="253" width="117" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kXK-e9-prk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="43X-Ou-0pe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nft-G7-qoO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2075.36231884058" y="96.428571428571431"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lPJ-sb-sMl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kQR-u9-b7b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="g01-t3-zCB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vee-cY-RhD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bnv-Vu-rkE" kind="relationship" relationship="rootViewController" id="Cza-Hg-PMS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X1g-RV-rfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305.79710144927537" y="95.758928571428569"/>
+        </scene>
     </scenes>
     <resources>
         <image name="JD-logo" width="891" height="216"/>
+        <image name="plug-in-icon" width="158" height="158"/>
     </resources>
 </document>
