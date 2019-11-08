@@ -132,7 +132,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wdu-qa-dkU">
-                                <rect key="frame" x="0.0" y="56" width="240" height="752"/>
+                                <rect key="frame" x="0.0" y="56" width="240" height="786"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7e-ei-5Wu">
                                         <rect key="frame" x="21" y="44" width="98" height="57"/>

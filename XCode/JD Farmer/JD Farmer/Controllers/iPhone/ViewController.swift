@@ -60,6 +60,12 @@ class ViewController: UIViewController {
         }
         else{
             leadingConstraint.constant = 0
+            
+            UIView.animate(withDuration: 0.03, animations: {self.view.layoutIfNeeded()
+                
+            })
+            
+            view.layoutIfNeeded()
         }
         
         menuShowing = !menuShowing
