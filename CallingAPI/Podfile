@@ -7,5 +7,6 @@ target 'CallingAPI' do
 
   # Pods for CallingAPI
 pod 'Alamofire', '~> 4.7'
+pod 'OAuthSwift', '~> 1.2.0'
 
 end
