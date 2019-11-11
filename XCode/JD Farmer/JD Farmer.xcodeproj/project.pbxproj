@@ -14,6 +14,7 @@
 		3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81ED235392C7008106D3 /* Assets.xcassets */; };
 		3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */; };
 		8062EE962372CB0A008D38B9 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */; };
+		BD949BB02379BFC1003A059E /* mynotescontrollerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD949BAF2379BFC1003A059E /* mynotescontrollerview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3D7F81F0235392C7008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7F81F2235392C7008106D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		BD949BAF2379BFC1003A059E /* mynotescontrollerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mynotescontrollerview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				3D7F81E8235392C5008106D3 /* ViewController.swift */,
+				BD949BAF2379BFC1003A059E /* mynotescontrollerview.swift */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D7F81E9235392C5008106D3 /* ViewController.swift in Sources */,
+				BD949BB02379BFC1003A059E /* mynotescontrollerview.swift in Sources */,
 				3D7F81E5235392C5008106D3 /* AppDelegate.swift in Sources */,
 				3D7F81E7235392C5008106D3 /* SceneDelegate.swift in Sources */,
 			);
