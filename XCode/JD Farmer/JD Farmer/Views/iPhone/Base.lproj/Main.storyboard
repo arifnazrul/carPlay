@@ -122,8 +122,8 @@
         <!--JD Farmer-->
         <scene sceneID="lfY-MV-luH">
             <objects>
-                <viewController id="bnv-Vu-rkE" customClass="ViewController" customModule="JD_Farmer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aHv-JI-IKh">
+                <viewController modalPresentationStyle="fullScreen" id="bnv-Vu-rkE" customClass="ViewController" customModule="JD_Farmer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aHv-JI-IKh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -131,25 +131,77 @@
                                 <rect key="frame" x="129" y="269" width="158" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpQ-Sd-B5s">
+                                <rect key="frame" x="133" y="449" width="176" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text" base64-UTF8="YES">
+UGx1ZyBpbiB5b3VyIGRldmljZSADA+KAqAN0byBBcHBsZSBDYXJQbGF5IA
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wdu-qa-dkU">
-                                <rect key="frame" x="0.0" y="56" width="240" height="786"/>
+                                <rect key="frame" x="0.0" y="56" width="200" height="786"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7e-ei-5Wu">
-                                        <rect key="frame" x="21" y="44" width="98" height="57"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7e-ei-5Wu">
+                                        <rect key="frame" x="0.0" y="56" width="200" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Notes">
-                                            <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.2090840655" green="0.2117457217" blue="0.22752550990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="My Notes">
+                                            <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <segue destination="hHt-iN-g9M" kind="show" id="WvO-cP-bpO"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdR-Ei-2m0">
+                                        <rect key="frame" x="0.0" y="103" width="200" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.2090840655" green="0.2117457217" blue="0.22752550990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="About">
+                                            <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="LZr-Ud-YHB" kind="show" id="aSV-MW-WcE"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="USERNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCH-uo-ryK">
+                                        <rect key="frame" x="15" y="15" width="150" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2BN-av-aAl">
+                                        <rect key="frame" x="0.0" y="150" width="200" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.2090840655" green="0.2117457217" blue="0.22752550990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Version 1.0">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yU-1Q-x5T">
+                                        <rect key="frame" x="0.0" y="197" width="200" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.2090840655" green="0.2117457217" blue="0.22752550990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Logout">
+                                            <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="mEu-rJ-Cyo"/>
+                                    <constraint firstAttribute="width" constant="200" id="mEu-rJ-Cyo"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -157,12 +209,13 @@
                         <constraints>
                             <constraint firstItem="Wdu-qa-dkU" firstAttribute="top" secondItem="A3N-9D-2OG" secondAttribute="top" id="JK8-xG-hvj"/>
                             <constraint firstItem="A3N-9D-2OG" firstAttribute="bottom" secondItem="Wdu-qa-dkU" secondAttribute="bottom" id="UTH-Ap-MgL"/>
-                            <constraint firstItem="Wdu-qa-dkU" firstAttribute="leading" secondItem="A3N-9D-2OG" secondAttribute="leading" constant="-240" id="qKM-ba-Mml"/>
+                            <constraint firstItem="Wdu-qa-dkU" firstAttribute="leading" secondItem="A3N-9D-2OG" secondAttribute="leading" constant="-200" id="qKM-ba-Mml"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="A3N-9D-2OG"/>
                     </view>
                     <navigationItem key="navigationItem" title="JD Farmer" id="eh9-UT-7pi">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="jpO-XZ-HDp">
+                        <barButtonItem key="leftBarButtonItem" image="square.grid.2x2.fill" catalog="system" id="jpO-XZ-HDp">
+                            <color key="tintColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="openMenu:" destination="bnv-Vu-rkE" id="tbf-fm-uem"/>
                             </connections>
@@ -176,40 +229,58 @@
             </objects>
             <point key="canvasLocation" x="1214.4927536231885" y="95.758928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--My Notes-->
         <scene sceneID="7jf-ob-c30">
             <objects>
-                <viewController id="hHt-iN-g9M" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hHt-iN-g9M" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pha-o7-SEE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="notes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOO-Rv-OmE">
-                                <rect key="frame" x="106" y="253" width="117" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kXK-e9-prk"/>
                     </view>
-                    <navigationItem key="navigationItem" id="43X-Ou-0pe"/>
+                    <navigationItem key="navigationItem" title="My Notes" id="43X-Ou-0pe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nft-G7-qoO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2075.36231884058" y="96.428571428571431"/>
         </scene>
+        <!--About-->
+        <scene sceneID="2WP-46-rod">
+            <objects>
+                <viewController id="LZr-Ud-YHB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6IF-Pf-Y0C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mJl-qx-cTZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" id="ahQ-UU-mpL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixP-fJ-m0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2888" y="100"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="lPJ-sb-sMl">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kQR-u9-b7b" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="kQR-u9-b7b" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="g01-t3-zCB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vee-cY-RhD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.16625959069766311" green="0.43830672554347827" blue="0.030317415116940229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                            <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -224,5 +295,7 @@
     <resources>
         <image name="JD-logo" width="891" height="216"/>
         <image name="plug-in-icon" width="158" height="158"/>
+        <image name="square.grid.2x2.fill" catalog="system" width="64" height="56"/>
     </resources>
+    <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

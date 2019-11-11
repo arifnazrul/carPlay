@@ -56,7 +56,7 @@ class ViewController: UIViewController {
     @IBAction func openMenu(_ sender: Any) {
         
         if (menuShowing) {
-            leadingConstraint.constant = -240
+            leadingConstraint.constant = -200
         }
         else{
             leadingConstraint.constant = 0
