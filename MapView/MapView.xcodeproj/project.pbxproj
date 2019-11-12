@@ -85,7 +85,6 @@
 			children = (
 				F8A95353237314E700C130FB /* MapView */,
 				F8A9536A237314E900C130FB /* MapViewTests */,
-				F8A95375237314E900C130FB /* MapViewUITests */,
 				F8A95352237314E700C130FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,6 +119,7 @@
 			children = (
 				F8A9536B237314E900C130FB /* MapViewTests.swift */,
 				F8A9536D237314E900C130FB /* Info.plist */,
+				F8A95375237314E900C130FB /* MapViewUITests */,
 			);
 			path = MapViewTests;
 			sourceTree = "<group>";

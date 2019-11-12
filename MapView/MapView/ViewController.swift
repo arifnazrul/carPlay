@@ -23,7 +23,12 @@ class ViewController: UIViewController {
     func setupLocationManager(){
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        self.locationManager.requestWhenInUseAuthorization()
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startMonitoringSignificantLocationChanges()
+        locationManager.startUpdatingLocation()
+        if let coor = MapView.userLocation.location?.coordinate{
+            MapView.setCenter(coor, animated: true)
+        }
     }
     
     // Check if user has the Location Service enabled on his phone
@@ -32,8 +37,6 @@ class ViewController: UIViewController {
             // setup location Manager
             setupLocationManager()
             checkLocationAuthorization()
-            locationManager.startUpdatingLocation()
-            
         }
         else{
             // show alert letting userknow thez have to turn this on
@@ -47,13 +50,14 @@ class ViewController: UIViewController {
         switch CLLocationManager.authorizationStatus() {
         //only when the app is Open
         case .authorizedWhenInUse:
-            MapView.showsUserLocation = true
+           MapView.showsUserLocation = true
             break
         case .denied:
             // show alerts instructing how to turn on the permissions
             break
         case .notDetermined:
             locationManager.requestWhenInUseAuthorization()
+            break
         case .restricted:
             //show alerts.
             break
@@ -70,18 +74,20 @@ extension ViewController: CLLocationManagerDelegate{
     
     // Do something every time user updates location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        
         let locationValue: CLLocationCoordinate2D = manager.location!.coordinate
-        if let location = locations.first{
+        
+        if let location = locations.last{
             let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             self.MapView.setRegion(region, animated: true)
+            
             let annotation = MKPointAnnotation()
             annotation.coordinate = locationValue
-            MapView.addAnnotation(annotation)
-            print("locations = \(locations)")
+            self.MapView.addAnnotation(annotation)
+ 
+            print("latitude = \(locationValue.latitude)  longitude= \(locationValue.longitude)")
         }
-        
-        
     }
     
     // Do something every time user changes authorization
