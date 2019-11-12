@@ -31,8 +31,9 @@ class ViewController: UIViewController {
         if CLLocationManager.locationServicesEnabled(){
             // setup location Manager
             setupLocationManager()
-            locationManager.startUpdatingLocation()
             checkLocationAuthorization()
+            locationManager.startUpdatingLocation()
+            
         }
         else{
             // show alert letting userknow thez have to turn this on
@@ -69,12 +70,16 @@ extension ViewController: CLLocationManagerDelegate{
     
     // Do something every time user updates location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        if let location = locations.last{
-        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
-        self.MapView.setRegion(region, animated: true)
-            
+        let locationValue: CLLocationCoordinate2D = manager.location!.coordinate
+        if let location = locations.first{
+            let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+            let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+            self.MapView.setRegion(region, animated: true)
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = locationValue
+            MapView.addAnnotation(annotation)
         }
+        
         
     }
     
