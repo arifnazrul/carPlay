@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>567996554488-ak258tn5cmf3fl0uufl917u0hiqs2i2b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.567996554488-ak258tn5cmf3fl0uufl917u0hiqs2i2b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAF6PpaONpNHNQ9j2D7cc0Csbfxt6hCT1I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>567996554488</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Map.MapView.MapView</string>
+	<key>PROJECT_ID</key>
+	<string>mapview-4d928</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mapview-4d928.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:567996554488:ios:0b5b12143d32f66e72af0d</string>
+	<key>DATABASE_URL</key>
+	<string>https://mapview-4d928.firebaseio.com</string>
+</dict>
+</plist>
