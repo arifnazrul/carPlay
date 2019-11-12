@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         else{
             leadingConstraint.constant = 0
             
-            UIView.animate(withDuration: 0.03, animations: {self.view.layoutIfNeeded()
+            UIView.animate(withDuration: 0.3, animations: {self.view.layoutIfNeeded()
                 
             })
             
@@ -76,6 +76,8 @@ class ViewController: UIViewController {
        //let homeController = storyBoard.instantiateViewController(withIdentifier: "home") as! HomeController
        //self.present(homeController, animated: true, completion: nil)
     }
+    
+   
     
     
 }

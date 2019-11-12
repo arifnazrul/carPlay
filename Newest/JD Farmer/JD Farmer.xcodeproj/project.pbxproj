@@ -13,8 +13,8 @@
 		3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EA235392C5008106D3 /* Main.storyboard */; };
 		3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81ED235392C7008106D3 /* Assets.xcassets */; };
 		3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F81EF235392C7008106D3 /* LaunchScreen.storyboard */; };
-		8062EE962372CB0A008D38B9 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */; };
-		BD949BB02379BFC1003A059E /* mynotescontrollerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD949BAF2379BFC1003A059E /* mynotescontrollerview.swift */; };
+		BDF6F7F8237B01AD00AE34C7 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F7F7237B01AD00AE34C7 /* About.swift */; };
+		BDF6F7FE237B112300AE34C7 /* MyNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6F7FD237B112300AE34C7 /* MyNotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		3D7F81ED235392C7008106D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D7F81F0235392C7008106D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D7F81F2235392C7008106D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
-		BD949BAF2379BFC1003A059E /* mynotescontrollerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mynotescontrollerview.swift; sourceTree = "<group>"; };
+		BDF6F7F7237B01AD00AE34C7 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		BDF6F7FD237B112300AE34C7 /* MyNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				3D7F81EA235392C5008106D3 /* Main.storyboard */,
-				8062EE952372CB0A008D38B9 /* HomeScreen.storyboard */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -125,7 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				3D7F81E8235392C5008106D3 /* ViewController.swift */,
-				BD949BAF2379BFC1003A059E /* mynotescontrollerview.swift */,
+				BDF6F7F7237B01AD00AE34C7 /* About.swift */,
+				BDF6F7FD237B112300AE34C7 /* MyNotesViewController.swift */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -196,7 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D7F81F1235392C7008106D3 /* LaunchScreen.storyboard in Resources */,
-				8062EE962372CB0A008D38B9 /* HomeScreen.storyboard in Resources */,
 				3D7F81EE235392C7008106D3 /* Assets.xcassets in Resources */,
 				3D7F81EC235392C5008106D3 /* Main.storyboard in Resources */,
 			);
@@ -209,9 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF6F7F8237B01AD00AE34C7 /* About.swift in Sources */,
 				3D7F81E9235392C5008106D3 /* ViewController.swift in Sources */,
-				BD949BB02379BFC1003A059E /* mynotescontrollerview.swift in Sources */,
 				3D7F81E5235392C5008106D3 /* AppDelegate.swift in Sources */,
+				BDF6F7FE237B112300AE34C7 /* MyNotesViewController.swift in Sources */,
 				3D7F81E7235392C5008106D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
