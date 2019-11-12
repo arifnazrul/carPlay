@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
-        self.locationManager.requestWhenInUseAuthorization()
         super.viewDidLoad()
         checkLocationServices()
     }
@@ -24,6 +23,7 @@ class ViewController: UIViewController {
     func setupLocationManager(){
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.requestWhenInUseAuthorization()
     }
     
     // Check if user has the Location Service enabled on his phone
@@ -78,6 +78,7 @@ extension ViewController: CLLocationManagerDelegate{
             let annotation = MKPointAnnotation()
             annotation.coordinate = locationValue
             MapView.addAnnotation(annotation)
+            print("locations = \(locations)")
         }
         
         
