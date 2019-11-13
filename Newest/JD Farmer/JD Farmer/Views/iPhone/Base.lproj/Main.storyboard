@@ -261,7 +261,7 @@ UGx1ZyBpbiB5b3VyIGRldmljZSADA+KAqAN0byBBcHBsZSBDYXJQbGF5IA
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Wcd-9X-FPx"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Pyt-P5-gUf"/>
+                    <navigationItem key="navigationItem" title="My Notes" id="Pyt-P5-gUf"/>
                     <connections>
                         <outlet property="MyTable" destination="EU3-XV-fb1" id="2Xm-M3-Q7l"/>
                     </connections>
