@@ -10,7 +10,8 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
     
     @IBOutlet weak var MapView: MKMapView!
     let locationManager = CLLocationManager()
@@ -20,21 +21,9 @@ class ViewController: UIViewController {
         checkLocationServices()
     }
     
-    func setupLocationManager(){
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startMonitoringSignificantLocationChanges()
-        locationManager.startUpdatingLocation()
-        if let coor = MapView.userLocation.location?.coordinate{
-            MapView.setCenter(coor, animated: true)
-        }
-    }
-    
-    // Check if user has the Location Service enabled on his phone
+   // Check if user has the Location Service enabled on his phone
     func checkLocationServices(){
         if CLLocationManager.locationServicesEnabled(){
-            // setup location Manager
             setupLocationManager()
             checkLocationAuthorization()
         }
@@ -43,6 +32,13 @@ class ViewController: UIViewController {
             print("Your Location Services are Off")
         }
     }
+
+    // setup location manager
+    func setupLocationManager(){
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization()
+    }
     
     // check the authorization statuses
     func checkLocationAuthorization(){
@@ -50,7 +46,8 @@ class ViewController: UIViewController {
         switch CLLocationManager.authorizationStatus() {
         //only when the app is Open
         case .authorizedWhenInUse:
-           MapView.showsUserLocation = true
+          locationManager.startUpdatingLocation()
+          MapView.showsUserLocation = true
             break
         case .denied:
             // show alerts instructing how to turn on the permissions
@@ -64,7 +61,11 @@ class ViewController: UIViewController {
         // when the app is open in the background
         case .authorizedAlways:
             MapView.showsUserLocation = true
+            locationManager.startUpdatingLocation()
             break
+        default:
+            locationManager.stopUpdatingLocation()
+            MapView.showsUserLocation = false
         }
     }
 
@@ -85,7 +86,7 @@ extension ViewController: CLLocationManagerDelegate{
             let annotation = MKPointAnnotation()
             annotation.coordinate = locationValue
             self.MapView.addAnnotation(annotation)
- 
+            
             print("latitude = \(locationValue.latitude)  longitude= \(locationValue.longitude)")
         }
     }
@@ -94,4 +95,6 @@ extension ViewController: CLLocationManagerDelegate{
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         // do something here too
     }
+    
+    
 }
