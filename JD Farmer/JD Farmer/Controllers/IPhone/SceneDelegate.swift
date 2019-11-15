@@ -27,17 +27,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                     Initialiting the Realm and adding instances of a User
                             print method prints the path to the .realm file
          */
-        let realm = try! Realm()
         
-       // print(Realm.Configuration.defaultConfiguration.fileURL)
-         
-        let data = parseJSON(path: "/Users/capstone/Desktop/InitialDummyData.json")
+        //let realmPath = Bundle.main.url(forResource: "default", withExtension: "realm")
+      //  let config = Realm.Configuration(inMemoryIdentifier: realmPath)
+       // let realm = try! Realm(configuration: config)
+       //print(realmPath)
+        DatabaseConfiguration.init(path: Bundle.main.path(forResource: "InitialDummyDatacopy", ofType: "json")!)
         
-//        var users = data["User"]
-        ///TODO: Define a relative path
-       DatabaseConfiguration.init(path: "/Users/capstone/Desktop/InitialDummyData.json")
-    
-       
+        //let user = realm.object(ofType: User.self, forPrimaryKey: "1")
+        //print(user?.username)
+        
+        
+        
         
         
         // Use a UIHostingController as window root view controller.
@@ -75,6 +76,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Called as the scene transitions from the foreground to the background.
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
+        
+        ///TODO: copy database file from library to project version
     }
 
 

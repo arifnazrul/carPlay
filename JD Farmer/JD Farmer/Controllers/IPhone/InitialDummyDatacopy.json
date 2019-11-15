@@ -42,7 +42,7 @@
       "ID_Note": "2",
       "Field_ID": "2",
       "content": "Tarmac Field is dry.",
-      "date": null
+      "date": "2019-11-08T12:27:45.120Z"
     },
     {
       "ID_Note": "3",
@@ -170,3 +170,4 @@
   "__Role": [],
   "__User": []
 }
+
