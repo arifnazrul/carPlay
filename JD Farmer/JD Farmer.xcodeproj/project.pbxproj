@@ -10,6 +10,15 @@
 		0DD3C5A484BFA0F059C1ADF5 /* Pods_JD_FarmerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */; };
 		2C0CD43C237E949000199E46 /* InitialDummyDatacopy.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */; };
 		2C0CD43F237EB9B400199E46 /* test.realm in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43E237EB9B400199E46 /* test.realm */; };
+		2C9C634D2382FFE000DD5BA9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C634C2382FFE000DD5BA9 /* IntentHandler.swift */; };
+		2C9C63542382FFE000DD5BA9 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
+		2C9C63572382FFE000DD5BA9 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C63562382FFE000DD5BA9 /* IntentViewController.swift */; };
+		2C9C635A2382FFE000DD5BA9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C63582382FFE000DD5BA9 /* MainInterface.storyboard */; };
+		2C9C635E2382FFE000DD5BA9 /* CreateNoteUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C9C63612382FFE000DD5BA9 /* CreateNote.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C9C636F238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */; };
+		2C9C6370238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */; };
+		2C9C6371238303CC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */; };
 		2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0B23671BB600727CAE /* AppDelegate.swift */; };
 		2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0D23671BB600727CAE /* SceneDelegate.swift */; };
 		2CA71A1023671BB600727CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0F23671BB600727CAE /* ContentView.swift */; };
@@ -34,6 +43,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2C9C635C2382FFE000DD5BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9C63522382FFE000DD5BA9;
+			remoteInfo = CreateNoteUI;
+		};
+		2C9C635F2382FFE000DD5BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C9C63492382FFE000DD5BA9;
+			remoteInfo = CreateNote;
+		};
 		2CA71A1F23671BB800727CAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
@@ -50,12 +73,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2C9C63372382FB3400DD5BA9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C9C635E2382FFE000DD5BA9 /* CreateNoteUI.appex in Embed App Extensions */,
+				2C9C63612382FFE000DD5BA9 /* CreateNote.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD FarmerTests.debug.xcconfig"; path = "Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD FarmerTests.release.xcconfig"; path = "Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests.release.xcconfig"; sourceTree = "<group>"; };
 		2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InitialDummyDatacopy.json; sourceTree = "<group>"; };
 		2C0CD43D237EA45A00199E46 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		2C0CD43E237EB9B400199E46 /* test.realm */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.realm; sourceTree = "<group>"; };
+		2C9C63202382FB3400DD5BA9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2C9C63222382FB3400DD5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		2C9C632B2382FB3400DD5BA9 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		2C9C632E2382FB3400DD5BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2C9C63302382FB3400DD5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNote.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9C634C2382FFE000DD5BA9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2C9C634E2382FFE000DD5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNoteUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9C63562382FFE000DD5BA9 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		2C9C63592382FFE000DD5BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2C9C635B2382FFE000DD5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteIntentHandler.swift; sourceTree = "<group>"; };
 		2CA71A0823671BB600727CAE /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA71A0D23671BB600727CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +144,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2C9C63472382FFE000DD5BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9C63502382FFE000DD5BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C63542382FFE000DD5BA9 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CA71A0523671BB600727CAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,8 +192,48 @@
 				362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */,
 				6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */,
 				7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */,
+				2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C9C631F2382FB3400DD5BA9 /* LastVisit */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C63202382FB3400DD5BA9 /* IntentHandler.swift */,
+				2C9C63222382FB3400DD5BA9 /* Info.plist */,
+			);
+			path = LastVisit;
+			sourceTree = "<group>";
+		};
+		2C9C632A2382FB3400DD5BA9 /* LastVisitUI */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C632B2382FB3400DD5BA9 /* IntentViewController.swift */,
+				2C9C632D2382FB3400DD5BA9 /* MainInterface.storyboard */,
+				2C9C63302382FB3400DD5BA9 /* Info.plist */,
+			);
+			path = LastVisitUI;
+			sourceTree = "<group>";
+		};
+		2C9C634B2382FFE000DD5BA9 /* CreateNote */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C634C2382FFE000DD5BA9 /* IntentHandler.swift */,
+				2C9C634E2382FFE000DD5BA9 /* Info.plist */,
+				2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */,
+			);
+			path = CreateNote;
+			sourceTree = "<group>";
+		};
+		2C9C63552382FFE000DD5BA9 /* CreateNoteUI */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C63562382FFE000DD5BA9 /* IntentViewController.swift */,
+				2C9C63582382FFE000DD5BA9 /* MainInterface.storyboard */,
+				2C9C635B2382FFE000DD5BA9 /* Info.plist */,
+			);
+			path = CreateNoteUI;
 			sourceTree = "<group>";
 		};
 		2CA719FF23671BB600727CAE = {
@@ -135,6 +242,10 @@
 				2CA71A0A23671BB600727CAE /* JD Farmer */,
 				2CA71A2123671BB800727CAE /* JD FarmerTests */,
 				2CA71A2C23671BB800727CAE /* JD FarmerUITests */,
+				2C9C631F2382FB3400DD5BA9 /* LastVisit */,
+				2C9C632A2382FB3400DD5BA9 /* LastVisitUI */,
+				2C9C634B2382FFE000DD5BA9 /* CreateNote */,
+				2C9C63552382FFE000DD5BA9 /* CreateNoteUI */,
 				2CA71A0923671BB600727CAE /* Products */,
 				3E87DB84F809F17092FC78DB /* Pods */,
 				1942787D24ADC969894532F7 /* Frameworks */,
@@ -147,6 +258,8 @@
 				2CA71A0823671BB600727CAE /* JD Farmer.app */,
 				2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */,
 				2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */,
+				2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */,
+				2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,6 +399,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2C9C63492382FFE000DD5BA9 /* CreateNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9C63652382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNote" */;
+			buildPhases = (
+				2C9C63462382FFE000DD5BA9 /* Sources */,
+				2C9C63472382FFE000DD5BA9 /* Frameworks */,
+				2C9C63482382FFE000DD5BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateNote;
+			productName = CreateNote;
+			productReference = 2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2C9C63522382FFE000DD5BA9 /* CreateNoteUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C9C63622382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNoteUI" */;
+			buildPhases = (
+				2C9C634F2382FFE000DD5BA9 /* Sources */,
+				2C9C63502382FFE000DD5BA9 /* Frameworks */,
+				2C9C63512382FFE000DD5BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateNoteUI;
+			productName = CreateNoteUI;
+			productReference = 2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		2CA71A0723671BB600727CAE /* JD Farmer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Farmer" */;
@@ -295,10 +442,13 @@
 				2CA71A0523671BB600727CAE /* Frameworks */,
 				2CA71A0623671BB600727CAE /* Resources */,
 				8AEF3551509E6F5B0445A368 /* [CP] Embed Pods Frameworks */,
+				2C9C63372382FB3400DD5BA9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2C9C635D2382FFE000DD5BA9 /* PBXTargetDependency */,
+				2C9C63602382FFE000DD5BA9 /* PBXTargetDependency */,
 			);
 			name = "JD Farmer";
 			productName = "JD Farmer";
@@ -351,10 +501,16 @@
 		2CA71A0023671BB600727CAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Ajdari, Arian";
 				TargetAttributes = {
+					2C9C63492382FFE000DD5BA9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					2C9C63522382FFE000DD5BA9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
 					2CA71A0723671BB600727CAE = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -384,11 +540,28 @@
 				2CA71A0723671BB600727CAE /* JD Farmer */,
 				2CA71A1D23671BB800727CAE /* JD FarmerTests */,
 				2CA71A2823671BB800727CAE /* JD FarmerUITests */,
+				2C9C63492382FFE000DD5BA9 /* CreateNote */,
+				2C9C63522382FFE000DD5BA9 /* CreateNoteUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C9C63482382FFE000DD5BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9C63512382FFE000DD5BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C635A2382FFE000DD5BA9 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CA71A0623671BB600727CAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -538,6 +711,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2C9C63462382FFE000DD5BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C636F238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */,
+				2C9C634D2382FFE000DD5BA9 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C9C634F2382FFE000DD5BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9C6370238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */,
+				2C9C63572382FFE000DD5BA9 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2CA71A0423671BB600727CAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -556,6 +747,7 @@
 				7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */,
 				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
+				2C9C6371238303CC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +770,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2C9C635D2382FFE000DD5BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C9C63522382FFE000DD5BA9 /* CreateNoteUI */;
+			targetProxy = 2C9C635C2382FFE000DD5BA9 /* PBXContainerItemProxy */;
+		};
+		2C9C63602382FFE000DD5BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C9C63492382FFE000DD5BA9 /* CreateNote */;
+			targetProxy = 2C9C635F2382FFE000DD5BA9 /* PBXContainerItemProxy */;
+		};
 		2CA71A2023671BB800727CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2CA71A0723671BB600727CAE /* JD Farmer */;
@@ -591,6 +793,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C9C632D2382FB3400DD5BA9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9C632E2382FB3400DD5BA9 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		2C9C63582382FFE000DD5BA9 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C9C63592382FFE000DD5BA9 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		2CA71A1623671BB800727CAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -602,6 +820,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2C9C63632382FFE000DD5BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CreateNoteUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.CreateNoteUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C9C63642382FFE000DD5BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CreateNoteUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.CreateNoteUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C9C63662382FFE000DD5BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CreateNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.CreateNote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C9C63672382FFE000DD5BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CreateNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.CreateNote";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2CA71A3023671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -652,6 +950,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -706,6 +1005,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -720,6 +1020,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "JD Farmer/JD Farmer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -727,6 +1028,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
+				INTENTS_CODEGEN_LANGUAGE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -742,6 +1044,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "JD Farmer/JD Farmer.entitlements";
 				CODE_SIGN_STYLE = Automatic;
@@ -749,6 +1052,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
+				INTENTS_CODEGEN_LANGUAGE = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -851,6 +1155,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C9C63622382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNoteUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9C63632382FFE000DD5BA9 /* Debug */,
+				2C9C63642382FFE000DD5BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C9C63652382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9C63662382FFE000DD5BA9 /* Debug */,
+				2C9C63672382FFE000DD5BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Farmer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
