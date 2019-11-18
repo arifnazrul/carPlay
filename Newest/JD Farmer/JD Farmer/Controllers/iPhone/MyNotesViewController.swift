@@ -25,11 +25,17 @@ class MyNotesViewController: UIViewController,UITableViewDataSource, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "mycell")
         
         cell?.textLabel?.text = myarray[indexPath.item]
+        cell?.detailTextLabel?.text = myarray[indexPath.item]
         print("cellForRowAtIndexPath")
         return cell!
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        performSegue(withIdentifier: "noteDetail", sender: self)
+    }
     
     @IBOutlet weak var MyTable: UITableView!
     

@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        UIApplication.shared.statusBarView?.backgroundColor = UIColor.red
+      //  self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Home", style: .plain, target: nil, action: nil)
         
         let jdGreen = UIColor(red: 54/255, green: 124/255, blue: 43/255, alpha: 1.0)
 
