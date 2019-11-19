@@ -12,13 +12,24 @@ import CoreLocation
 
 class ViewController: UIViewController
 {
-    
     @IBOutlet weak var MapView: MKMapView!
     let locationManager = CLLocationManager()
+    var compassButton: MKCompassButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setCompass()
         checkLocationServices()
+    }
+    
+    func setCompass() {
+        self.MapView.showsCompass = false
+        self.compassButton = MKCompassButton(mapView: MapView)
+        self.compassButton.compassVisibility = .visible
+        MapView.addSubview(self.compassButton)
+        self.compassButton.translatesAutoresizingMaskIntoConstraints = false
+        compassButton.trailingAnchor.constraint(equalTo: self.MapView.trailingAnchor, constant: -12).isActive = true
+        compassButton.topAnchor.constraint(equalTo: self.MapView.topAnchor, constant: 12).isActive = true
     }
     
    // Check if user has the Location Service enabled on his phone
