@@ -28,6 +28,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
+        let myConsumerKey:String = ""
+        let mySecretKey:String = ""
+        JDServicesSetup.setupConsumerKey(myConsumerKey, andSecretKey: mySecretKey)
+        JDServicesSetup.setActiveEnvironment(JDEnvironment.DEV)
+        JDTokenInjectionVC.
+        //JDServicesSetup.setupEnvironment(JDEnvironment.DEV, withConsumerKey: myConsumerKey, andSecretKey: mySecretKey)
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
     }
