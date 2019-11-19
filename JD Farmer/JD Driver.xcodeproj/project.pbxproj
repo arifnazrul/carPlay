@@ -16,26 +16,25 @@
 		2C0079EF2384384A00A8CD56 /* LastVisitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079EE2384384A00A8CD56 /* LastVisitController.swift */; };
 		2C0079F02384384A00A8CD56 /* LastVisitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079EE2384384A00A8CD56 /* LastVisitController.swift */; };
 		2C0079F12384384A00A8CD56 /* LastVisitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079EE2384384A00A8CD56 /* LastVisitController.swift */; };
-		2C0079F323843BBB00A8CD56 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
-		2C0079F423843BBC00A8CD56 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
 		2C0CD43C237E949000199E46 /* InitialDummyDatacopy.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */; };
 		2C0CD43F237EB9B400199E46 /* test.realm in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43E237EB9B400199E46 /* test.realm */; };
-		2C7B812523842C7100BEED9B /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
 		2C7B817123842ECD00BEED9B /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B817023842ECD00BEED9B /* IntentHandler.swift */; };
 		2C7B817823842ECD00BEED9B /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
 		2C7B817B23842ECD00BEED9B /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B817A23842ECD00BEED9B /* IntentViewController.swift */; };
 		2C7B817E23842ECD00BEED9B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B817C23842ECD00BEED9B /* MainInterface.storyboard */; };
 		2C7B818223842ECD00BEED9B /* LastVisitUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C7B817723842ECD00BEED9B /* LastVisitUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C7B818523842ECD00BEED9B /* LastVisit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C7B816E23842ECD00BEED9B /* LastVisit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2C9C634D2382FFE000DD5BA9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C634C2382FFE000DD5BA9 /* IntentHandler.swift */; };
-		2C9C63542382FFE000DD5BA9 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
-		2C9C63572382FFE000DD5BA9 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C63562382FFE000DD5BA9 /* IntentViewController.swift */; };
-		2C9C635A2382FFE000DD5BA9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9C63582382FFE000DD5BA9 /* MainInterface.storyboard */; };
-		2C9C635E2382FFE000DD5BA9 /* CreateNoteUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2C9C63612382FFE000DD5BA9 /* CreateNote.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2C9C636F238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */; };
-		2C9C6370238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */; };
-		2C9C6371238303CC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */; };
+		2C837DF523846C21008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
+		2C837DFA23846D49008D9FD8 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
+		2C837DFB23846D49008D9FD8 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
+		2C87C8482384533D00AF3C87 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8472384533D00AF3C87 /* IntentHandler.swift */; };
+		2C87C84F2384533E00AF3C87 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
+		2C87C8522384533E00AF3C87 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8512384533E00AF3C87 /* IntentViewController.swift */; };
+		2C87C8552384533E00AF3C87 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C87C8532384533E00AF3C87 /* MainInterface.storyboard */; };
+		2C87C8592384533E00AF3C87 /* CreateNoteUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C87C84E2384533E00AF3C87 /* CreateNoteUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C87C85C2384533E00AF3C87 /* CreateNote.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C87C8452384533D00AF3C87 /* CreateNote.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C87C8662384570F00AF3C87 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */; };
+		2C87C86823845E4800AF3C87 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
 		2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0B23671BB600727CAE /* AppDelegate.swift */; };
 		2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0D23671BB600727CAE /* SceneDelegate.swift */; };
 		2CA71A1023671BB600727CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0F23671BB600727CAE /* ContentView.swift */; };
@@ -73,18 +72,18 @@
 			remoteGlobalIDString = 2C7B816D23842ECD00BEED9B;
 			remoteInfo = LastVisit;
 		};
-		2C9C635C2382FFE000DD5BA9 /* PBXContainerItemProxy */ = {
+		2C87C8572384533E00AF3C87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C9C63522382FFE000DD5BA9;
+			remoteGlobalIDString = 2C87C84D2384533E00AF3C87;
 			remoteInfo = CreateNoteUI;
 		};
-		2C9C635F2382FFE000DD5BA9 /* PBXContainerItemProxy */ = {
+		2C87C85A2384533E00AF3C87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C9C63492382FFE000DD5BA9;
+			remoteGlobalIDString = 2C87C8442384533D00AF3C87;
 			remoteInfo = CreateNote;
 		};
 		2CA71A1F23671BB800727CAE /* PBXContainerItemProxy */ = {
@@ -110,10 +109,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				2C87C8592384533E00AF3C87 /* CreateNoteUI.appex in Embed App Extensions */,
 				2C7B818223842ECD00BEED9B /* LastVisitUI.appex in Embed App Extensions */,
-				2C9C635E2382FFE000DD5BA9 /* CreateNoteUI.appex in Embed App Extensions */,
+				2C87C85C2384533E00AF3C87 /* CreateNote.appex in Embed App Extensions */,
 				2C7B818523842ECD00BEED9B /* LastVisit.appex in Embed App Extensions */,
-				2C9C63612382FFE000DD5BA9 /* CreateNote.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,15 +135,16 @@
 		2C7B817A23842ECD00BEED9B /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		2C7B817D23842ECD00BEED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		2C7B817F23842ECD00BEED9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C87C8452384533D00AF3C87 /* CreateNote.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNote.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C87C8472384533D00AF3C87 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		2C87C8492384533D00AF3C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C87C84E2384533E00AF3C87 /* CreateNoteUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNoteUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C87C8512384533E00AF3C87 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		2C87C8542384533E00AF3C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2C87C8562384533E00AF3C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteIntentHandler.swift; sourceTree = "<group>"; };
+		2C87C86723845E4800AF3C87 /* CreateNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteController.swift; sourceTree = "<group>"; };
 		2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNote.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C9C634C2382FFE000DD5BA9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		2C9C634E2382FFE000DD5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNoteUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C9C63562382FFE000DD5BA9 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
-		2C9C63592382FFE000DD5BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		2C9C635B2382FFE000DD5BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteIntentHandler.swift; sourceTree = "<group>"; };
 		2CA71A0823671BB600727CAE /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA71A0D23671BB600727CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,18 +195,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C9C63472382FFE000DD5BA9 /* Frameworks */ = {
+		2C87C8422384533D00AF3C87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C9C63502382FFE000DD5BA9 /* Frameworks */ = {
+		2C87C84B2384533E00AF3C87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9C63542382FFE000DD5BA9 /* IntentsUI.framework in Frameworks */,
+				2C87C84F2384533E00AF3C87 /* IntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,22 +268,22 @@
 			path = LastVisitUI;
 			sourceTree = "<group>";
 		};
-		2C9C634B2382FFE000DD5BA9 /* CreateNote */ = {
+		2C87C8462384533D00AF3C87 /* CreateNote */ = {
 			isa = PBXGroup;
 			children = (
-				2C9C634C2382FFE000DD5BA9 /* IntentHandler.swift */,
-				2C9C634E2382FFE000DD5BA9 /* Info.plist */,
-				2C9C636D238302FC00DD5BA9 /* CreateNoteIntentHandler.swift */,
+				2C87C8472384533D00AF3C87 /* IntentHandler.swift */,
+				2C87C8492384533D00AF3C87 /* Info.plist */,
+				2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */,
 			);
 			path = CreateNote;
 			sourceTree = "<group>";
 		};
-		2C9C63552382FFE000DD5BA9 /* CreateNoteUI */ = {
+		2C87C8502384533E00AF3C87 /* CreateNoteUI */ = {
 			isa = PBXGroup;
 			children = (
-				2C9C63562382FFE000DD5BA9 /* IntentViewController.swift */,
-				2C9C63582382FFE000DD5BA9 /* MainInterface.storyboard */,
-				2C9C635B2382FFE000DD5BA9 /* Info.plist */,
+				2C87C8512384533E00AF3C87 /* IntentViewController.swift */,
+				2C87C8532384533E00AF3C87 /* MainInterface.storyboard */,
+				2C87C8562384533E00AF3C87 /* Info.plist */,
 			);
 			path = CreateNoteUI;
 			sourceTree = "<group>";
@@ -294,10 +294,10 @@
 				2CA71A0A23671BB600727CAE /* JD Farmer */,
 				2CA71A2123671BB800727CAE /* JD FarmerTests */,
 				2CA71A2C23671BB800727CAE /* JD FarmerUITests */,
-				2C9C634B2382FFE000DD5BA9 /* CreateNote */,
-				2C9C63552382FFE000DD5BA9 /* CreateNoteUI */,
 				2C7B816F23842ECD00BEED9B /* LastVisit */,
 				2C7B817923842ECD00BEED9B /* LastVisitUI */,
+				2C87C8462384533D00AF3C87 /* CreateNote */,
+				2C87C8502384533E00AF3C87 /* CreateNoteUI */,
 				2CA71A0923671BB600727CAE /* Products */,
 				3E87DB84F809F17092FC78DB /* Pods */,
 				1942787D24ADC969894532F7 /* Frameworks */,
@@ -310,10 +310,10 @@
 				2CA71A0823671BB600727CAE /* JD Farmer.app */,
 				2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */,
 				2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */,
-				2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */,
-				2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */,
 				2C7B816E23842ECD00BEED9B /* LastVisit.appex */,
 				2C7B817723842ECD00BEED9B /* LastVisitUI.appex */,
+				2C87C8452384533D00AF3C87 /* CreateNote.appex */,
+				2C87C84E2384533E00AF3C87 /* CreateNoteUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -380,6 +380,7 @@
 				2CA71A3F23671C1B00727CAE /* CarPlay */,
 				2CA71A4023671C2100727CAE /* IPhone */,
 				2C0079EE2384384A00A8CD56 /* LastVisitController.swift */,
+				2C87C86723845E4800AF3C87 /* CreateNoteController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -488,13 +489,13 @@
 			productReference = 2C7B817723842ECD00BEED9B /* LastVisitUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		2C9C63492382FFE000DD5BA9 /* CreateNote */ = {
+		2C87C8442384533D00AF3C87 /* CreateNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C9C63652382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNote" */;
+			buildConfigurationList = 2C87C8602384533E00AF3C87 /* Build configuration list for PBXNativeTarget "CreateNote" */;
 			buildPhases = (
-				2C9C63462382FFE000DD5BA9 /* Sources */,
-				2C9C63472382FFE000DD5BA9 /* Frameworks */,
-				2C9C63482382FFE000DD5BA9 /* Resources */,
+				2C87C8412384533D00AF3C87 /* Sources */,
+				2C87C8422384533D00AF3C87 /* Frameworks */,
+				2C87C8432384533D00AF3C87 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -502,16 +503,16 @@
 			);
 			name = CreateNote;
 			productName = CreateNote;
-			productReference = 2C9C634A2382FFE000DD5BA9 /* CreateNote.appex */;
+			productReference = 2C87C8452384533D00AF3C87 /* CreateNote.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		2C9C63522382FFE000DD5BA9 /* CreateNoteUI */ = {
+		2C87C84D2384533E00AF3C87 /* CreateNoteUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C9C63622382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNoteUI" */;
+			buildConfigurationList = 2C87C85D2384533E00AF3C87 /* Build configuration list for PBXNativeTarget "CreateNoteUI" */;
 			buildPhases = (
-				2C9C634F2382FFE000DD5BA9 /* Sources */,
-				2C9C63502382FFE000DD5BA9 /* Frameworks */,
-				2C9C63512382FFE000DD5BA9 /* Resources */,
+				2C87C84A2384533E00AF3C87 /* Sources */,
+				2C87C84B2384533E00AF3C87 /* Frameworks */,
+				2C87C84C2384533E00AF3C87 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -519,7 +520,7 @@
 			);
 			name = CreateNoteUI;
 			productName = CreateNoteUI;
-			productReference = 2C9C63532382FFE000DD5BA9 /* CreateNoteUI.appex */;
+			productReference = 2C87C84E2384533E00AF3C87 /* CreateNoteUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		2CA71A0723671BB600727CAE /* JD Farmer */ = {
@@ -536,10 +537,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				2C9C635D2382FFE000DD5BA9 /* PBXTargetDependency */,
-				2C9C63602382FFE000DD5BA9 /* PBXTargetDependency */,
 				2C7B818123842ECD00BEED9B /* PBXTargetDependency */,
 				2C7B818423842ECD00BEED9B /* PBXTargetDependency */,
+				2C87C8582384533E00AF3C87 /* PBXTargetDependency */,
+				2C87C85B2384533E00AF3C87 /* PBXTargetDependency */,
 			);
 			name = "JD Farmer";
 			productName = "JD Farmer";
@@ -602,10 +603,10 @@
 					2C7B817623842ECD00BEED9B = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
-					2C9C63492382FFE000DD5BA9 = {
+					2C87C8442384533D00AF3C87 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
-					2C9C63522382FFE000DD5BA9 = {
+					2C87C84D2384533E00AF3C87 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					2CA71A0723671BB600727CAE = {
@@ -621,7 +622,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Farmer" */;
+			buildConfigurationList = 2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Driver" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -637,10 +638,10 @@
 				2CA71A0723671BB600727CAE /* JD Farmer */,
 				2CA71A1D23671BB800727CAE /* JD FarmerTests */,
 				2CA71A2823671BB800727CAE /* JD FarmerUITests */,
-				2C9C63492382FFE000DD5BA9 /* CreateNote */,
-				2C9C63522382FFE000DD5BA9 /* CreateNoteUI */,
 				2C7B816D23842ECD00BEED9B /* LastVisit */,
 				2C7B817623842ECD00BEED9B /* LastVisitUI */,
+				2C87C8442384533D00AF3C87 /* CreateNote */,
+				2C87C84D2384533E00AF3C87 /* CreateNoteUI */,
 			);
 		};
 /* End PBXProject section */
@@ -661,18 +662,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C9C63482382FFE000DD5BA9 /* Resources */ = {
+		2C87C8432384533D00AF3C87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C9C63512382FFE000DD5BA9 /* Resources */ = {
+		2C87C84C2384533E00AF3C87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9C635A2382FFE000DD5BA9 /* MainInterface.storyboard in Resources */,
+				2C87C8552384533E00AF3C87 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,7 +832,6 @@
 			files = (
 				2C0079E6238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C7B817123842ECD00BEED9B /* IntentHandler.swift in Sources */,
-				2C0079F323843BBB00A8CD56 /* Intents.intentdefinition in Sources */,
 				2C0079F02384384A00A8CD56 /* LastVisitController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -843,26 +843,26 @@
 				2C0079F12384384A00A8CD56 /* LastVisitController.swift in Sources */,
 				2C0079E7238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C0079E9238432DD00A8CD56 /* IntentHandler.swift in Sources */,
-				2C0079F423843BBC00A8CD56 /* Intents.intentdefinition in Sources */,
 				2C7B817B23842ECD00BEED9B /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C9C63462382FFE000DD5BA9 /* Sources */ = {
+		2C87C8412384533D00AF3C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9C636F238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */,
-				2C9C634D2382FFE000DD5BA9 /* IntentHandler.swift in Sources */,
+				2C87C8482384533D00AF3C87 /* IntentHandler.swift in Sources */,
+				2C87C8662384570F00AF3C87 /* CreateNoteIntentHandler.swift in Sources */,
+				2C837DFA23846D49008D9FD8 /* CreateNoteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C9C634F2382FFE000DD5BA9 /* Sources */ = {
+		2C87C84A2384533E00AF3C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9C6370238302FC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */,
-				2C9C63572382FFE000DD5BA9 /* IntentViewController.swift in Sources */,
+				2C87C8522384533E00AF3C87 /* IntentViewController.swift in Sources */,
+				2C837DFB23846D49008D9FD8 /* CreateNoteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,8 +873,8 @@
 				7914C2D7237481E3008E2B24 /* Field.swift in Sources */,
 				7914C2DD237483F2008E2B24 /* Note.swift in Sources */,
 				7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */,
-				2C7B812523842C7100BEED9B /* Intents.intentdefinition in Sources */,
 				7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */,
+				2C87C86823845E4800AF3C87 /* CreateNoteController.swift in Sources */,
 				7914C2D32374806A008E2B24 /* Organization.swift in Sources */,
 				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
 				2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */,
@@ -882,12 +882,12 @@
 				7914C2DB2374832F008E2B24 /* Notification.swift in Sources */,
 				2C0079E5238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C0079EF2384384A00A8CD56 /* LastVisitController.swift in Sources */,
+				2C837DF523846C21008D9FD8 /* Intents.intentdefinition in Sources */,
 				2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */,
 				7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */,
 				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
 				2C0079E8238432DB00A8CD56 /* IntentHandler.swift in Sources */,
-				2C9C6371238303CC00DD5BA9 /* CreateNoteIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,15 +920,15 @@
 			target = 2C7B816D23842ECD00BEED9B /* LastVisit */;
 			targetProxy = 2C7B818323842ECD00BEED9B /* PBXContainerItemProxy */;
 		};
-		2C9C635D2382FFE000DD5BA9 /* PBXTargetDependency */ = {
+		2C87C8582384533E00AF3C87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C9C63522382FFE000DD5BA9 /* CreateNoteUI */;
-			targetProxy = 2C9C635C2382FFE000DD5BA9 /* PBXContainerItemProxy */;
+			target = 2C87C84D2384533E00AF3C87 /* CreateNoteUI */;
+			targetProxy = 2C87C8572384533E00AF3C87 /* PBXContainerItemProxy */;
 		};
-		2C9C63602382FFE000DD5BA9 /* PBXTargetDependency */ = {
+		2C87C85B2384533E00AF3C87 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C9C63492382FFE000DD5BA9 /* CreateNote */;
-			targetProxy = 2C9C635F2382FFE000DD5BA9 /* PBXContainerItemProxy */;
+			target = 2C87C8442384533D00AF3C87 /* CreateNote */;
+			targetProxy = 2C87C85A2384533E00AF3C87 /* PBXContainerItemProxy */;
 		};
 		2CA71A2023671BB800727CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -951,10 +951,10 @@
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
-		2C9C63582382FFE000DD5BA9 /* MainInterface.storyboard */ = {
+		2C87C8532384533E00AF3C87 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2C9C63592382FFE000DD5BA9 /* Base */,
+				2C87C8542384533E00AF3C87 /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -1050,7 +1050,7 @@
 			};
 			name = Release;
 		};
-		2C9C63632382FFE000DD5BA9 /* Debug */ = {
+		2C87C85E2384533E00AF3C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1070,7 +1070,7 @@
 			};
 			name = Debug;
 		};
-		2C9C63642382FFE000DD5BA9 /* Release */ = {
+		2C87C85F2384533E00AF3C87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1090,7 +1090,7 @@
 			};
 			name = Release;
 		};
-		2C9C63662382FFE000DD5BA9 /* Debug */ = {
+		2C87C8612384533E00AF3C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1110,7 +1110,7 @@
 			};
 			name = Debug;
 		};
-		2C9C63672382FFE000DD5BA9 /* Release */ = {
+		2C87C8622384533E00AF3C87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1403,25 +1403,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C9C63622382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNoteUI" */ = {
+		2C87C85D2384533E00AF3C87 /* Build configuration list for PBXNativeTarget "CreateNoteUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C9C63632382FFE000DD5BA9 /* Debug */,
-				2C9C63642382FFE000DD5BA9 /* Release */,
+				2C87C85E2384533E00AF3C87 /* Debug */,
+				2C87C85F2384533E00AF3C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C9C63652382FFE000DD5BA9 /* Build configuration list for PBXNativeTarget "CreateNote" */ = {
+		2C87C8602384533E00AF3C87 /* Build configuration list for PBXNativeTarget "CreateNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C9C63662382FFE000DD5BA9 /* Debug */,
-				2C9C63672382FFE000DD5BA9 /* Release */,
+				2C87C8612384533E00AF3C87 /* Debug */,
+				2C87C8622384533E00AF3C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Farmer" */ = {
+		2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Driver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA71A3023671BB800727CAE /* Debug */,

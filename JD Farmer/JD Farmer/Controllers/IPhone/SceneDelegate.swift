@@ -41,6 +41,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         donateInteraction()
+        donateInteractionCreateNote()
         
         
         // Use a UIHostingController as window root view controller.
@@ -69,6 +70,26 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
          }
        }
      }
+    
+    func donateInteractionCreateNote() {
+      let intent = CreateNoteIntent()
+      
+      intent.suggestedInvocationPhrase = "JD Driver take a note"
+      
+      let interaction = INInteraction(intent: intent, response: nil)
+      
+      interaction.donate { (error) in
+        if error != nil {
+          if let error = error as NSError? {
+            os_log("Interaction donation failed: %@", log: OSLog.default, type: .error, error)
+          } else {
+            os_log("Successfully donated interaction")
+          }
+        }
+      }
+    }
+    
+    
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
