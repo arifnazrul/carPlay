@@ -27,6 +27,10 @@
 		2C837DF523846C21008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
 		2C837DFA23846D49008D9FD8 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
 		2C837DFB23846D49008D9FD8 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
+		2C837E0023847A9E008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
+		2C837E0123847A9F008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
+		2C837E0223847A9F008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
+		2C837E0323847A9F008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
 		2C87C8482384533D00AF3C87 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8472384533D00AF3C87 /* IntentHandler.swift */; };
 		2C87C84F2384533E00AF3C87 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
 		2C87C8522384533E00AF3C87 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8512384533E00AF3C87 /* IntentViewController.swift */; };
@@ -145,7 +149,7 @@
 		2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteIntentHandler.swift; sourceTree = "<group>"; };
 		2C87C86723845E4800AF3C87 /* CreateNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteController.swift; sourceTree = "<group>"; };
 		2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		2CA71A0823671BB600727CAE /* JD Farmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Farmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA71A0823671BB600727CAE /* JD Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA71A0D23671BB600727CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2CA71A0F23671BB600727CAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,10 +157,10 @@
 		2CA71A1423671BB800727CAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CA71A1723671BB800727CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA71A1923671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA71A1E23671BB800727CAE /* JD DriverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD DriverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerTests.swift; sourceTree = "<group>"; };
 		2CA71A2423671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD FarmerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA71A2923671BB800727CAE /* JD DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerUITests.swift; sourceTree = "<group>"; };
 		2CA71A2F23671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA71A4A2367210700727CAE /* DummyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUtility.swift; sourceTree = "<group>"; };
@@ -307,9 +311,9 @@
 		2CA71A0923671BB600727CAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CA71A0823671BB600727CAE /* JD Farmer.app */,
-				2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */,
-				2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */,
+				2CA71A0823671BB600727CAE /* JD Driver.app */,
+				2CA71A1E23671BB800727CAE /* JD DriverTests.xctest */,
+				2CA71A2923671BB800727CAE /* JD DriverUITests.xctest */,
 				2C7B816E23842ECD00BEED9B /* LastVisit.appex */,
 				2C7B817723842ECD00BEED9B /* LastVisitUI.appex */,
 				2C87C8452384533D00AF3C87 /* CreateNote.appex */,
@@ -523,9 +527,9 @@
 			productReference = 2C87C84E2384533E00AF3C87 /* CreateNoteUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		2CA71A0723671BB600727CAE /* JD Farmer */ = {
+		2CA71A0723671BB600727CAE /* JD Driver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Farmer" */;
+			buildConfigurationList = 2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Driver" */;
 			buildPhases = (
 				51BC4168514391CCA703BEEC /* [CP] Check Pods Manifest.lock */,
 				2CA71A0423671BB600727CAE /* Sources */,
@@ -542,14 +546,14 @@
 				2C87C8582384533E00AF3C87 /* PBXTargetDependency */,
 				2C87C85B2384533E00AF3C87 /* PBXTargetDependency */,
 			);
-			name = "JD Farmer";
+			name = "JD Driver";
 			productName = "JD Farmer";
-			productReference = 2CA71A0823671BB600727CAE /* JD Farmer.app */;
+			productReference = 2CA71A0823671BB600727CAE /* JD Driver.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2CA71A1D23671BB800727CAE /* JD FarmerTests */ = {
+		2CA71A1D23671BB800727CAE /* JD DriverTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerTests" */;
+			buildConfigurationList = 2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD DriverTests" */;
 			buildPhases = (
 				B1DD0DA4702651EA2CFC3E5E /* [CP] Check Pods Manifest.lock */,
 				2CA71A1A23671BB800727CAE /* Sources */,
@@ -562,14 +566,14 @@
 			dependencies = (
 				2CA71A2023671BB800727CAE /* PBXTargetDependency */,
 			);
-			name = "JD FarmerTests";
+			name = "JD DriverTests";
 			productName = "JD FarmerTests";
-			productReference = 2CA71A1E23671BB800727CAE /* JD FarmerTests.xctest */;
+			productReference = 2CA71A1E23671BB800727CAE /* JD DriverTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2CA71A2823671BB800727CAE /* JD FarmerUITests */ = {
+		2CA71A2823671BB800727CAE /* JD DriverUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */;
+			buildConfigurationList = 2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD DriverUITests" */;
 			buildPhases = (
 				6DBD0E7F5CC84D41DF0A4FBA /* [CP] Check Pods Manifest.lock */,
 				2CA71A2523671BB800727CAE /* Sources */,
@@ -582,9 +586,9 @@
 			dependencies = (
 				2CA71A2B23671BB800727CAE /* PBXTargetDependency */,
 			);
-			name = "JD FarmerUITests";
+			name = "JD DriverUITests";
 			productName = "JD FarmerUITests";
-			productReference = 2CA71A2923671BB800727CAE /* JD FarmerUITests.xctest */;
+			productReference = 2CA71A2923671BB800727CAE /* JD DriverUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -635,9 +639,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CA71A0723671BB600727CAE /* JD Farmer */,
-				2CA71A1D23671BB800727CAE /* JD FarmerTests */,
-				2CA71A2823671BB800727CAE /* JD FarmerUITests */,
+				2CA71A0723671BB600727CAE /* JD Driver */,
+				2CA71A1D23671BB800727CAE /* JD DriverTests */,
+				2CA71A2823671BB800727CAE /* JD DriverUITests */,
 				2C7B816D23842ECD00BEED9B /* LastVisit */,
 				2C7B817623842ECD00BEED9B /* LastVisitUI */,
 				2C87C8442384533D00AF3C87 /* CreateNote */,
@@ -832,6 +836,7 @@
 			files = (
 				2C0079E6238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C7B817123842ECD00BEED9B /* IntentHandler.swift in Sources */,
+				2C837E0023847A9E008D9FD8 /* Intents.intentdefinition in Sources */,
 				2C0079F02384384A00A8CD56 /* LastVisitController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -843,6 +848,7 @@
 				2C0079F12384384A00A8CD56 /* LastVisitController.swift in Sources */,
 				2C0079E7238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C0079E9238432DD00A8CD56 /* IntentHandler.swift in Sources */,
+				2C837E0123847A9F008D9FD8 /* Intents.intentdefinition in Sources */,
 				2C7B817B23842ECD00BEED9B /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -853,6 +859,7 @@
 			files = (
 				2C87C8482384533D00AF3C87 /* IntentHandler.swift in Sources */,
 				2C87C8662384570F00AF3C87 /* CreateNoteIntentHandler.swift in Sources */,
+				2C837E0223847A9F008D9FD8 /* Intents.intentdefinition in Sources */,
 				2C837DFA23846D49008D9FD8 /* CreateNoteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -861,6 +868,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C837E0323847A9F008D9FD8 /* Intents.intentdefinition in Sources */,
 				2C87C8522384533E00AF3C87 /* IntentViewController.swift in Sources */,
 				2C837DFB23846D49008D9FD8 /* CreateNoteController.swift in Sources */,
 			);
@@ -932,12 +940,12 @@
 		};
 		2CA71A2023671BB800727CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CA71A0723671BB600727CAE /* JD Farmer */;
+			target = 2CA71A0723671BB600727CAE /* JD Driver */;
 			targetProxy = 2CA71A1F23671BB800727CAE /* PBXContainerItemProxy */;
 		};
 		2CA71A2B23671BB800727CAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CA71A0723671BB600727CAE /* JD Farmer */;
+			target = 2CA71A0723671BB600727CAE /* JD Driver */;
 			targetProxy = 2CA71A2A23671BB800727CAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1313,7 +1321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Farmer.app/JD Farmer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Driver.app/JD Driver";
 			};
 			name = Debug;
 		};
@@ -1336,7 +1344,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Farmer.app/JD Farmer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JD Driver.app/JD Driver";
 			};
 			name = Release;
 		};
@@ -1430,7 +1438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Farmer" */ = {
+		2CA71A3223671BB800727CAE /* Build configuration list for PBXNativeTarget "JD Driver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA71A3323671BB800727CAE /* Debug */,
@@ -1439,7 +1447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerTests" */ = {
+		2CA71A3523671BB800727CAE /* Build configuration list for PBXNativeTarget "JD DriverTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA71A3623671BB800727CAE /* Debug */,
@@ -1448,7 +1456,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD FarmerUITests" */ = {
+		2CA71A3823671BB800727CAE /* Build configuration list for PBXNativeTarget "JD DriverUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CA71A3923671BB800727CAE /* Debug */,
