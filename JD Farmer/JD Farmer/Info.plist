@@ -23,6 +23,7 @@
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>CreateNoteIntent</string>
+		<string>LastVisitIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
