@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F85ED08E23859B36007562D4 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85ED08D23859B36007562D4 /* Field.swift */; };
+		F85ED0902385A18B007562D4 /* FraunhoferCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = F85ED08F2385A18B007562D4 /* FraunhoferCoordinates.plist */; };
+		F85ED0932385A5AE007562D4 /* FieldOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85ED0922385A5AE007562D4 /* FieldOverlay.swift */; };
+		F85ED0952385A642007562D4 /* FieldOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85ED0942385A642007562D4 /* FieldOverlayView.swift */; };
 		F8A95355237314E700C130FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A95354237314E700C130FB /* AppDelegate.swift */; };
 		F8A95357237314E700C130FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A95356237314E700C130FB /* SceneDelegate.swift */; };
 		F8A95359237314E700C130FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A95358237314E700C130FB /* ViewController.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F85ED08D23859B36007562D4 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		F85ED08F2385A18B007562D4 /* FraunhoferCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = FraunhoferCoordinates.plist; sourceTree = SOURCE_ROOT; };
+		F85ED0922385A5AE007562D4 /* FieldOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlay.swift; sourceTree = "<group>"; };
+		F85ED0942385A642007562D4 /* FieldOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlayView.swift; sourceTree = "<group>"; };
 		F8A95351237314E700C130FB /* MapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8A95354237314E700C130FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8A95356237314E700C130FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +88,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F85ED08923859AF1007562D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F85ED08D23859B36007562D4 /* Field.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F85ED08A23859B09007562D4 /* Coordinate Data */ = {
+			isa = PBXGroup;
+			children = (
+				F85ED08F2385A18B007562D4 /* FraunhoferCoordinates.plist */,
+			);
+			path = "Coordinate Data";
+			sourceTree = "<group>";
+		};
+		F85ED0912385A595007562D4 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				F85ED0922385A5AE007562D4 /* FieldOverlay.swift */,
+				F85ED0942385A642007562D4 /* FieldOverlayView.swift */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
 		F8A95348237314E700C130FB = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +135,9 @@
 		F8A95353237314E700C130FB /* MapView */ = {
 			isa = PBXGroup;
 			children = (
+				F85ED0912385A595007562D4 /* Overlays */,
+				F85ED08A23859B09007562D4 /* Coordinate Data */,
+				F85ED08923859AF1007562D4 /* Models */,
 				F8A95354237314E700C130FB /* AppDelegate.swift */,
 				F8A95356237314E700C130FB /* SceneDelegate.swift */,
 				F8A95358237314E700C130FB /* ViewController.swift */,
@@ -240,6 +276,7 @@
 				F8A95361237314E800C130FB /* LaunchScreen.storyboard in Resources */,
 				F8A9538723731A2A00C130FB /* GoogleService-Info.plist in Resources */,
 				F8A9535E237314E800C130FB /* Assets.xcassets in Resources */,
+				F85ED0902385A18B007562D4 /* FraunhoferCoordinates.plist in Resources */,
 				F8A9535C237314E700C130FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +306,9 @@
 			files = (
 				F8A95359237314E700C130FB /* ViewController.swift in Sources */,
 				F8A95355237314E700C130FB /* AppDelegate.swift in Sources */,
+				F85ED0952385A642007562D4 /* FieldOverlayView.swift in Sources */,
+				F85ED08E23859B36007562D4 /* Field.swift in Sources */,
+				F85ED0932385A5AE007562D4 /* FieldOverlay.swift in Sources */,
 				F8A95357237314E700C130FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

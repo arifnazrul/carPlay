@@ -12,16 +12,22 @@ import CoreLocation
 
 class ViewController: UIViewController
 {
+    // the Outlet for the map kit view object
     @IBOutlet weak var MapView: MKMapView!
     let locationManager = CLLocationManager()
+    // variable for the compass button
     var compassButton: MKCompassButton!
-    
+    // creating an object of the model: field class
+    var field = Field(filename: "FraunhoferCoordinates")
+   
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setCompass()
         checkLocationServices()
     }
     
+    // disable the mapview's own built in compass and use the MKCompassButton instead. setting visibility to always visible and orienting the compass
     func setCompass() {
         self.MapView.showsCompass = false
         self.compassButton = MKCompassButton(mapView: MapView)
@@ -79,12 +85,24 @@ class ViewController: UIViewController
             MapView.showsUserLocation = false
         }
     }
+    
+    // Creating a FieldOverlay object initialized with the field model object created above. Adding the object to the MapView Overlays.
+    func addOverlay(){
+        let overlay = FieldOverlay(field: field)
+        MapView.addOverlay(overlay)
+        
+    }
+    
+    // To add the customized boundries to the MapView.Provided boundries are fetched from the field model class data.
+    func addBounary(){
+        MapView.addOverlay(MKPolygon(coordinates: field.boundary, count: field.boundary.count))
+    }
+    
 
 }
 
 extension ViewController: CLLocationManagerDelegate{
-    
-    // Do something every time user updates location
+    // setting up the span (the depth of the view), region and centered location of the map
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
         let locationValue: CLLocationCoordinate2D = manager.location!.coordinate
@@ -101,11 +119,26 @@ extension ViewController: CLLocationManagerDelegate{
             print("latitude = \(locationValue.latitude)  longitude= \(locationValue.longitude)")
         }
     }
-    
+}
     // Do something every time user changes authorization
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         // do something here too
     }
     
-    
+// MkMapViewDelegate to interact with the map
+    extension ViewController: MKMapViewDelegate{
+        func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+            // using the MKPolygon class to create the field boundries.
+            if overlay is MKPolygon {
+                let polygonView = MKPolygonRenderer(overlay: overlay)
+                polygonView.strokeColor = UIColor.black
+                return polygonView
+                
+            }
+            return MKOverlayRenderer()
+            
+        }
+        
 }
+
+
