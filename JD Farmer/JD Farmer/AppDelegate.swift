@@ -40,6 +40,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         print("[CARPLAY] SETTING CustomNavigationViewController as root VC...")
         window.rootViewController = CarPlayViewController()
         
+        let rootTemplate: CPMapTemplate = createTemplate()
+        self.interfaceController?.setRootTemplate(rootTemplate, animated: false)
+        
     }
     
     func createTemplate() -> CPMapTemplate {
@@ -47,14 +50,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         let mapTemplate = CPMapTemplate()
         
         // Create the different CPBarButtons
-        let searchBarButton = createBarButton(.search)
-        mapTemplate.leadingNavigationBarButtons = [searchBarButton]
         
-        let panningBarButton = createBarButton(.panning)
-        mapTemplate.trailingNavigationBarButtons = [panningBarButton]
+        //let searchBarButton = createBarButton(.search)
+        //mapTemplate.leadingNavigationBarButtons = [searchBarButton]
+        
+        //let panningBarButton = createBarButton(.panning)
+        //mapTemplate.trailingNavigationBarButtons = [panningBarButton]
         
         // Always show the NavigationBar
-        mapTemplate.automaticallyHidesNavigationBar = false
+        //mapTemplate.automaticallyHidesNavigationBar = false
         
         return mapTemplate
     }
@@ -81,6 +85,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
             case .panning:
                 // Enable the map panning interface and set the dismiss button
                 self.mapTemplate?.showPanningInterface(animated: true)
+                
                 self.mapTemplate?.trailingNavigationBarButtons = [self.createBarButton(.dismiss)]
             default:
                 break
