@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_JD_Farmer_JD_FarmerUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_JD_Farmer_JD_FarmerUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_JD_DriverTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_JD_DriverTestsVersionString[];
 

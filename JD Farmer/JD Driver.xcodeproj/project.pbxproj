@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DD3C5A484BFA0F059C1ADF5 /* Pods_JD_FarmerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */; };
+		1C1FCEB7C77B27E3C1D7744D /* Pods_JD_Driver_JD_DriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885BBD8951E5AFE44F15B05D /* Pods_JD_Driver_JD_DriverUITests.framework */; };
 		2C0079E5238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079E4238431E700A8CD56 /* LastVisitIntentHandler.swift */; };
 		2C0079E6238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079E4238431E700A8CD56 /* LastVisitIntentHandler.swift */; };
 		2C0079E7238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079E4238431E700A8CD56 /* LastVisitIntentHandler.swift */; };
@@ -48,6 +48,10 @@
 		2CA71A2323671BB800727CAE /* JD_FarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */; };
 		2CA71A2E23671BB800727CAE /* JD_FarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */; };
 		2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4A2367210700727CAE /* DummyUtility.swift */; };
+		2CA76D482387038900D299E6 /* CarPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA76D472387038900D299E6 /* CarPlayView.xib */; };
+		2CA76D4A238704B700D299E6 /* CarPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA76D49238704B700D299E6 /* CarPlayViewController.swift */; };
+		4077598C0EE1E52FCBE04F3B /* Pods_JD_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9191CB81390EE1356C3AF8CC /* Pods_JD_Driver.framework */; };
+		4EB8DC40DC8EAF8CA80C5D04 /* Pods_JD_DriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B27EF2845873DFAEC22632 /* Pods_JD_DriverTests.framework */; };
 		7914C2D1237473AB008E2B24 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D0237473AB008E2B24 /* User.swift */; };
 		7914C2D32374806A008E2B24 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D22374806A008E2B24 /* Organization.swift */; };
 		7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2D423748169008E2B24 /* UserOrganization.swift */; };
@@ -57,8 +61,6 @@
 		7914C2DD237483F2008E2B24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DC237483F2008E2B24 /* Note.swift */; };
 		7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3052375A5E2008E2B24 /* JSONParser.swift */; };
 		7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */; };
-		C88618FE70143C28A1FC3060 /* Pods_JD_Farmer_JD_FarmerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */; };
-		DFBB0B810344DB43E71DFF62 /* Pods_JD_Farmer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,7 @@
 /* Begin PBXFileReference section */
 		00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD FarmerTests.debug.xcconfig"; path = "Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD FarmerTests.release.xcconfig"; path = "Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A58B76D10A53F875E2F90AA /* Pods-JD Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Driver.release.xcconfig"; path = "Target Support Files/Pods-JD Driver/Pods-JD Driver.release.xcconfig"; sourceTree = "<group>"; };
 		2C0079E4238431E700A8CD56 /* LastVisitIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastVisitIntentHandler.swift; sourceTree = "<group>"; };
 		2C0079EE2384384A00A8CD56 /* LastVisitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastVisitController.swift; sourceTree = "<group>"; };
 		2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InitialDummyDatacopy.json; sourceTree = "<group>"; };
@@ -165,9 +168,10 @@
 		2CA71A2F23671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA71A4A2367210700727CAE /* DummyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUtility.swift; sourceTree = "<group>"; };
 		2CA71A4E2367231D00727CAE /* JD Farmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JD Farmer.entitlements"; sourceTree = "<group>"; };
-		362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Farmer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA76D472387038900D299E6 /* CarPlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarPlayView.xib; sourceTree = "<group>"; };
+		2CA76D49238704B700D299E6 /* CarPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewController.swift; sourceTree = "<group>"; };
 		5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.debug.xcconfig"; sourceTree = "<group>"; };
-		6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Farmer_JD_FarmerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643A006A5D98607293935C97 /* Pods-JD DriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD DriverTests.debug.xcconfig"; path = "Target Support Files/Pods-JD DriverTests/Pods-JD DriverTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7914C2D0237473AB008E2B24 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7914C2D22374806A008E2B24 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 		7914C2D423748169008E2B24 /* UserOrganization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrganization.swift; sourceTree = "<group>"; };
@@ -177,8 +181,14 @@
 		7914C2DC237483F2008E2B24 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		7914C3052375A5E2008E2B24 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConfiguration.swift; sourceTree = "<group>"; };
-		7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_FarmerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		885BBD8951E5AFE44F15B05D /* Pods_JD_Driver_JD_DriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Driver_JD_DriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		887EF6DBC4DFA2538A27C27D /* Pods-JD Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Driver.debug.xcconfig"; path = "Target Support Files/Pods-JD Driver/Pods-JD Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		9191CB81390EE1356C3AF8CC /* Pods_JD_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B27EF2845873DFAEC22632 /* Pods_JD_DriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_DriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D683F3F78B9B40F04187C09C /* Pods-JD Driver-JD DriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Driver-JD DriverUITests.debug.xcconfig"; path = "Target Support Files/Pods-JD Driver-JD DriverUITests/Pods-JD Driver-JD DriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA61AEA90099233BDAC43BA5 /* Pods-JD Driver-JD DriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Driver-JD DriverUITests.release.xcconfig"; path = "Target Support Files/Pods-JD Driver-JD DriverUITests/Pods-JD Driver-JD DriverUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer/Pods-JD Farmer.release.xcconfig"; sourceTree = "<group>"; };
+		E2E282BABF626C2660D9415C /* Pods-JD DriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD DriverTests.release.xcconfig"; path = "Target Support Files/Pods-JD DriverTests/Pods-JD DriverTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,7 +228,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBB0B810344DB43E71DFF62 /* Pods_JD_Farmer.framework in Frameworks */,
+				4077598C0EE1E52FCBE04F3B /* Pods_JD_Driver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +236,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD3C5A484BFA0F059C1ADF5 /* Pods_JD_FarmerTests.framework in Frameworks */,
+				4EB8DC40DC8EAF8CA80C5D04 /* Pods_JD_DriverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C88618FE70143C28A1FC3060 /* Pods_JD_Farmer_JD_FarmerUITests.framework in Frameworks */,
+				1C1FCEB7C77B27E3C1D7744D /* Pods_JD_Driver_JD_DriverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +254,10 @@
 		1942787D24ADC969894532F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				362921B01F6D2080017937A7 /* Pods_JD_Farmer.framework */,
-				6C6F6629DA9353A0076A0A4C /* Pods_JD_Farmer_JD_FarmerUITests.framework */,
-				7FBBF2A962D757FCA0A42239 /* Pods_JD_FarmerTests.framework */,
 				2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */,
+				9191CB81390EE1356C3AF8CC /* Pods_JD_Driver.framework */,
+				885BBD8951E5AFE44F15B05D /* Pods_JD_Driver_JD_DriverUITests.framework */,
+				A0B27EF2845873DFAEC22632 /* Pods_JD_DriverTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -416,6 +426,7 @@
 		2CA71A3F23671C1B00727CAE /* CarPlay */ = {
 			isa = PBXGroup;
 			children = (
+				2CA76D49238704B700D299E6 /* CarPlayViewController.swift */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -439,6 +450,7 @@
 		2CA71A4223671C4300727CAE /* CarPlay */ = {
 			isa = PBXGroup;
 			children = (
+				2CA76D472387038900D299E6 /* CarPlayView.xib */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -452,6 +464,12 @@
 				EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */,
 				00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */,
 				0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */,
+				887EF6DBC4DFA2538A27C27D /* Pods-JD Driver.debug.xcconfig */,
+				2A58B76D10A53F875E2F90AA /* Pods-JD Driver.release.xcconfig */,
+				D683F3F78B9B40F04187C09C /* Pods-JD Driver-JD DriverUITests.debug.xcconfig */,
+				DA61AEA90099233BDAC43BA5 /* Pods-JD Driver-JD DriverUITests.release.xcconfig */,
+				643A006A5D98607293935C97 /* Pods-JD DriverTests.debug.xcconfig */,
+				E2E282BABF626C2660D9415C /* Pods-JD DriverTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -686,6 +704,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C0CD43C237E949000199E46 /* InitialDummyDatacopy.json in Resources */,
+				2CA76D482387038900D299E6 /* CarPlayView.xib in Resources */,
 				2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */,
 				2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */,
 				2C0CD43F237EB9B400199E46 /* test.realm in Resources */,
@@ -716,15 +735,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JD Driver-JD DriverUITests/Pods-JD Driver-JD DriverUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JD Driver-JD DriverUITests/Pods-JD Driver-JD DriverUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD Driver-JD DriverUITests/Pods-JD Driver-JD DriverUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		51BC4168514391CCA703BEEC /* [CP] Check Pods Manifest.lock */ = {
@@ -742,7 +761,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JD Farmer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JD Driver-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -764,7 +783,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JD Farmer-JD FarmerUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JD Driver-JD DriverUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -777,15 +796,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer/Pods-JD Farmer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JD Driver/Pods-JD Driver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JD Farmer/Pods-JD Farmer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JD Driver/Pods-JD Driver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD Farmer/Pods-JD Farmer-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD Driver/Pods-JD Driver-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B1DD0DA4702651EA2CFC3E5E /* [CP] Check Pods Manifest.lock */ = {
@@ -803,7 +822,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JD FarmerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-JD DriverTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -816,15 +835,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JD DriverTests/Pods-JD DriverTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-JD DriverTests/Pods-JD DriverTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD FarmerTests/Pods-JD FarmerTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JD DriverTests/Pods-JD DriverTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -887,6 +906,7 @@
 				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
 				2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */,
 				2CA71A1023671BB600727CAE /* ContentView.swift in Sources */,
+				2CA76D4A238704B700D299E6 /* CarPlayViewController.swift in Sources */,
 				7914C2DB2374832F008E2B24 /* Notification.swift in Sources */,
 				2C0079E5238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C0079EF2384384A00A8CD56 /* LastVisitController.swift in Sources */,
@@ -1256,7 +1276,7 @@
 		};
 		2CA71A3323671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B96D0F0C608BAB62EC2B9AC /* Pods-JD Farmer.debug.xcconfig */;
+			baseConfigurationReference = 887EF6DBC4DFA2538A27C27D /* Pods-JD Driver.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1267,6 +1287,7 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
 				INTENTS_CODEGEN_LANGUAGE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1280,7 +1301,7 @@
 		};
 		2CA71A3423671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2064C40688FBFB56C1D2C5D /* Pods-JD Farmer.release.xcconfig */;
+			baseConfigurationReference = 2A58B76D10A53F875E2F90AA /* Pods-JD Driver.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1291,6 +1312,7 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "JD Farmer/Info.plist";
 				INTENTS_CODEGEN_LANGUAGE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1304,7 +1326,7 @@
 		};
 		2CA71A3623671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00740ADAA2D5A561FCD5C4D1 /* Pods-JD FarmerTests.debug.xcconfig */;
+			baseConfigurationReference = 643A006A5D98607293935C97 /* Pods-JD DriverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1327,7 +1349,7 @@
 		};
 		2CA71A3723671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C8999967C1D21521A8DC888 /* Pods-JD FarmerTests.release.xcconfig */;
+			baseConfigurationReference = E2E282BABF626C2660D9415C /* Pods-JD DriverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1350,7 +1372,7 @@
 		};
 		2CA71A3923671BB800727CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */;
+			baseConfigurationReference = D683F3F78B9B40F04187C09C /* Pods-JD Driver-JD DriverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1371,7 +1393,7 @@
 		};
 		2CA71A3A23671BB800727CAE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */;
+			baseConfigurationReference = DA61AEA90099233BDAC43BA5 /* Pods-JD Driver-JD DriverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_JD_Driver_JD_DriverUITests {
+  umbrella header "Pods-JD Driver-JD DriverUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

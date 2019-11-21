@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/ajdari/Desktop/REALREALREALPROJECT/carplay-ios/JD Farmer/JD Driver.xcodeproj">
+      location = "group:JD Driver.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -7,11 +7,96 @@
 //
 
 import UIKit
+import CarPlay
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CPMapTemplateDelegate {
+    
+    var carWindow: CPWindow?
+    var interfaceController: CPInterfaceController?
+    var mapTemplate: CPMapTemplate?
+    
+    var window: UIWindow?
+    
+    func application(_ application: UIApplication, didConnectCarInterfaceController interfaceController: CPInterfaceController, to window: CPWindow) {
+        print("[CARPLAY] CONNECTED TO CARPLAY!")
+        
+        
+        self.interfaceController = interfaceController
+        self.carWindow = window
+        
+        
+        print("[CARPLAY] CREATING CPMapTemplate...")
 
-
+        //let mapTemplate = CPMapTemplate()
+        let mapTemplate = createTemplate()
+        mapTemplate.mapDelegate = self
+        
+        self.mapTemplate = mapTemplate
+        
+        print("[CARPLAY] SETTING ROOT OBJECT OF INTERFACECONTROLLER TO MAP TEMPLATE...")
+        interfaceController.setRootTemplate(mapTemplate, animated: true)
+        
+        print("[CARPLAY] SETTING CustomNavigationViewController as root VC...")
+        window.rootViewController = CarPlayViewController()
+        
+    }
+    
+    func createTemplate() -> CPMapTemplate {
+        // Create the default CPMapTemplate objcet (you may subclass this at your leasure)
+        let mapTemplate = CPMapTemplate()
+        
+        // Create the different CPBarButtons
+        let searchBarButton = createBarButton(.search)
+        mapTemplate.leadingNavigationBarButtons = [searchBarButton]
+        
+        let panningBarButton = createBarButton(.panning)
+        mapTemplate.trailingNavigationBarButtons = [panningBarButton]
+        
+        // Always show the NavigationBar
+        mapTemplate.automaticallyHidesNavigationBar = false
+        
+        return mapTemplate
+    }
+    
+    func mapTemplateWillDismissPanningInterface(_ mapTemplate: CPMapTemplate) {
+        mapTemplate.trailingNavigationBarButtons = [createBarButton(.panning)]
+    }
+    
+    // MARK: - CPBarButton creation
+    enum BarButtonType: String {
+        case search = "Search"
+        case panning = "Pan map"
+        case dismiss = "Dismiss"
+    }
+    
+    private func createBarButton(_ type: BarButtonType) -> CPBarButton {
+        let barButton = CPBarButton(type: .text) { (button) in
+            print("[CARPLAY] SEARCH MAP TEMPLATE \(button.title ?? "-") TAPPED")
+            
+            switch(type) {
+            case .dismiss:
+                // Dismiss the map panning interface
+                self.mapTemplate?.dismissPanningInterface(animated: true)
+            case .panning:
+                // Enable the map panning interface and set the dismiss button
+                self.mapTemplate?.showPanningInterface(animated: true)
+                self.mapTemplate?.trailingNavigationBarButtons = [self.createBarButton(.dismiss)]
+            default:
+                break
+            }
+        }
+        
+        // Set title based on type
+        barButton.title = type.rawValue
+        
+        return barButton
+    }
+    
+    
+    func application(_ application: UIApplication, didDisconnectCarInterfaceController interfaceController: CPInterfaceController, from window: CPWindow) {
+        
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
