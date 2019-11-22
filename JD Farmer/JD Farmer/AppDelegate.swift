@@ -26,22 +26,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         self.carWindow = window
         
         
-        print("[CARPLAY] CREATING CPMapTemplate...")
+       print("[CARPLAY] CREATING CPMapTemplate...")
 
         //let mapTemplate = CPMapTemplate()
-        let mapTemplate = createTemplate()
-        mapTemplate.mapDelegate = self
+        // let mapTemplate = CPMapTemplate()
+        //mapTemplate.mapDelegate = self
         
-        self.mapTemplate = mapTemplate
+         //self.mapTemplate = mapTemplate
         
         print("[CARPLAY] SETTING ROOT OBJECT OF INTERFACECONTROLLER TO MAP TEMPLATE...")
-        interfaceController.setRootTemplate(mapTemplate, animated: true)
+        //interfaceController.setRootTemplate(mapTemplate, animated: true)
         
         print("[CARPLAY] SETTING CustomNavigationViewController as root VC...")
         window.rootViewController = CarPlayViewController()
         
-        let rootTemplate: CPMapTemplate = createTemplate()
-        self.interfaceController?.setRootTemplate(rootTemplate, animated: false)
+      
+        
+     
+        
+        //let rootTemplate: CPMapTemplate = createTemplate()
+       // self.interfaceController?.setRootTemplate(rootTemplate, animated: false)
         
     }
     

@@ -9,8 +9,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarPlayViewController" customModule="JD_Driver" customModuleProvider="target">
             <connections>
-                <outlet property="MapView" destination="fOa-6h-War" id="uNI-S4-P0a"/>
-                <outlet property="tapVar" destination="s8q-vU-ZcB" id="q9K-QA-g29"/>
                 <outlet property="view" destination="iN0-l3-epB" id="luH-Vh-YFP"/>
             </connections>
         </placeholder>
@@ -19,39 +17,22 @@
             <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CarPlayView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRq-EM-3xb">
-                    <rect key="frame" x="320" y="196.66666666666666" width="96" height="21"/>
-                    <gestureRecognizers/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fOa-6h-War">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapview" translatesAutoresizingMaskIntoConstraints="NO" id="um8-Eq-Zcq">
                     <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
-                    <gestureRecognizers/>
-                    <connections>
-                        <outletCollection property="gestureRecognizers" destination="s8q-vU-ZcB" appends="YES" id="Yc4-K2-OGX"/>
-                        <outletCollection property="gestureRecognizers" destination="s8q-vU-ZcB" appends="YES" id="kqE-yo-SIV"/>
-                    </connections>
-                </mapView>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="fOa-6h-War" secondAttribute="bottom" id="ExJ-In-cHB"/>
-                <constraint firstItem="fOa-6h-War" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Lxk-Il-jOa"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="fOa-6h-War" secondAttribute="trailing" id="eyk-fp-80x"/>
-                <constraint firstItem="hRq-EM-3xb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hOl-K0-1sX"/>
-                <constraint firstItem="hRq-EM-3xb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="y0b-N4-FOk"/>
-                <constraint firstItem="fOa-6h-War" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="y4T-Lx-N8c"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="um8-Eq-Zcq" secondAttribute="bottom" id="881-lP-6z3"/>
+                <constraint firstItem="um8-Eq-Zcq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="N0w-ak-3Yr"/>
+                <constraint firstItem="um8-Eq-Zcq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="eS1-qv-l7X"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="um8-Eq-Zcq" secondAttribute="trailing" id="phh-nd-T92"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="131.25" y="152.17391304347828"/>
         </view>
-        <tapGestureRecognizer id="s8q-vU-ZcB">
-            <connections>
-                <action selector="tapEvent:" destination="-1" id="YBw-51-jaM"/>
-                <outlet property="delegate" destination="iN0-l3-epB" id="wUv-ax-eIm"/>
-            </connections>
-        </tapGestureRecognizer>
     </objects>
+    <resources>
+        <image name="mapview" width="4372" height="3030"/>
+    </resources>
 </document>

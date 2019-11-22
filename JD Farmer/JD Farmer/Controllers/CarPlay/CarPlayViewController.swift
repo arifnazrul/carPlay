@@ -18,24 +18,24 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     var mainView: UIView?
     
-    @IBOutlet weak var MapView: MKMapView!
+   // @IBOutlet weak var MapView: MKMapView!
     
-    @IBOutlet var tapVar: UITapGestureRecognizer!
+   // @IBOutlet var tapVar: UITapGestureRecognizer!
     
     let locationManager = CLLocationManager()
     var compassButton: MKCompassButton!
     // creating an object of the model: field class
     var field = FieldController(filename: "FraunhoferCoordinates")
     
-    @IBAction func tapEvent(_ sender: UITapGestureRecognizer) {
+   /* @IBAction func tapEvent(_ sender: UITapGestureRecognizer) {
         print("I am in")
-    }
+    }*/
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        MapView.delegate = self
-        setCompass()
-        checkLocationServices()
+        //MapView.delegate = self
+        //setCompass()
+        //checkLocationServices()
         
         //MapView.addGestureRecognizer(<#T##gestureRecognizer: UIGestureRecognizer##UIGestureRecognizer#>)
         
@@ -52,12 +52,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
   
    
     
-    override func viewWillAppear(_ animated: Bool) {
-        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapEvent))
-        MapView.addGestureRecognizer(gestureRecognizer)
-    }
     
-    func setCompass() {
+   /* func setCompass() {
            self.MapView.showsCompass = false
            self.compassButton = MKCompassButton(mapView: MapView)
            self.compassButton.compassVisibility = .visible
@@ -161,6 +157,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             print("latitude = \(lat)  longitude= \(long)")
         }
     }
+ */
 }
 
 
