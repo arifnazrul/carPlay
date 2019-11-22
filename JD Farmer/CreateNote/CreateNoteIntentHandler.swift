@@ -11,6 +11,19 @@ import Intents
 
 
 class CreateNoteIntentHandler: NSObject, CreateNoteIntentHandling {
+    func resolveFieldName(for intent: CreateNoteIntent, with completion: @escaping (Enum2ResolutionResult) -> Void) {
+        if intent.noteType == .field {
+            if intent.fieldName == .unknown {
+                completion(Enum2ResolutionResult.needsValue())
+            } else {
+                completion(Enum2ResolutionResult.success(with: intent.fieldName))
+            }
+        }else {
+            completion(Enum2ResolutionResult.success(with: intent.fieldName))
+        }
+    }
+    
+  
     func resolveCreateNotePrompt(for intent: CreateNoteIntent, with completion: @escaping (Enum1ResolutionResult) -> Void) {
         
         if intent.createNotePrompt == .unknown {
@@ -44,11 +57,16 @@ class CreateNoteIntentHandler: NSObject, CreateNoteIntentHandling {
        }
        
        func resolveContent(for intent: CreateNoteIntent, with completion: @escaping (INStringResolutionResult) -> Void) {
-           guard let content = intent.content else {
-               completion(INStringResolutionResult.needsValue())
-               return
-           }
-           completion(INStringResolutionResult.success(with: content))
+           
+      
+            guard let content = intent.content else {
+                completion(INStringResolutionResult.needsValue())
+                return
+            }
+            completion(INStringResolutionResult.success(with: content))
+         
+        
+           
        }
     
     

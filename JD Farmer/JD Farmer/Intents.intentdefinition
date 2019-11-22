@@ -114,6 +114,108 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>INEnumDisplayName</key>
+			<string>Enum 2</string>
+			<key>INEnumDisplayNameID</key>
+			<string>mWupVd</string>
+			<key>INEnumGeneratesHeader</key>
+			<true/>
+			<key>INEnumName</key>
+			<string>Enum2</string>
+			<key>INEnumType</key>
+			<string>Regular</string>
+			<key>INEnumValues</key>
+			<array>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>unknown</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>ZHo3NE</string>
+					<key>INEnumValueName</key>
+					<string>unknown</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>potato</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>XPpHBd</string>
+					<key>INEnumValueIndex</key>
+					<integer>1</integer>
+					<key>INEnumValueName</key>
+					<string>potato</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>potato</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>qI3Lzf</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>tomato</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>tpA7lV</string>
+					<key>INEnumValueIndex</key>
+					<integer>2</integer>
+					<key>INEnumValueName</key>
+					<string>tomato</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>tomato</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>oejnEs</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>INEnumDisplayName</key>
+			<string>Enum 3</string>
+			<key>INEnumDisplayNameID</key>
+			<string>MHZ9Iy</string>
+			<key>INEnumGeneratesHeader</key>
+			<true/>
+			<key>INEnumName</key>
+			<string>Enum3</string>
+			<key>INEnumType</key>
+			<string>Regular</string>
+			<key>INEnumValues</key>
+			<array>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>unknown</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>4u0fLg</string>
+					<key>INEnumValueName</key>
+					<string>unknown</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>potato</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>ZL8fse</string>
+					<key>INEnumValueIndex</key>
+					<integer>1</integer>
+					<key>INEnumValueName</key>
+					<string>potato</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>potato</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>9ZMx2S</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>strawberry</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>f3drpm</string>
+					<key>INEnumValueIndex</key>
+					<integer>2</integer>
+					<key>INEnumValueName</key>
+					<string>strawberry</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>strawberry</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>vvtU8o</string>
+				</dict>
+			</array>
+		</dict>
 	</array>
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.1</string>
@@ -135,10 +237,10 @@
 			<key>INIntentDescriptionID</key>
 			<string>GmXaOr</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>1</integer>
+			<integer>4</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
-				<key></key>
+				<key>fieldName</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
@@ -168,6 +270,70 @@
 					<string>XaidZD</string>
 				</dict>
 			</dict>
+			<key>INIntentParameters</key>
+			<array>
+				<dict>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Field Name</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>SJa5Zh</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>1</integer>
+					<key>INIntentParameterEnumType</key>
+					<string>Enum3</string>
+					<key>INIntentParameterEnumTypeNamespace</key>
+					<string>IBSigj</string>
+					<key>INIntentParameterName</key>
+					<string>fieldName</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There are ${count} options matching ‘${fieldName}’.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>OpXEaD</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Of which field?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>i9NCEN</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${fieldName}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>jxEabE</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>4</integer>
+					<key>INIntentParameterType</key>
+					<string>Integer</string>
+				</dict>
+			</array>
 			<key>INIntentResponse</key>
 			<dict>
 				<key>INIntentResponseCodes</key>
@@ -240,10 +406,10 @@
 			<key>INIntentDescriptionID</key>
 			<string>aok35t</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>9</integer>
+			<integer>11</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
-				<key>noteType,content,createNotePrompt</key>
+				<key>noteType,content,createNotePrompt,fieldName</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
@@ -270,7 +436,7 @@
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>8XioB2</string>
 				</dict>
-				<key>noteType,content,createNotePrompt</key>
+				<key>noteType,content,createNotePrompt,fieldName</key>
 				<dict>
 					<key>INIntentParameterCombinationIsLinked</key>
 					<true/>
@@ -279,7 +445,7 @@
 					<key>INIntentParameterCombinationTitle</key>
 					<string>JD Driver take a note</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>sBv8tf</string>
+					<string>eJUxuC</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -346,12 +512,77 @@
 					<string>Integer</string>
 				</dict>
 				<dict>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Field Name</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>2ax09e</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>2</integer>
+					<key>INIntentParameterEnumType</key>
+					<string>Enum2</string>
+					<key>INIntentParameterEnumTypeNamespace</key>
+					<string>IBSigj</string>
+					<key>INIntentParameterName</key>
+					<string>fieldName</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Give me the field Name?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>inXNf4</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There are ${count} options matching ‘${fieldName}’.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>5EGfsb</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Of which type?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>m4IMAw</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${fieldName}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>MB15up</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>11</integer>
+					<key>INIntentParameterType</key>
+					<string>Integer</string>
+				</dict>
+				<dict>
 					<key>INIntentParameterDisplayName</key>
 					<string>Content</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>h3scw2</string>
 					<key>INIntentParameterDisplayPriority</key>
-					<integer>2</integer>
+					<integer>3</integer>
 					<key>INIntentParameterMetadata</key>
 					<dict>
 						<key>INIntentParameterMetadataCapitalization</key>
@@ -387,7 +618,7 @@
 					<key>INIntentParameterDisplayNameID</key>
 					<string>YmMbep</string>
 					<key>INIntentParameterDisplayPriority</key>
-					<integer>3</integer>
+					<integer>4</integer>
 					<key>INIntentParameterEnumType</key>
 					<string>Enum1</string>
 					<key>INIntentParameterEnumTypeNamespace</key>
