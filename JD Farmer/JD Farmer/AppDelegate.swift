@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
     var carWindow: CPWindow?
     var interfaceController: CPInterfaceController?
     var mapTemplate: CPMapTemplate?
+    var cp: CarPlayViewController?
     
     var window: UIWindow?
     
@@ -28,24 +29,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         
        print("[CARPLAY] CREATING CPMapTemplate...")
 
-        //let mapTemplate = CPMapTemplate()
-        // let mapTemplate = CPMapTemplate()
-        //mapTemplate.mapDelegate = self
         
-         //self.mapTemplate = mapTemplate
+        let mapTemplate = createTemplate()
+        mapTemplate.mapDelegate = self
+        
+        self.mapTemplate = mapTemplate
         
         print("[CARPLAY] SETTING ROOT OBJECT OF INTERFACECONTROLLER TO MAP TEMPLATE...")
-        //interfaceController.setRootTemplate(mapTemplate, animated: true)
+        interfaceController.setRootTemplate(mapTemplate, animated: true)
         
         print("[CARPLAY] SETTING CustomNavigationViewController as root VC...")
-        window.rootViewController = CarPlayViewController()
+        
+        cp = CarPlayViewController()
+        window.rootViewController = cp
         
       
         
      
         
         //let rootTemplate: CPMapTemplate = createTemplate()
-       // self.interfaceController?.setRootTemplate(rootTemplate, animated: false)
+       //self.interfaceController?.setRootTemplate(rootTemplate, animated: false)
         
     }
     
@@ -55,11 +58,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         
         // Create the different CPBarButtons
         
-        //let searchBarButton = createBarButton(.search)
-        //mapTemplate.leadingNavigationBarButtons = [searchBarButton]
+        let searchBarButton = createBarButton(.search)
+        mapTemplate.leadingNavigationBarButtons = [searchBarButton]
         
-        //let panningBarButton = createBarButton(.panning)
-        //mapTemplate.trailingNavigationBarButtons = [panningBarButton]
+        let panningBarButton = createBarButton(.panning)
+        mapTemplate.trailingNavigationBarButtons = [panningBarButton]
         
         // Always show the NavigationBar
         //mapTemplate.automaticallyHidesNavigationBar = false
@@ -78,6 +81,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         case dismiss = "Dismiss"
     }
     
+    
+    
     private func createBarButton(_ type: BarButtonType) -> CPBarButton {
         let barButton = CPBarButton(type: .text) { (button) in
             print("[CARPLAY] SEARCH MAP TEMPLATE \(button.title ?? "-") TAPPED")
@@ -87,7 +92,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
                 // Dismiss the map panning interface
                 self.mapTemplate?.dismissPanningInterface(animated: true)
             case .panning:
-                // Enable the map panning interface and set the dismiss button
+               
+                
+                
+                
+                
                 self.mapTemplate?.showPanningInterface(animated: true)
                 
                 self.mapTemplate?.trailingNavigationBarButtons = [self.createBarButton(.dismiss)]
@@ -101,6 +110,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         
         return barButton
     }
+    internal func mapTemplate(_ mapTemplate: CPMapTemplate, panEndedWith direction: CPMapTemplate.PanDirection) {
+        switch direction {
+        case .down:
+            cp?.lat -= 0.003
+            print("down")
+        case .up:
+           cp?.lat += 0.003
+           print("up")
+        case .left:
+            cp?.long -= 0.003
+            print("left")
+        case .right:
+           cp?.long += 0.003
+           print("right")
+        default:
+            break
+        }
+    }
+    
     
     
     func application(_ application: UIApplication, didDisconnectCarInterfaceController interfaceController: CPInterfaceController, from window: CPWindow) {

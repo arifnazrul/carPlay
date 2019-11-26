@@ -23,6 +23,7 @@
 		2C0E29F3238729D70049B433 /* FieldOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F2238729D70049B433 /* FieldOverlay.swift */; };
 		2C0E29F523872A160049B433 /* FieldOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F423872A160049B433 /* FieldOverlayView.swift */; };
 		2C0E29FA238757130049B433 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F9238757130049B433 /* test.m */; };
+		2C6CF5D6238D1E4D0028029B /* MapScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */; };
 		2C7B817123842ECD00BEED9B /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B817023842ECD00BEED9B /* IntentHandler.swift */; };
 		2C7B817823842ECD00BEED9B /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
 		2C7B817B23842ECD00BEED9B /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B817A23842ECD00BEED9B /* IntentViewController.swift */; };
@@ -146,6 +147,7 @@
 		2C0E29F2238729D70049B433 /* FieldOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlay.swift; sourceTree = "<group>"; };
 		2C0E29F423872A160049B433 /* FieldOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlayView.swift; sourceTree = "<group>"; };
 		2C0E29F9238757130049B433 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScrollView.swift; sourceTree = "<group>"; };
 		2C7B812423842C7100BEED9B /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		2C7B816E23842ECD00BEED9B /* LastVisit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LastVisit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7B817023842ECD00BEED9B /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
@@ -447,6 +449,7 @@
 				2CA76D49238704B700D299E6 /* CarPlayViewController.swift */,
 				2C0E29F9238757130049B433 /* test.m */,
 				2C7CE8692387DFDA00DE3A2A /* MyController.swift */,
+				2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -944,6 +947,7 @@
 				7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */,
 				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
+				2C6CF5D6238D1E4D0028029B /* MapScrollView.swift in Sources */,
 				2C0079E8238432DB00A8CD56 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

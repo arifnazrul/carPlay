@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarPlayViewController" customModule="JD_Driver" customModuleProvider="target">
             <connections>
+                <outlet property="MapView" destination="PK8-LP-Ykv" id="pjO-Of-JBv"/>
                 <outlet property="view" destination="iN0-l3-epB" id="luH-Vh-YFP"/>
             </connections>
         </placeholder>
@@ -17,22 +18,19 @@
             <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mapview" translatesAutoresizingMaskIntoConstraints="NO" id="um8-Eq-Zcq">
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PK8-LP-Ykv">
                     <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
-                </imageView>
+                </mapView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="um8-Eq-Zcq" secondAttribute="bottom" id="881-lP-6z3"/>
-                <constraint firstItem="um8-Eq-Zcq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="N0w-ak-3Yr"/>
-                <constraint firstItem="um8-Eq-Zcq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="eS1-qv-l7X"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="um8-Eq-Zcq" secondAttribute="trailing" id="phh-nd-T92"/>
+                <constraint firstItem="PK8-LP-Ykv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="1QW-Hp-seA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="PK8-LP-Ykv" secondAttribute="bottom" id="5d2-AM-m9r"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="PK8-LP-Ykv" secondAttribute="trailing" id="wP8-jh-Ogx"/>
+                <constraint firstItem="PK8-LP-Ykv" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="wan-0B-eH4"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="131.25" y="152.17391304347828"/>
         </view>
     </objects>
-    <resources>
-        <image name="mapview" width="4372" height="3030"/>
-    </resources>
 </document>

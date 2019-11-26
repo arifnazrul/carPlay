@@ -14,54 +14,33 @@ import CoreLocation
 
 
 
+
 class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     var mainView: UIView?
     
-   // @IBOutlet weak var MapView: MKMapView!
+    var lat = 49.431655
+    var long = 7.752886
+
     
-   // @IBOutlet var tapVar: UITapGestureRecognizer!
+   
+    @IBOutlet weak var MapView: MKMapView!
     
+   
+    
+   
     let locationManager = CLLocationManager()
-    var compassButton: MKCompassButton!
-    // creating an object of the model: field class
-    var field = FieldController(filename: "FraunhoferCoordinates")
+   
     
-   /* @IBAction func tapEvent(_ sender: UITapGestureRecognizer) {
-        print("I am in")
-    }*/
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //MapView.delegate = self
-        //setCompass()
-        //checkLocationServices()
-        
-        //MapView.addGestureRecognizer(<#T##gestureRecognizer: UIGestureRecognizer##UIGestureRecognizer#>)
-        
-        /*let locations = [
-                   CLLocationCoordinate2D(latitude: 49.431655, longitude: 7.752886),
-                   CLLocationCoordinate2D(latitude: 49.431665, longitude: 7.752896),
-                   CLLocationCoordinate2D(latitude: 49.431675, longitude: 7.752906),
-        ]
-        var polyline = MKGeodesicPolyline(coordinates: locations, count: locations.count)
-
-        MapView.addOverlay(polyline)*/
+        MapView.delegate = self
+        checkLocationServices()
     }
     
   
-   
-    
-    
-   /* func setCompass() {
-           self.MapView.showsCompass = false
-           self.compassButton = MKCompassButton(mapView: MapView)
-           self.compassButton.compassVisibility = .visible
-           MapView.addSubview(self.compassButton)
-           self.compassButton.translatesAutoresizingMaskIntoConstraints = false
-           compassButton.trailingAnchor.constraint(equalTo: self.MapView.trailingAnchor, constant: -12).isActive = true
-           compassButton.topAnchor.constraint(equalTo: self.MapView.topAnchor, constant: 12).isActive = true
-    }
     
     func checkLocationServices() {
            if CLLocationManager.locationServicesEnabled(){
@@ -73,6 +52,9 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
                print("Your Location Services are Off")
            }
     }
+    
+  
+    
     
     // setup location manager
     func setupLocationManager(){
@@ -110,31 +92,6 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         }
     }
     
-    // Creating a FieldOverlay object initialized with the field model object created above. Adding the object to the MapView Overlays.
-    func addOverlay(){
-        let overlay = FieldOverlay(field: field)
-        MapView.addOverlay(overlay)
-        
-    }
-    
-    // To add the customized boundries to the MapView.Provided boundries are fetched from the field model class data.
-    func addBounary(){
-        MapView.addOverlay(MKPolygon(coordinates: field.boundary, count: field.boundary.count))
-    }
-    
-    private func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) ->  MKPolylineRenderer {
-        // using the MKPolygon class to create the field boundries.
-        if overlay is MKPolyline {
-            print("LINIJA DETEKTOVANA")
-            let polygonView = MKPolylineRenderer(overlay: overlay)
-            polygonView.strokeColor = UIColor.black.withAlphaComponent(0.5)
-            polygonView.lineWidth = 5
-            return polygonView
-            
-        }
-        return MKPolylineRenderer()
-        
-    }
     
    
 
@@ -151,17 +108,9 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             annotation.coordinate = locationValue
             self.MapView.addAnnotation(annotation)
             
-            //lat += 0.001
-           // long += 0.001
             
             print("latitude = \(lat)  longitude= \(long)")
         }
     }
- */
+ 
 }
-
-
-var lat = 49.431655
-var long = 7.752886
-
-
