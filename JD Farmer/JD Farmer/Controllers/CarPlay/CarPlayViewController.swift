@@ -21,6 +21,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     var lat = 49.431655
     var long = 7.752886
+    var offsetLat = 0.000
+    var offsetLong = 0.000
 
     
    
@@ -38,6 +40,9 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         super.viewDidLoad()
         MapView.delegate = self
         checkLocationServices()
+        
+        
+    
     }
     
   
@@ -100,7 +105,10 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         let locationValue: CLLocationCoordinate2D = manager.location!.coordinate
         
         if let location = locations.last{
-            let center = CLLocationCoordinate2D(latitude: lat , longitude: long)
+            
+            
+            
+            let center = CLLocationCoordinate2D(latitude: lat + offsetLat , longitude: long + offsetLong)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             self.MapView.setRegion(region, animated: true)
             

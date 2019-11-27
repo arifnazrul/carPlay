@@ -76,7 +76,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
     
     // MARK: - CPBarButton creation
     enum BarButtonType: String {
-        case search = "Search"
+        case search = "Re-center"
         case panning = "Pan map"
         case dismiss = "Dismiss"
     }
@@ -86,7 +86,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
     private func createBarButton(_ type: BarButtonType) -> CPBarButton {
         let barButton = CPBarButton(type: .text) { (button) in
             print("[CARPLAY] SEARCH MAP TEMPLATE \(button.title ?? "-") TAPPED")
-            
+            self.cp?.offsetLat = 0.0
+            self.cp?.offsetLong = 0.0
             switch(type) {
             case .dismiss:
                 // Dismiss the map panning interface
@@ -113,16 +114,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
     internal func mapTemplate(_ mapTemplate: CPMapTemplate, panEndedWith direction: CPMapTemplate.PanDirection) {
         switch direction {
         case .down:
-            cp?.lat -= 0.003
+            cp?.offsetLat -= 0.003
             print("down")
         case .up:
-           cp?.lat += 0.003
+           cp?.offsetLat += 0.003
            print("up")
         case .left:
-            cp?.long -= 0.003
+            cp?.offsetLong -= 0.003
             print("left")
         case .right:
-           cp?.long += 0.003
+           cp?.offsetLong += 0.003
            print("right")
         default:
             break
