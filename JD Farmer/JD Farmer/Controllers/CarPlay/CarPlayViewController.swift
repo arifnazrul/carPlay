@@ -19,8 +19,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     var mainView: UIView?
     
-    var lat = 49.431655
-    var long = 7.752886
+    var lat = 40.7128
+    var long = -74.0059
     var offsetLat = 0.000
     var offsetLong = 0.000
 
@@ -33,18 +33,42 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
    
     let locationManager = CLLocationManager()
    
-    
+    let places = Place.getPlaces()
   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         MapView.delegate = self
         checkLocationServices()
-        
-        
+        addAnnotations()
+        addPolyline()
+        addPolygon()
     
     }
     
+    func addAnnotations() {
+            MapView?.delegate = self
+            MapView?.addAnnotations(places)
+
+            let overlays = places.map { MKCircle(center: $0.coordinate, radius: 100) }
+            MapView?.addOverlays(overlays)
+            
+           
+     
+            
+        }
+    func addPolyline() {
+        var locations = places.map { $0.coordinate }
+        let polyline = MKPolyline(coordinates: &locations, count: locations.count)
+        
+        MapView?.addOverlay(polyline)
+    }
+    
+    func addPolygon() {
+        var locations = places.map { $0.coordinate }
+        let polygon = MKPolygon(coordinates: &locations, count: locations.count)
+        MapView?.addOverlay(polygon)
+    }
   
     
     func checkLocationServices() {
@@ -120,5 +144,52 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             print("latitude = \(lat)  longitude= \(long)")
         }
     }
- 
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if annotation is MKUserLocation {
+            return nil
+        }
+            
+        else {
+            let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "annotationView") ?? MKAnnotationView()
+            annotationView.image = UIImage(named: "place icon")
+            annotationView.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+            annotationView.canShowCallout = true
+            return annotationView
+        }
+    }
+    
+    func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
+        if overlay is MKCircle {
+            let renderer = MKCircleRenderer(overlay: overlay)
+            renderer.fillColor = UIColor.black.withAlphaComponent(0.5)
+            renderer.strokeColor = UIColor.blue
+            renderer.lineWidth = 2
+            return renderer
+        
+        } else if overlay is MKPolyline {
+            let renderer = MKPolylineRenderer(overlay: overlay)
+            renderer.strokeColor = UIColor.orange
+            renderer.lineWidth = 3
+            return renderer
+        
+        } else if overlay is MKPolygon {
+            let renderer = MKPolygonRenderer(polygon: overlay as! MKPolygon)
+            renderer.fillColor = UIColor.black.withAlphaComponent(0.5)
+            renderer.strokeColor = UIColor.orange
+            renderer.lineWidth = 2
+            return renderer
+        }
+        
+        return MKOverlayRenderer()
+    }
+    
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+        guard let annotation = view.annotation as? Place, let title = annotation.title else { return }
+        
+        let alertController = UIAlertController(title: "Welcome to \(title)", message: "You've selected \(title)", preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alertController.addAction(cancelAction)
+        present(alertController, animated: true, completion: nil)
+    }
 }

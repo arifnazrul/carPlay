@@ -47,6 +47,8 @@
 		2C87C85C2384533E00AF3C87 /* CreateNote.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C87C8452384533D00AF3C87 /* CreateNote.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C87C8662384570F00AF3C87 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */; };
 		2C87C86823845E4800AF3C87 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
+		2C8B59A0238ECA690040D636 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B599F238ECA690040D636 /* Places.swift */; };
+		2C8B59A2238ECA9F0040D636 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C8B59A1238ECA9F0040D636 /* Places.plist */; };
 		2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0B23671BB600727CAE /* AppDelegate.swift */; };
 		2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0D23671BB600727CAE /* SceneDelegate.swift */; };
 		2CA71A1023671BB600727CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0F23671BB600727CAE /* ContentView.swift */; };
@@ -167,6 +169,8 @@
 		2C87C8562384533E00AF3C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteIntentHandler.swift; sourceTree = "<group>"; };
 		2C87C86723845E4800AF3C87 /* CreateNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteController.swift; sourceTree = "<group>"; };
+		2C8B599F238ECA690040D636 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		2C8B59A1238ECA9F0040D636 /* Places.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 		2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		2CA71A0823671BB600727CAE /* JD Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -450,6 +454,8 @@
 				2C0E29F9238757130049B433 /* test.m */,
 				2C7CE8692387DFDA00DE3A2A /* MyController.swift */,
 				2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */,
+				2C8B599F238ECA690040D636 /* Places.swift */,
+				2C8B59A1238ECA9F0040D636 /* Places.plist */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -735,6 +741,7 @@
 				2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */,
 				2C7CE8662387DF6C00DE3A2A /* MyStoryboard.storyboard in Resources */,
 				2C0CD43F237EB9B400199E46 /* test.realm in Resources */,
+				2C8B59A2238ECA9F0040D636 /* Places.plist in Resources */,
 				2CA71A1223671BB800727CAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -941,6 +948,7 @@
 				2C0079E5238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C7CE86A2387DFDA00DE3A2A /* MyController.swift in Sources */,
 				2C0079EF2384384A00A8CD56 /* LastVisitController.swift in Sources */,
+				2C8B59A0238ECA690040D636 /* Places.swift in Sources */,
 				2C837DF523846C21008D9FD8 /* Intents.intentdefinition in Sources */,
 				2C0E29FA238757130049B433 /* test.m in Sources */,
 				2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */,
