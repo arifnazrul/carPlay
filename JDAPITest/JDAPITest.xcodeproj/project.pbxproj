@@ -11,13 +11,13 @@
 		7931C3232382E4160095AC60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931C3222382E4160095AC60 /* SceneDelegate.swift */; };
 		7931C3252382E4160095AC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931C3242382E4160095AC60 /* ViewController.swift */; };
 		7931C32A2382E4180095AC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7931C3292382E4180095AC60 /* Assets.xcassets */; };
-		7931C32D2382E4180095AC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7931C32B2382E4180095AC60 /* LaunchScreen.storyboard */; };
 		7931C3362382E4720095AC60 /* JDServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7931C3352382E4720095AC60 /* JDServices.framework */; };
 		7931C3372382E4720095AC60 /* JDServices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7931C3352382E4720095AC60 /* JDServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7931C3402382F33A0095AC60 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7931C33F2382F33A0095AC60 /* AFNetworking.framework */; };
 		7931C3412382F33A0095AC60 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7931C33F2382F33A0095AC60 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7931C3432382F3430095AC60 /* SBJson5_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7931C3422382F3430095AC60 /* SBJson5_iOS.framework */; };
 		7931C3442382F3430095AC60 /* SBJson5_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7931C3422382F3430095AC60 /* SBJson5_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79F7BB912390120900EB7E08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F7BB902390120900EB7E08 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,12 +42,12 @@
 		7931C3222382E4160095AC60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7931C3242382E4160095AC60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7931C3292382E4180095AC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7931C32C2382E4180095AC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7931C32E2382E4180095AC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7931C3352382E4720095AC60 /* JDServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JDServices.framework; sourceTree = "<group>"; };
 		7931C3392382E5290095AC60 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		7931C33F2382F33A0095AC60 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
 		7931C3422382F3430095AC60 /* SBJson5_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SBJson5_iOS.framework; sourceTree = "<group>"; };
+		79F7BB902390120900EB7E08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +67,7 @@
 		7931C3142382E4160095AC60 = {
 			isa = PBXGroup;
 			children = (
+				79F7BB902390120900EB7E08 /* Default-568h@2x.png */,
 				7931C3392382E5290095AC60 /* Header.h */,
 				7931C31F2382E4160095AC60 /* JDAPITest */,
 				7931C31E2382E4160095AC60 /* Products */,
@@ -89,7 +90,6 @@
 				7931C3222382E4160095AC60 /* SceneDelegate.swift */,
 				7931C3242382E4160095AC60 /* ViewController.swift */,
 				7931C3292382E4180095AC60 /* Assets.xcassets */,
-				7931C32B2382E4180095AC60 /* LaunchScreen.storyboard */,
 				7931C32E2382E4180095AC60 /* Info.plist */,
 			);
 			path = JDAPITest;
@@ -164,8 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7931C32D2382E4180095AC60 /* LaunchScreen.storyboard in Resources */,
 				7931C32A2382E4180095AC60 /* Assets.xcassets in Resources */,
+				79F7BB912390120900EB7E08 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,17 +183,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7931C32B2382E4180095AC60 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7931C32C2382E4180095AC60 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7931C32F2382E4180095AC60 /* Debug */ = {
@@ -322,6 +311,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = JDAPITest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Capstone.JDAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -343,6 +333,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = JDAPITest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Capstone.JDAPITest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
