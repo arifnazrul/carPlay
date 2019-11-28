@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -28,12 +29,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-        let myConsumerKey:String = ""
-        let mySecretKey:String = ""
-        JDServicesSetup.setupConsumerKey(myConsumerKey, andSecretKey: mySecretKey)
-        JDServicesSetup.setActiveEnvironment(JDEnvironment.DEV)
-        JDTokenInjectionVC.
+        //let myConsumerKey:String = "johndeere-rOs5TBJA6sC8BZgIbHJHycNwRJ4YtmxboePjabzr"
+        //let mySecretKey:String = "99048dfc0694d284ad1ce11be6c3d1e6bacc382720e18ddb12e48899eda11280"
+        //JDServicesSetup.setupConsumerKey(myConsumerKey, andSecretKey: mySecretKey)
+        //JDServicesSetup.setActiveEnvironment(JDEnvironment.STORE)
         //JDServicesSetup.setupEnvironment(JDEnvironment.DEV, withConsumerKey: myConsumerKey, andSecretKey: mySecretKey)
+        
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
     }
