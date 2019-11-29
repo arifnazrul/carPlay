@@ -23,10 +23,17 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     var long = -74.0059
     var offsetLat = 0.000
     var offsetLong = 0.000
-
+    
+    
+    var interval = 0
+    
     
    
     @IBOutlet weak var MapView: MKMapView!
+    
+    
+    var overlays: [MKOverlay]!
+    var radius : Double!
     
    
     
@@ -39,10 +46,13 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     override func viewDidLoad() {
         super.viewDidLoad()
         MapView.delegate = self
+        radius = 60
         checkLocationServices()
         addAnnotations()
         addPolyline()
         addPolygon()
+        
+        overlays = MapView.overlays
     
     }
     
@@ -50,7 +60,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             MapView?.delegate = self
             MapView?.addAnnotations(places)
 
-            let overlays = places.map { MKCircle(center: $0.coordinate, radius: 100) }
+            let overlays = places.map { MKCircle(center: $0.coordinate, radius: radius) }
             MapView?.addOverlays(overlays)
             
            
@@ -140,6 +150,10 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             annotation.coordinate = locationValue
             self.MapView.addAnnotation(annotation)
             
+            overlays = MapView.overlays
+            radius += 1
+            MapView.removeOverlays(overlays)
+            addAnnotations()
             
             print("latitude = \(lat)  longitude= \(long)")
         }
