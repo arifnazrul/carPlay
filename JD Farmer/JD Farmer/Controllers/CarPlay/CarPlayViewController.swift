@@ -26,7 +26,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     
     var interval = 0
-    
+    var tick = 0
+    var growth = 3
     
    
     @IBOutlet weak var MapView: MKMapView!
@@ -46,7 +47,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     override func viewDidLoad() {
         super.viewDidLoad()
         MapView.delegate = self
-        radius = 60
+        radius = 40
         checkLocationServices()
         addAnnotations()
         addPolyline()
@@ -150,10 +151,20 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             annotation.coordinate = locationValue
             self.MapView.addAnnotation(annotation)
             
-            overlays = MapView.overlays
-            radius += 1
-            MapView.removeOverlays(overlays)
-            addAnnotations()
+            
+            tick += 1
+            
+            if(tick % 2 == 1)
+            {
+                overlays = MapView.overlays
+                radius += Double(growth % 20)
+                MapView.removeOverlays(overlays)
+                addAnnotations()
+                radius -= Double(growth % 20)
+                growth += 2
+            }
+            
+            
             
             print("latitude = \(lat)  longitude= \(long)")
         }
@@ -176,7 +187,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if overlay is MKCircle {
             let renderer = MKCircleRenderer(overlay: overlay)
-            renderer.fillColor = UIColor.black.withAlphaComponent(0.5)
+            renderer.fillColor = UIColor.blue
             renderer.strokeColor = UIColor.blue
             renderer.lineWidth = 2
             return renderer
