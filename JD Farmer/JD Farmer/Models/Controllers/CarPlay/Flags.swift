@@ -18,7 +18,6 @@ class Flags: NSObject, MKAnnotation {
     self.title = title
     self.locationName = locationName
     self.coordinate = coordinate
-    
     super.init()
   }
   
@@ -26,6 +25,6 @@ class Flags: NSObject, MKAnnotation {
     return locationName
   }
     var imageName: String? {
-      return "Flag"
+     return "Flag"
     }
 }

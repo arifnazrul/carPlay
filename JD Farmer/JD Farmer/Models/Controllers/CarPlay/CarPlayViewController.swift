@@ -13,8 +13,6 @@ import MapKit
 import CoreLocation
 
 
-
-
 class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     var mainView: UIView?
@@ -36,21 +34,33 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        MapView.delegate = self
         checkLocationServices()
         addAnnotations()
         addPolyline()
         addPolygon()
     }
     
+    func checkLocationServices() {
+           if CLLocationManager.locationServicesEnabled(){
+               setupLocationManager()
+               checkLocationAuthorization()
+           }
+           else{
+               // show alert letting userknow thez have to turn this on
+               print("Your Location Services are Off")
+           }
+    }
+    
     func addAnnotations() {
+            
             MapView?.delegate = self
             MapView.register(FlagView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
+            MapView.addAnnotation(flags)
             MapView?.addAnnotations(places)
-            MapView?.addAnnotation(flags)
+                        
             let overlays = places.map { MKCircle(center: $0.coordinate, radius: 100) }
             MapView?.addOverlays(overlays)
-            
+                    
             
         }
     func addPolyline() {
@@ -65,17 +75,6 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         MapView?.addOverlay(polygon)
     }
   
-    
-    func checkLocationServices() {
-           if CLLocationManager.locationServicesEnabled(){
-               setupLocationManager()
-               checkLocationAuthorization()
-           }
-           else{
-               // show alert letting userknow thez have to turn this on
-               print("Your Location Services are Off")
-           }
-    }
     
 
     // setup location manager
@@ -140,22 +139,25 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         if annotation is MKUserLocation {
             return nil
         }
-        else if annotation is Flags{
-            let identifier = "marker"
-            var view: MKMarkerAnnotationView
-            
-            if let dequeuedView = MapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView {
-                dequeuedView.annotation = annotation
-                view = dequeuedView
-            }
-            else {
-              view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
-              view.canShowCallout = true
-              view.calloutOffset = CGPoint(x: -5, y: 5)
-              view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
-            }
-            return view
-        }
+//       else if annotation is Flags{
+//            let identifier = "marker"
+//            var view: MKAnnotationView
+//
+//            if let dequeuedView = MapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKAnnotationView {
+//                dequeuedView.annotation = annotation
+//                dequeuedView.image= UIImage(named: "Flag")
+//                view = dequeuedView
+//            }
+//            else {
+//              view = MKAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+//              view.canShowCallout = true
+//              view.calloutOffset = CGPoint(x: -5, y: 5)
+//              view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+//            }
+//            return view
+//        }
+        
+    
         else {
             let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "annotationView") ?? MKAnnotationView()
             annotationView.image = UIImage(named: "place icon")
