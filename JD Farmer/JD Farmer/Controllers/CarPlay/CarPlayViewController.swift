@@ -19,8 +19,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     var mainView: UIView?
     
-    var lat = 40.7128
-    var long = -74.0059
+    var lat = 49.431581
+    var long = 7.752951
     var offsetLat = 0.000
     var offsetLong = 0.000
     
@@ -42,26 +42,31 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     let locationManager = CLLocationManager()
    
     let places = Place.getPlaces()
+    let fraunhoferPlaces = PlacesFraunhofer.getPlaces()
+    
   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         MapView.delegate = self
-        radius = 40
+        radius = 10
         checkLocationServices()
         addAnnotations()
         addPolyline()
         addPolygon()
         
+        
         overlays = MapView.overlays
+        
     
     }
     
     func addAnnotations() {
+        
             MapView?.delegate = self
             MapView?.addAnnotations(places)
 
-            let overlays = places.map { MKCircle(center: $0.coordinate, radius: radius) }
+            let overlays = [MKCircle(center: CLLocationCoordinate2D(latitude: lat, longitude: long), radius: radius)]
             MapView?.addOverlays(overlays)
             
            
@@ -69,16 +74,28 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             
         }
     func addPolyline() {
-        var locations = places.map { $0.coordinate }
-        let polyline = MKPolyline(coordinates: &locations, count: locations.count)
         
-        MapView?.addOverlay(polyline)
+        for a in fraunhoferPlaces {
+                var locations = a.map { $0.coordinate }
+                
+                
+                let polyline = MKPolyline(coordinates: &locations, count: locations.count)
+                
+                MapView?.addOverlay(polyline)
+        }
+        
+        
     }
     
     func addPolygon() {
-        var locations = places.map { $0.coordinate }
-        let polygon = MKPolygon(coordinates: &locations, count: locations.count)
-        MapView?.addOverlay(polygon)
+        
+        for a in fraunhoferPlaces {
+            var locations = a.map { $0.coordinate }
+                   let polygon = MKPolygon(coordinates: &locations, count: locations.count)
+                   MapView?.addOverlay(polygon)
+                   
+               }
+       
     }
   
     
@@ -151,22 +168,10 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             annotation.coordinate = locationValue
             self.MapView.addAnnotation(annotation)
             
-            
-            tick += 1
-            
-            if(tick % 2 == 1)
-            {
-                overlays = MapView.overlays
-                radius += Double(growth % 20)
-                MapView.removeOverlays(overlays)
-                addAnnotations()
-                radius -= Double(growth % 20)
-                growth += 2
-            }
+        
             
             
-            
-            print("latitude = \(lat)  longitude= \(long)")
+            //print("latitude = \(lat)  longitude= \(long)")
         }
     }
     
@@ -187,8 +192,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if overlay is MKCircle {
             let renderer = MKCircleRenderer(overlay: overlay)
-            renderer.fillColor = UIColor.blue
-            renderer.strokeColor = UIColor.blue
+            renderer.fillColor = UIColor.red
+            renderer.strokeColor = UIColor.red
             renderer.lineWidth = 2
             return renderer
         

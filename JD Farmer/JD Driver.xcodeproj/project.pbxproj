@@ -18,11 +18,12 @@
 		2C0079F12384384A00A8CD56 /* LastVisitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079EE2384384A00A8CD56 /* LastVisitController.swift */; };
 		2C0CD43C237E949000199E46 /* InitialDummyDatacopy.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */; };
 		2C0CD43F237EB9B400199E46 /* test.realm in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43E237EB9B400199E46 /* test.realm */; };
-		2C0E29ED238724AD0049B433 /* FraunhoferCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C0E29EC238724AD0049B433 /* FraunhoferCoordinates.plist */; };
 		2C0E29F1238728990049B433 /* FieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F0238728990049B433 /* FieldController.swift */; };
 		2C0E29F3238729D70049B433 /* FieldOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F2238729D70049B433 /* FieldOverlay.swift */; };
 		2C0E29F523872A160049B433 /* FieldOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F423872A160049B433 /* FieldOverlayView.swift */; };
 		2C0E29FA238757130049B433 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F9238757130049B433 /* test.m */; };
+		2C56F399239542D4008C633D /* FraunhoferCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C56F398239542D4008C633D /* FraunhoferCoordinates.plist */; };
+		2C56F39B239543B0008C633D /* PlacesFraunhofer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C56F39A239543B0008C633D /* PlacesFraunhofer.swift */; };
 		2C6CF5D6238D1E4D0028029B /* MapScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */; };
 		2C7B817123842ECD00BEED9B /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B817023842ECD00BEED9B /* IntentHandler.swift */; };
 		2C7B817823842ECD00BEED9B /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
@@ -144,11 +145,12 @@
 		2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InitialDummyDatacopy.json; sourceTree = "<group>"; };
 		2C0CD43D237EA45A00199E46 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		2C0CD43E237EB9B400199E46 /* test.realm */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.realm; sourceTree = "<group>"; };
-		2C0E29EC238724AD0049B433 /* FraunhoferCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FraunhoferCoordinates.plist; sourceTree = "<group>"; };
 		2C0E29F0238728990049B433 /* FieldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldController.swift; sourceTree = "<group>"; };
 		2C0E29F2238729D70049B433 /* FieldOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlay.swift; sourceTree = "<group>"; };
 		2C0E29F423872A160049B433 /* FieldOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlayView.swift; sourceTree = "<group>"; };
 		2C0E29F9238757130049B433 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		2C56F398239542D4008C633D /* FraunhoferCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FraunhoferCoordinates.plist; sourceTree = "<group>"; };
+		2C56F39A239543B0008C633D /* PlacesFraunhofer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesFraunhofer.swift; sourceTree = "<group>"; };
 		2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScrollView.swift; sourceTree = "<group>"; };
 		2C7B812423842C7100BEED9B /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		2C7B816E23842ECD00BEED9B /* LastVisit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LastVisit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -442,7 +444,6 @@
 			children = (
 				2CA71A4A2367210700727CAE /* DummyUtility.swift */,
 				7914C3052375A5E2008E2B24 /* JSONParser.swift */,
-				2C0E29EC238724AD0049B433 /* FraunhoferCoordinates.plist */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -456,6 +457,8 @@
 				2C6CF5D5238D1E4D0028029B /* MapScrollView.swift */,
 				2C8B599F238ECA690040D636 /* Places.swift */,
 				2C8B59A1238ECA9F0040D636 /* Places.plist */,
+				2C56F398239542D4008C633D /* FraunhoferCoordinates.plist */,
+				2C56F39A239543B0008C633D /* PlacesFraunhofer.swift */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -737,11 +740,11 @@
 				2C0CD43C237E949000199E46 /* InitialDummyDatacopy.json in Resources */,
 				2CA76D482387038900D299E6 /* CarPlayView.xib in Resources */,
 				2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */,
-				2C0E29ED238724AD0049B433 /* FraunhoferCoordinates.plist in Resources */,
 				2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */,
 				2C7CE8662387DF6C00DE3A2A /* MyStoryboard.storyboard in Resources */,
 				2C0CD43F237EB9B400199E46 /* test.realm in Resources */,
 				2C8B59A2238ECA9F0040D636 /* Places.plist in Resources */,
+				2C56F399239542D4008C633D /* FraunhoferCoordinates.plist in Resources */,
 				2CA71A1223671BB800727CAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -957,6 +960,7 @@
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
 				2C6CF5D6238D1E4D0028029B /* MapScrollView.swift in Sources */,
 				2C0079E8238432DB00A8CD56 /* IntentHandler.swift in Sources */,
+				2C56F39B239543B0008C633D /* PlacesFraunhofer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
