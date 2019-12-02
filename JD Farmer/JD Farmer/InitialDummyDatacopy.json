@@ -1,0 +1,173 @@
+{
+  "Field": [
+    {
+      "ID_Field": "0",
+      "Organization_ID": "0",
+      "name": "Wasgau Field",
+      "coordinates": "23 lat 45 lon"
+    },
+    {
+      "ID_Field": "1",
+      "Organization_ID": "0",
+      "name": "Netto Field",
+      "coordinates": "34 lat 55 log"
+    },
+    {
+      "ID_Field": "2",
+      "Organization_ID": "1",
+      "name": "Tarmac Field",
+      "coordinates": "0 lat 0 log"
+    },
+    {
+      "ID_Field": "3",
+      "Organization_ID": "1",
+      "name": "Venturi Field",
+      "coordinates": "45 lat 45 log"
+    }
+  ],
+  "Note": [
+    {
+      "ID_Note": "0",
+      "Field_ID": "0",
+      "content": "Wasgau Field is delicious.",
+      "date": "2019-11-08T12:27:06.936Z"
+    },
+    {
+      "ID_Note": "1",
+      "Field_ID": "1",
+      "content": "Netto Field is rotten.",
+      "date": "2019-11-08T12:27:45.120Z"
+    },
+    {
+      "ID_Note": "2",
+      "Field_ID": "2",
+      "content": "Tarmac Field is dry.",
+      "date": "2019-11-08T12:27:45.120Z"
+    },
+    {
+      "ID_Note": "3",
+      "Field_ID": "3",
+      "content": "Venturi Field has been destroyed by gusty winds",
+      "date": "2019-11-08T12:29:14.110Z"
+    }
+  ],
+  "Notification": [
+    {
+      "ID_Notification": "0",
+      "Field_ID": "0",
+      "content": "Wasgau Field has delicious strawberries.",
+      "severity": "low",
+      "dateCreated": "2019-11-08T12:30:14.828Z"
+    },
+    {
+      "ID_Notification": "1",
+      "Field_ID": "0",
+      "content": "A crocodile is eating your strawberries.",
+      "severity": "high",
+      "dateCreated": "2019-11-08T12:30:37.560Z"
+    },
+    {
+      "ID_Notification": "2",
+      "Field_ID": "0",
+      "content": "Rain is destroying your strawberries",
+      "severity": "medium",
+      "dateCreated": "2019-11-08T12:36:15.565Z"
+    }
+  ],
+  "Organization": [
+    {
+      "ID_Organization": "0",
+      "name": "HelloField",
+      "desc": "A lot of cats"
+    },
+    {
+      "ID_Organization": "1",
+      "name": "Formula Tractor",
+      "desc": "The fastest tractors available"
+    }
+  ],
+  "User": [
+    {
+      "ID_User": "0",
+      "username": "katarina",
+      "password": "1234"
+    },
+    {
+      "ID_User": "1",
+      "username": "arian",
+      "password": "1234"
+    },
+    {
+      "ID_User": "2",
+      "username": "nabid",
+      "password": "1234"
+    }
+  ],
+  "UserOrganization": [
+    {
+      "ID_UserOrganization": "0",
+      "User_ID": "0",
+      "Organization_ID": "0"
+    },
+    {
+      "ID_UserOrganization": "1",
+      "User_ID": "1",
+      "Organization_ID": "1"
+    },
+    {
+      "ID_UserOrganization": "2",
+      "User_ID": "2",
+      "Organization_ID": "1"
+    }
+  ],
+  "Visit": [
+    {
+      "ID_Visit": "0",
+      "User_ID": "0",
+      "Field_ID": "0",
+      "lastVisit": "2019-11-08T12:24:29.488Z"
+    },
+    {
+      "ID_Visit": "1",
+      "User_ID": "0",
+      "Field_ID": "1",
+      "lastVisit": "2019-11-08T12:24:53.393Z"
+    },
+    {
+      "ID_Visit": "2",
+      "User_ID": "0",
+      "Field_ID": "2",
+      "lastVisit": "2019-11-08T12:25:07.040Z"
+    },
+    {
+      "ID_Visit": "3",
+      "User_ID": "1",
+      "Field_ID": "0",
+      "lastVisit": "2019-11-08T12:25:18.272Z"
+    },
+    {
+      "ID_Visit": "4",
+      "User_ID": "1",
+      "Field_ID": "1",
+      "lastVisit": "2019-11-08T12:25:27.122Z"
+    },
+    {
+      "ID_Visit": "5",
+      "User_ID": "1",
+      "Field_ID": "2",
+      "lastVisit": "2019-11-08T12:25:41.836Z"
+    },
+    {
+      "ID_Visit": "6",
+      "User_ID": "2",
+      "Field_ID": "1",
+      "lastVisit": "2019-11-08T12:26:07.122Z"
+    }
+  ],
+  "__Class": [],
+  "__Permission": [],
+  "__Realm": [],
+  "__Role": [],
+  "__User": []
+}
+

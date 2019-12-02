@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>midCoord</key>
+    <string>{49.431494,-7.751964}</string>
+    <key>overlayTopLeftCoord</key>
+    <string>{49.431912,-7.751937}</string>
+    <key>overlayTopRightCoord</key>
+    <string>{49.431769,-7.752395}</string>
+    <key>overlayBottomLeftCoord</key>
+    <string>{49.431277,-7.751470}</string>
+    <key>overlayBottomRightCoord</key>
+    <string>{49.431127,-7.751948}</string>
+    <key>boundary</key>
+    <array>
+        <string>{49.431345,-7.751123}</string>
+        <string>{49.431238,-7.751456}</string>
+        <string>{49.431098,-7.751678}</string>
+        <string>{49.431652,-7.751784}</string>
+        <string>{49.431491,-7.751357}</string>
+        <string>{49.431474,-7.751983}</string>
+        <string>{49.431594,-7.751217}</string>
+        <string>{49.431394,-7.751234}</string>
+        <string>{49.431490,-7.751562}</string>
+    </array>
+</dict>
+</plist>
