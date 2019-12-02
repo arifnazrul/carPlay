@@ -71,6 +71,8 @@
 		7914C2DD237483F2008E2B24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DC237483F2008E2B24 /* Note.swift */; };
 		7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3052375A5E2008E2B24 /* JSONParser.swift */; };
 		7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */; };
+		F8FE4520238ED560001F8F16 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE451F238ED560001F8F16 /* Flags.swift */; };
+		F8FE4522238EDACE001F8F16 /* FlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FE4521238EDACE001F8F16 /* FlagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -211,6 +213,8 @@
 		E2E282BABF626C2660D9415C /* Pods-JD DriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD DriverTests.release.xcconfig"; path = "Target Support Files/Pods-JD DriverTests/Pods-JD DriverTests.release.xcconfig"; sourceTree = "<group>"; };
 		E6496652DF594EBE1658434E /* Pods-JD Farmer-JD FarmerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EDF39F22B82611F50CAB3355 /* Pods-JD Farmer-JD FarmerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Farmer-JD FarmerUITests.release.xcconfig"; path = "Target Support Files/Pods-JD Farmer-JD FarmerUITests/Pods-JD Farmer-JD FarmerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F8FE451F238ED560001F8F16 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		F8FE4521238EDACE001F8F16 /* FlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,6 +437,8 @@
 				7914C2DA2374832F008E2B24 /* Notification.swift */,
 				7914C2DC237483F2008E2B24 /* Note.swift */,
 				7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */,
+				F8FE451F238ED560001F8F16 /* Flags.swift */,
+				F8FE4521238EDACE001F8F16 /* FlagView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -937,6 +943,7 @@
 				7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */,
 				7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */,
 				2C0E29F1238728990049B433 /* FieldController.swift in Sources */,
+				F8FE4520238ED560001F8F16 /* Flags.swift in Sources */,
 				2C87C86823845E4800AF3C87 /* CreateNoteController.swift in Sources */,
 				7914C2D32374806A008E2B24 /* Organization.swift in Sources */,
 				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
@@ -956,6 +963,7 @@
 				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
 				2C6CF5D6238D1E4D0028029B /* MapScrollView.swift in Sources */,
+				F8FE4522238EDACE001F8F16 /* FlagView.swift in Sources */,
 				2C0079E8238432DB00A8CD56 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

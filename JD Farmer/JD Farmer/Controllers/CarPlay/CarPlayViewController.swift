@@ -18,24 +18,22 @@ import CoreLocation
 class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     var mainView: UIView?
-    
     var lat = 40.7128
     var long = -74.0059
     var offsetLat = 0.000
     var offsetLong = 0.000
 
     
-   
     @IBOutlet weak var MapView: MKMapView!
-    
-   
     
    
     let locationManager = CLLocationManager()
    
     let places = Place.getPlaces()
   
+    let flags = Flags(title: "Flag Point", locationName: "fav spot", coordinate: CLLocationCoordinate2D(latitude: 40.7178, longitude: -74.0559))
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         MapView.delegate = self
@@ -43,24 +41,21 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         addAnnotations()
         addPolyline()
         addPolygon()
-    
     }
     
     func addAnnotations() {
             MapView?.delegate = self
+            MapView.register(FlagView.self, forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
             MapView?.addAnnotations(places)
-
+            MapView?.addAnnotation(flags)
             let overlays = places.map { MKCircle(center: $0.coordinate, radius: 100) }
             MapView?.addOverlays(overlays)
             
-           
-     
             
         }
     func addPolyline() {
         var locations = places.map { $0.coordinate }
         let polyline = MKPolyline(coordinates: &locations, count: locations.count)
-        
         MapView?.addOverlay(polyline)
     }
     
@@ -82,9 +77,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
            }
     }
     
-  
-    
-    
+
     // setup location manager
     func setupLocationManager(){
         locationManager.delegate = self
@@ -130,8 +123,6 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         
         if let location = locations.last{
             
-            
-            
             let center = CLLocationCoordinate2D(latitude: lat + offsetLat , longitude: long + offsetLong)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             self.MapView.setRegion(region, animated: true)
@@ -149,7 +140,22 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         if annotation is MKUserLocation {
             return nil
         }
+        else if annotation is Flags{
+            let identifier = "marker"
+            var view: MKMarkerAnnotationView
             
+            if let dequeuedView = MapView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView {
+                dequeuedView.annotation = annotation
+                view = dequeuedView
+            }
+            else {
+              view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+              view.canShowCallout = true
+              view.calloutOffset = CGPoint(x: -5, y: 5)
+              view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+            }
+            return view
+        }
         else {
             let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "annotationView") ?? MKAnnotationView()
             annotationView.image = UIImage(named: "place icon")
