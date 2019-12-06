@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
     var mapTemplate: CPMapTemplate?
     var cp: CarPlayViewController?
     
+    static let sharedInstance: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    
     var window: UIWindow?
     
     func application(_ application: UIApplication, didConnectCarInterfaceController interfaceController: CPInterfaceController, to window: CPWindow) {
@@ -153,6 +155,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+    }
+    
+    func appDelegate() -> AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
     }
 
 

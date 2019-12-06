@@ -8,8 +8,13 @@
 
 import Foundation
 import Intents
+import UIKit
 
 class LastVisitIntentHandler: NSObject, LastVisitIntentHandling {
+    
+    
+    
+    
     func resolveFieldName(for intent: LastVisitIntent, with completion: @escaping (Enum3ResolutionResult) -> Void) {
         if intent.fieldName == .unknown {
             completion(Enum3ResolutionResult.needsValue())
@@ -34,7 +39,10 @@ class LastVisitIntentHandler: NSObject, LastVisitIntentHandling {
             completion(LastVisitIntentResponse.success(updates: "Potatoes are very healthy. Try them out!"))
         } else {
             completion(LastVisitIntentResponse.success(updates: "Since your last visit on the 7th of July, crocodiles ate 60% of the strawberries on the Strawberry Field!"))
+           
         }
+        
+       //var a = CarPlayViewController()
         
     }
     

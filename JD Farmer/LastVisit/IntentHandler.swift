@@ -14,7 +14,7 @@ class IntentHandler: INExtension {
         guard intent is LastVisitIntent else {
                    fatalError("Unhandled intent type: \(intent)")
                }
-               
+        
                return LastVisitIntentHandler()
     }
     
