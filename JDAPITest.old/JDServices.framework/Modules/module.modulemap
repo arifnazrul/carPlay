@@ -1,0 +1,6 @@
+framework module JDServices {
+    umbrella header "JDServices.h"
+    
+    export *
+    module * { export * }
+}

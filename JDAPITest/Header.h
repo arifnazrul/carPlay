@@ -9,8 +9,9 @@
 #ifndef Header_h
 #define Header_h
 
-#import </Users/biswas/Downloads/carplay-ios-Talant/JDAPITest/JDServices.framework/Headers/JDServices.h>
-#import </Users/biswas/Downloads/carplay-ios-Talant/JDAPITest/AFNetworking.framework/Headers/AFNetworking.h>
-#import </Users/biswas/Downloads/carplay-ios-Talant/JDAPITest/SBJson5_iOS.framework/Headers/SBJson5.h>
+#import </Users/asankozh/Desktop/CARPLAY/repo/carplay-ios/JDAPITest/JDServices.framework/Headers/JDServices.h>
+
+#import </Users/asankozh/Desktop/CARPLAY/repo/carplay-ios/JDAPITest/AFNetworking.framework/Headers/AFNetworking.h>
+#import </Users/asankozh/Desktop/CARPLAY/repo/carplay-ios/JDAPITest/SBJson5_iOS.framework/Headers/SBJson5.h>
 #endif /* Header_h */
 

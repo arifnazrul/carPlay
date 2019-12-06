@@ -28,13 +28,13 @@
 		<dict>
 			<key>deere.com</key>
 			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<key>ExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
-				<key>NSIncludesSubdomains</key>
+				<key>IncludesSubdomains</key>
 				<true/>
-				<key>NSTemporaryExceptionMinimumTLSVersion</key>
+				<key>TemporaryExceptionMinimumTLSVersion</key>
 				<string>TLSv1.1</string>
-				<key>NSTemporaryThirdPartyExceptionRequiresForwardSecrecy</key>
+				<key>TemporaryThirdPartyExceptionRequiresForwardSecrecy</key>
 				<false/>
 			</dict>
 		</dict>

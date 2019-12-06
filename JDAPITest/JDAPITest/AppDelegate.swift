@@ -10,10 +10,9 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
     //var window: UIWindow?
-    /*
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
       /*let timeline = JDLoginViewController()
@@ -43,32 +42,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         // Sandbox implementation (if the app created on developer.deere.com is provided with sanbox url, in that case above implementation wouldn't work)
-        let sandboxConfig = JDEnvironmentConfiguration.init()
-        sandboxConfig.baseURL = "https://sandboxapi.deere.com:443/platform/"
-        sandboxConfig.consentToUseDataURI = "https://sandboxapi.deere.com:443/platform/consentToUseOfData/"
-        sandboxConfig.consumerKey = "johndeere-rOs5TBJA6sC8BZgIbHJHycNwRJ4YtmxboePjabzr"
-        sandboxConfig.secretKey = "99048dfc0694d284ad1ce11be6c3d1e6bacc382720e18ddb12e48899eda11280"
-        
-        JDServicesSetup.setupSandboxEnvironment(with: sandboxConfig)
-        
-        let loginViewController = JDLoginViewController()
-        loginViewController.title = "Login"
-
-        let myFrame = UIScreen.main.bounds
-        
-        let homeVC = UIViewController()
-        homeVC.view.backgroundColor = UIColor.red
-        window = UIWindow(frame: myFrame)
-
-        window!.rootViewController = homeVC
-        window!.makeKeyAndVisible()
+//        let sandboxConfig = JDEnvironmentConfiguration.init()
+//        sandboxConfig.baseURL = "https://sandboxapi.deere.com:443/platform/"
+//        sandboxConfig.consentToUseDataURI = "https://sandboxapi.deere.com:443/platform/consentToUseOfData/"
+//        sandboxConfig.consumerKey = "johndeere-rOs5TBJA6sC8BZgIbHJHycNwRJ4YtmxboePjabzr"
+//        sandboxConfig.secretKey = "99048dfc0694d284ad1ce11be6c3d1e6bacc382720e18ddb12e48899eda11280"
+//
+//        JDServicesSetup.setupSandboxEnvironment(with: sandboxConfig)
+//
+//        let loginViewController = JDLoginViewController()
+//        loginViewController.title = "Login"
+//
+//        let myFrame = UIScreen.main.bounds
+//
+//        let homeVC = UIViewController()
+//        homeVC.view.backgroundColor = UIColor.red
+//        window = UIWindow(frame: myFrame)
+//
+//        window!.rootViewController = homeVC
+//        window!.makeKeyAndVisible()
         
         return true
     }
 
     // MARK: UISceneSession Lifecycle
 
-*/
+
 
 }
 
