@@ -50,7 +50,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     /// - Todo: Fetch data from API and sort the fields according to distance (ASC)
     let fields = PlacesFraunhofer.getPlaces()
     
-    var a = UIApplication.shared.delegate as! AppDelegate
+   // var a = UIApplication.shared.delegate as! AppDelegate
     
   
     override func viewDidLoad() {
@@ -232,14 +232,14 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         } else if overlay is MKPolyline {
             print("POLYLINE")
             let renderer = MKPolylineRenderer(overlay: overlay)
-            renderer.strokeColor = UIColor.orange
+            renderer.strokeColor = UIColor(red: 74/255 , green: 178/255, blue: 216/255, alpha: 1)
             renderer.lineWidth = 3
             return renderer
         } else if overlay is MKPolygon {
             print("POLYGON")
             let renderer = MKPolygonRenderer(polygon: overlay as! MKPolygon)
-            renderer.fillColor = UIColor.black.withAlphaComponent(0.5)
-            renderer.strokeColor = UIColor.orange
+            renderer.fillColor = UIColor(red: 74/255 , green: 178/255, blue: 216/255, alpha: 1)
+            renderer.strokeColor = UIColor(red: 74/255 , green: 178/255, blue: 216/255, alpha: 1)
             renderer.lineWidth = 2
             return renderer
         }
