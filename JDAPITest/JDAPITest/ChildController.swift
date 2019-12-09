@@ -49,10 +49,13 @@ class ChildController: UIViewController {
             JDFieldRequests.fetchFields(forOrganizationId: "449464", embedClientsAndFarms: true) { (flds, errs) in
                 if (flds != nil) {
                     for var f in (flds ?? nil)! {
-                        print ("Here is the field: " + (f.name ?? "FILEDS"))
+                        print ("Here is the field: " + (f.name ?? "FILEDS") + " id: " + (f.uniqueId ?? "myfidlid"))
                     }
                 }
+                
+                
             }
+            
            } else if (errs != nil) {
                print(errs!.localizedDescription)
            }
