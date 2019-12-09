@@ -25,7 +25,6 @@
 		2C7B817E23842ECD00BEED9B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B817C23842ECD00BEED9B /* MainInterface.storyboard */; };
 		2C7B818223842ECD00BEED9B /* LastVisitUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C7B817723842ECD00BEED9B /* LastVisitUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C7B818523842ECD00BEED9B /* LastVisit.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C7B816E23842ECD00BEED9B /* LastVisit.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2C7CE8662387DF6C00DE3A2A /* MyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C7CE8652387DF6C00DE3A2A /* MyStoryboard.storyboard */; };
 		2C837DF523846C21008D9FD8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
 		2C837DFA23846D49008D9FD8 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
 		2C837DFB23846D49008D9FD8 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
@@ -145,7 +144,6 @@
 		2C7B817A23842ECD00BEED9B /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		2C7B817D23842ECD00BEED9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		2C7B817F23842ECD00BEED9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C7CE8652387DF6C00DE3A2A /* MyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyStoryboard.storyboard; sourceTree = "<group>"; };
 		2C87C8452384533D00AF3C87 /* CreateNote.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreateNote.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C87C8472384533D00AF3C87 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		2C87C8492384533D00AF3C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -456,7 +454,6 @@
 			isa = PBXGroup;
 			children = (
 				2CA76D472387038900D299E6 /* CarPlayView.xib */,
-				2C7CE8652387DF6C00DE3A2A /* MyStoryboard.storyboard */,
 			);
 			path = CarPlay;
 			sourceTree = "<group>";
@@ -723,7 +720,6 @@
 				2CA76D482387038900D299E6 /* CarPlayView.xib in Resources */,
 				2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */,
 				2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */,
-				2C7CE8662387DF6C00DE3A2A /* MyStoryboard.storyboard in Resources */,
 				2C0CD43F237EB9B400199E46 /* test.realm in Resources */,
 				2CA71A1223671BB800727CAE /* Assets.xcassets in Resources */,
 			);
