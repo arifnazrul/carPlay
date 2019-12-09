@@ -38,7 +38,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate{
             
             if let windowScene = scene as? UIWindowScene {
                 let childCtrl = ChildController()
-                childCtrl.view.backgroundColor = UIColor.blue
+                childCtrl.view.backgroundColor = UIColor.white
+                
+
                 let window = UIWindow(windowScene: windowScene)
                 window.rootViewController = childCtrl
                 self.window = window
