@@ -50,27 +50,29 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     /// - Todo: Fetch data from API and sort the fields according to distance (ASC)
     let fields = PlacesFraunhofer.getPlaces()
     
+    /// Contains all border colours
     let borders: [[CGFloat]] = [
         [74, 178, 216],
         [146, 202, 110],
         [245, 159, 61],
         [203, 156, 115],
-        [255, 178, 255]
+        [254, 42, 254]
     ]
-    
+    /// Contains all inside colours
     let inside: [[CGFloat]] = [
         [147, 205, 226],
         [183, 217, 160],
         [244, 193, 136],
         [222, 194, 171],
-        [254, 42, 254]
+        [255, 178, 255]
     ]
     
+    /// Iterator helping select the correct colour
     var iterator: Int = 0
     
+    /// Boolean which checks whether user changed position
     var changedPosition: Bool = false
     
-  
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self
@@ -81,12 +83,13 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         addPolygon()
         addAnnotations()
         overlays = mapView.overlays
-        
-        
-        
-        
     }
     
+    /**
+       - Parameters: void
+       - Description: It moves the user and updates the overlays
+       - Returns: void
+    */
     func moveUser() {
         mapView.removeOverlays(overlays)
         lat = 49.429866
@@ -103,7 +106,6 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
        - Parameters: void
        - Description: Creates a circle with specified parameters pinpointing user's location
        - Returns: void
-           
     */
     func addAnnotations() {
         mapView?.delegate = self
@@ -215,28 +217,26 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     /**
        - Parameters:
-         - manager: A object of type CLLocationManager containing last available position
-         - locations: A array containing user locations
+           - manager: A object of type CLLocationManager containing last available position
+           - locations: A array containing user locations
        - Description: This function is called periodically and it is provided by CLLocationManagerDelegate
        - Returns: void
     */
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-        let locationValue: CLLocationCoordinate2D = manager.location!.coordinate
+        let _: CLLocationCoordinate2D = manager.location!.coordinate
         
-        if let location = locations.last{
+        if locations.last != nil{
             let center = CLLocationCoordinate2D(latitude: lat + offsetLat , longitude: long + offsetLong)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             self.mapView.setRegion(region, animated: true)
-            
-            
         }
     }
     
     /**
        - Parameters:
-         - mapView: mapView instance
-         - overlay: Object containing data which will be overlayed on top of the Map
+           - mapView: mapView instance
+           - overlay: Object containing data which will be overlayed on top of the Map
        - Description: This function  tells the renderer how to overlay data on top of the map
        - Returns: MKOverlayRenderer
     */
@@ -278,10 +278,13 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         return MKOverlayRenderer()
     }
     
-    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
-        
-    }
-    
+    /**
+       - Parameters:
+           - mapView: mapView instance
+           - annotation: Object containing data which will be overlayed on top of the Map
+       - Description: This function  tells the renderer how to overlay data on top of the map
+       - Returns: MKAnnotationView
+    */
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
         if annotation is MKPointAnnotation {
@@ -300,5 +303,4 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         }
         return MKAnnotationView()
     }
-    
 }

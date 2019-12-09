@@ -1,10 +1,11 @@
-//
-//  JSONParser.swift
-//  JD Farmer
-//
-//  Created by capstone on 08.11.19.
-//  Copyright © 2019 Ajdari, Arian. All rights reserved.
-//
+/**
+  - **Name**:         JsonParser.swift
+  - Description: Function which reads a JSON File and it serializes as a NSDictionary
+ 
+  - Author:    Ajdari, Arian [arianajdari94@gmail.com]
+  - Date:      08.11.19
+  - Copyright: 2019 JD Driver. All rights reserved ©
+*/
 
 import Foundation
 

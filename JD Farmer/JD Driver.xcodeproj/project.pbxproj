@@ -18,9 +18,6 @@
 		2C0079F12384384A00A8CD56 /* LastVisitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0079EE2384384A00A8CD56 /* LastVisitController.swift */; };
 		2C0CD43C237E949000199E46 /* InitialDummyDatacopy.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */; };
 		2C0CD43F237EB9B400199E46 /* test.realm in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CD43E237EB9B400199E46 /* test.realm */; };
-		2C0E29F1238728990049B433 /* FieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F0238728990049B433 /* FieldController.swift */; };
-		2C0E29F3238729D70049B433 /* FieldOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F2238729D70049B433 /* FieldOverlay.swift */; };
-		2C0E29F523872A160049B433 /* FieldOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0E29F423872A160049B433 /* FieldOverlayView.swift */; };
 		2C56F39B239543B0008C633D /* PlacesFraunhofer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C56F39A239543B0008C633D /* PlacesFraunhofer.swift */; };
 		2C7B817123842ECD00BEED9B /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B817023842ECD00BEED9B /* IntentHandler.swift */; };
 		2C7B817823842ECD00BEED9B /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
@@ -44,7 +41,6 @@
 		2C87C85C2384533E00AF3C87 /* CreateNote.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C87C8452384533D00AF3C87 /* CreateNote.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2C87C8662384570F00AF3C87 /* CreateNoteIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */; };
 		2C87C86823845E4800AF3C87 /* CreateNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C87C86723845E4800AF3C87 /* CreateNoteController.swift */; };
-		2C8B59A0238ECA690040D636 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B599F238ECA690040D636 /* Places.swift */; };
 		2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0B23671BB600727CAE /* AppDelegate.swift */; };
 		2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0D23671BB600727CAE /* SceneDelegate.swift */; };
 		2CA71A1023671BB600727CAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A0F23671BB600727CAE /* ContentView.swift */; };
@@ -53,7 +49,6 @@
 		2CA71A1823671BB800727CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA71A1623671BB800727CAE /* LaunchScreen.storyboard */; };
 		2CA71A2323671BB800727CAE /* JD_FarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2223671BB800727CAE /* JD_FarmerTests.swift */; };
 		2CA71A2E23671BB800727CAE /* JD_FarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */; };
-		2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA71A4A2367210700727CAE /* DummyUtility.swift */; };
 		2CA76D482387038900D299E6 /* CarPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA76D472387038900D299E6 /* CarPlayView.xib */; };
 		2CA76D4A238704B700D299E6 /* CarPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA76D49238704B700D299E6 /* CarPlayViewController.swift */; };
 		4077598C0EE1E52FCBE04F3B /* Pods_JD_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9191CB81390EE1356C3AF8CC /* Pods_JD_Driver.framework */; };
@@ -67,7 +62,6 @@
 		7914C2DD237483F2008E2B24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DC237483F2008E2B24 /* Note.swift */; };
 		7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3052375A5E2008E2B24 /* JSONParser.swift */; };
 		7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */; };
-		799D8F01239A7F63002B641E /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = 799D8F00239A7F63002B641E /* Places.plist */; };
 		799D8F03239A7FA3002B641E /* FraunhoferCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 799D8F02239A7FA3002B641E /* FraunhoferCoordinates.plist */; };
 /* End PBXBuildFile section */
 
@@ -142,9 +136,6 @@
 		2C0CD43B237E949000199E46 /* InitialDummyDatacopy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InitialDummyDatacopy.json; sourceTree = "<group>"; };
 		2C0CD43D237EA45A00199E46 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		2C0CD43E237EB9B400199E46 /* test.realm */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.realm; sourceTree = "<group>"; };
-		2C0E29F0238728990049B433 /* FieldController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldController.swift; sourceTree = "<group>"; };
-		2C0E29F2238729D70049B433 /* FieldOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlay.swift; sourceTree = "<group>"; };
-		2C0E29F423872A160049B433 /* FieldOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldOverlayView.swift; sourceTree = "<group>"; };
 		2C56F39A239543B0008C633D /* PlacesFraunhofer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesFraunhofer.swift; sourceTree = "<group>"; };
 		2C7B812423842C7100BEED9B /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		2C7B816E23842ECD00BEED9B /* LastVisit.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LastVisit.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,7 +155,6 @@
 		2C87C8562384533E00AF3C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C87C8652384570F00AF3C87 /* CreateNoteIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteIntentHandler.swift; sourceTree = "<group>"; };
 		2C87C86723845E4800AF3C87 /* CreateNoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteController.swift; sourceTree = "<group>"; };
-		2C8B599F238ECA690040D636 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 		2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		2CA71A0823671BB600727CAE /* JD Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JD Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A0B23671BB600727CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,7 +170,6 @@
 		2CA71A2923671BB800727CAE /* JD DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JD DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA71A2D23671BB800727CAE /* JD_FarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JD_FarmerUITests.swift; sourceTree = "<group>"; };
 		2CA71A2F23671BB800727CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CA71A4A2367210700727CAE /* DummyUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUtility.swift; sourceTree = "<group>"; };
 		2CA71A4E2367231D00727CAE /* JD Farmer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "JD Farmer.entitlements"; sourceTree = "<group>"; };
 		2CA76D472387038900D299E6 /* CarPlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarPlayView.xib; sourceTree = "<group>"; };
 		2CA76D49238704B700D299E6 /* CarPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayViewController.swift; sourceTree = "<group>"; };
@@ -195,7 +184,6 @@
 		7914C2DC237483F2008E2B24 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		7914C3052375A5E2008E2B24 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConfiguration.swift; sourceTree = "<group>"; };
-		799D8F00239A7F63002B641E /* Places.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 		799D8F02239A7FA3002B641E /* FraunhoferCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FraunhoferCoordinates.plist; sourceTree = "<group>"; };
 		885BBD8951E5AFE44F15B05D /* Pods_JD_Driver_JD_DriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Driver_JD_DriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887EF6DBC4DFA2538A27C27D /* Pods-JD Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Driver.debug.xcconfig"; path = "Target Support Files/Pods-JD Driver/Pods-JD Driver.debug.xcconfig"; sourceTree = "<group>"; };
@@ -411,9 +399,6 @@
 				2CA71A4023671C2100727CAE /* IPhone */,
 				2C0079EE2384384A00A8CD56 /* LastVisitController.swift */,
 				2C87C86723845E4800AF3C87 /* CreateNoteController.swift */,
-				2C0E29F0238728990049B433 /* FieldController.swift */,
-				2C0E29F2238729D70049B433 /* FieldOverlay.swift */,
-				2C0E29F423872A160049B433 /* FieldOverlayView.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -437,7 +422,6 @@
 			isa = PBXGroup;
 			children = (
 				799D8EFF239A7F47002B641E /* Coordinates */,
-				2CA71A4A2367210700727CAE /* DummyUtility.swift */,
 				7914C3052375A5E2008E2B24 /* JSONParser.swift */,
 			);
 			path = Utilities;
@@ -447,7 +431,6 @@
 			isa = PBXGroup;
 			children = (
 				2CA76D49238704B700D299E6 /* CarPlayViewController.swift */,
-				2C8B599F238ECA690040D636 /* Places.swift */,
 				2C56F39A239543B0008C633D /* PlacesFraunhofer.swift */,
 			);
 			path = CarPlay;
@@ -500,7 +483,6 @@
 		799D8EFF239A7F47002B641E /* Coordinates */ = {
 			isa = PBXGroup;
 			children = (
-				799D8F00239A7F63002B641E /* Places.plist */,
 				799D8F02239A7FA3002B641E /* FraunhoferCoordinates.plist */,
 			);
 			path = Coordinates;
@@ -743,7 +725,6 @@
 				2CA71A1523671BB800727CAE /* Preview Assets.xcassets in Resources */,
 				2C7CE8662387DF6C00DE3A2A /* MyStoryboard.storyboard in Resources */,
 				2C0CD43F237EB9B400199E46 /* test.realm in Resources */,
-				799D8F01239A7F63002B641E /* Places.plist in Resources */,
 				2CA71A1223671BB800727CAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -935,23 +916,18 @@
 			files = (
 				7914C2D7237481E3008E2B24 /* Field.swift in Sources */,
 				7914C2DD237483F2008E2B24 /* Note.swift in Sources */,
-				2C0E29F523872A160049B433 /* FieldOverlayView.swift in Sources */,
 				7914C2D523748169008E2B24 /* UserOrganization.swift in Sources */,
 				7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */,
-				2C0E29F1238728990049B433 /* FieldController.swift in Sources */,
 				2C87C86823845E4800AF3C87 /* CreateNoteController.swift in Sources */,
 				7914C2D32374806A008E2B24 /* Organization.swift in Sources */,
 				2CA71A0C23671BB600727CAE /* AppDelegate.swift in Sources */,
 				2CA71A0E23671BB600727CAE /* SceneDelegate.swift in Sources */,
-				2C0E29F3238729D70049B433 /* FieldOverlay.swift in Sources */,
 				2CA71A1023671BB600727CAE /* ContentView.swift in Sources */,
 				2CA76D4A238704B700D299E6 /* CarPlayViewController.swift in Sources */,
 				7914C2DB2374832F008E2B24 /* Notification.swift in Sources */,
 				2C0079E5238431E700A8CD56 /* LastVisitIntentHandler.swift in Sources */,
 				2C0079EF2384384A00A8CD56 /* LastVisitController.swift in Sources */,
-				2C8B59A0238ECA690040D636 /* Places.swift in Sources */,
 				2C837DF523846C21008D9FD8 /* Intents.intentdefinition in Sources */,
-				2CA71A4B2367210700727CAE /* DummyUtility.swift in Sources */,
 				7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */,
 				7914C2D9237482CB008E2B24 /* Visit.swift in Sources */,
 				7914C2D1237473AB008E2B24 /* User.swift in Sources */,
