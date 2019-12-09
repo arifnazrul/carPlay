@@ -8,10 +8,10 @@
   - Copyright: 2019 JD Driver. All rights reserved ©
 */
 
-import Foundation
 import UIKit
-import CarPlay
 import MapKit
+import CarPlay
+import Foundation
 import CoreLocation
 
 class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
@@ -50,7 +50,25 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     /// - Todo: Fetch data from API and sort the fields according to distance (ASC)
     let fields = PlacesFraunhofer.getPlaces()
     
-   // var a = UIApplication.shared.delegate as! AppDelegate
+    let borders: [[CGFloat]] = [
+        [74, 178, 216],
+        [146, 202, 110],
+        [245, 159, 61],
+        [203, 156, 115],
+        [255, 178, 255]
+    ]
+    
+    let inside: [[CGFloat]] = [
+        [147, 205, 226],
+        [183, 217, 160],
+        [244, 193, 136],
+        [222, 194, 171],
+        [254, 42, 254]
+    ]
+    
+    var iterator: Int = 0
+    
+    var changedPosition: Bool = false
     
   
     override func viewDidLoad() {
@@ -73,6 +91,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         mapView.removeOverlays(overlays)
         lat = 49.429866
         long = 7.754808
+        changedPosition = true
         addPolyline()
         addPolygon()
         addAnnotations()
@@ -232,15 +251,28 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         } else if overlay is MKPolyline {
             print("POLYLINE")
             let renderer = MKPolylineRenderer(overlay: overlay)
-            renderer.strokeColor = UIColor(red: 74/255 , green: 178/255, blue: 216/255, alpha: 1)
+            renderer.strokeColor = UIColor(red: borders[0][0]/255 , green: borders[0][1]/255, blue: borders[0][2]/255, alpha: 1)
             renderer.lineWidth = 3
             return renderer
         } else if overlay is MKPolygon {
             print("POLYGON")
             let renderer = MKPolygonRenderer(polygon: overlay as! MKPolygon)
-            renderer.fillColor = UIColor(red: 74/255 , green: 178/255, blue: 216/255, alpha: 1)
-            renderer.strokeColor = UIColor(red: 74/255 , green: 178/255, blue: 216/255, alpha: 1)
-            renderer.lineWidth = 2
+            renderer.strokeColor = UIColor(red: borders[iterator][0]/255 , green: borders[iterator][1]/255, blue: borders[iterator][2]/255, alpha: 1)
+            renderer.fillColor = UIColor(red: inside[iterator][0]/255 , green: inside[iterator][1]/255, blue: inside[iterator][2]/255, alpha: 0.7)
+            
+            if(iterator == 0 && !changedPosition) {
+                renderer.lineWidth = 5
+            } else if(iterator == 1 && changedPosition){
+                renderer.lineWidth = 5
+            } else {
+                renderer.lineWidth = 2
+            }
+            
+            iterator += 1
+            
+            if(iterator == 5) {
+              iterator = 0
+            }
             return renderer
         }
         return MKOverlayRenderer()

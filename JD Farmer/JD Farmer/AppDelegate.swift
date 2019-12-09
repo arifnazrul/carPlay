@@ -90,8 +90,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
             print("[CARPLAY] SEARCH MAP TEMPLATE \(button.title ?? "-") TAPPED")
             self.cp?.offsetLat = 0.0
             self.cp?.offsetLong = 0.0
-            self.cp?.moveUser()
+            
             switch(type) {
+            case .search:
+                self.cp?.moveUser()
             case .dismiss:
                 // Dismiss the map panning interface
                 self.mapTemplate?.dismissPanningInterface(animated: true)
