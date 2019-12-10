@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" enable-background="new 0 0 32 32" fill="#333" version="1.1" viewBox="0 0 32 32" xml:space="preserve">
+    <style type="text/css">
+        .primary{fill:#333; stroke:#333}
+	    .secondary{fill:#fff;}
+    </style>
+    <symbol id="files" viewBox="-14 -14 28 28">
+        <path d="m8 14h-14v-4h1v3h12.6l5.4-5.4v-17.6h-7v-1h8v19l-6 6z" class="primary" stroke-width="0"/>
+        <polyline points="7.5 14 7.5 7.5 14 7.5" fill="none" stroke-miterlimit="10" class="primary"/>
+        <g class="primary">
+            <polygon points="5 8 2 8 2 9 5 9"/>
+            <polygon points="10 -8 6 -8 6 -7 10 -7"/>
+            <polygon points="10 -4 6 -4 6 -3 10 -3"/>
+            <polygon points="10 0 6 0 6 1 10 1"/>
+            <polygon points="10 4 6 4 6 5 10 5"/>
+        </g>
+        <path d="M-0.4,10L5,4.6V-13h-18v23H-0.4 M0,11h-14v-25H6V5L0,11L0,11z" class="primary" stroke-width="0"/>
+        <g class="primary">
+            <polygon points="-3 5 -10 5 -10 6 -3 6"/>
+            <polygon points="2 -11 -10 -11 -10 -10 2 -10"/>
+            <polygon points="2 -7 -10 -7 -10 -6 2 -6"/>
+            <polygon points="2 -3 -10 -3 -10 -2 2 -2"/>
+            <polygon points="2 1 -10 1 -10 2 2 2"/>
+        </g>
+        <polyline points="-0.5 11 -0.5 4.5 6 4.5" fill="none" class="primary" stroke-miterlimit="10"/>
+    </symbol>
+    <use id="XMLID_14_" transform="matrix(1 0 0 -1 16 16)" x="-14" y="-14" width="28px" height="28px" overflow="visible" xlink:href="#files"/>
+    <g class="secondary">
+        <path d="m3.0034 17.502v-11.475h11.966l0.0087 2.9915 0.0087 2.9915 2.9915 0.0087 2.9915 0.0087v16.949h-17.966zm15.017 9v-0.50848h-12.034v1.017h12.034zm0-4v-0.50848h-12.034v1.017h12.034zm0-4v-0.50848h-12.034v1.017h12.034zm0-4v-0.50848h-12.034v1.0169h12.034zm-5.0169-4v-0.50847h-7.0169v1.0169h7.0169z"/>
+        <path d="m16.02 8.7137v-2.2626l2.2542 2.254c1.2398 1.2397 2.2542 2.2579 2.2542 2.2626 0 0.0047-1.0144 0.0086-2.2542 0.0086h-2.2542z"/>
+        <path d="m22.02 25.01v-0.98305h4v-1.0508h-4v-2.9492h4v-1.0508h-4v-2.9492h4v-1.0508h-4v-2.9492h4v-1.0508h-4.0172l-1.4743-1.4746-1.4743-1.4746h1.9489v-1.0508h-3.0004l-0.99957-1-0.99957-1h-5.0004v-1.9661h11.966v6h6v16.983h-6.9492z"/>
+        <path d="m24.02 5.7137v-2.2796l2.2712 2.271c1.2492 1.249 2.2712 2.2749 2.2712 2.2796 0 0.00471-1.022 0.00857-2.2712 0.00857h-2.2712z"/>
+    </g>
+</svg>

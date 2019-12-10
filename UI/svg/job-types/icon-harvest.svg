@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" fill="#333">
+    <title>harvest_32</title>
+    <g id="e48fe257-9ed4-4a2f-a477-ddc5d9f2076f">
+        <path d="M7.5,17A4.5,4.5,0,1,0,12,21.5,4.49,4.49,0,0,0,7.5,17Zm0,6A1.5,1.5,0,1,1,9,21.5,1.5,1.5,0,0,1,7.5,23Z"
+              fill="#7e7e7e"/>
+        <rect x="2" y="28" width="28px" height="2px" fill="#7e7e7e"/>
+        <rect x="24" y="6" width="4px" height="4px" fill="#f69220"/>
+        <rect x="24" y="2" width="1px" height="2px" fill="#f69220"/>
+        <rect x="27" y="2" width="1px" height="2px" fill="#f69220"/>
+        <path d="M22,3V13h8V3Zm7,9H23V4h6Z" fill="#f69220"/>
+        <rect x="23" y="18" width="1px" height="8px" fill="#7e7e7e"/>
+        <rect x="26" y="18" width="1px" height="8px" fill="#7e7e7e"/>
+        <rect x="29" y="18" width="1px" height="8px" fill="#7e7e7e"/>
+        <path d="M11,4H2V8H8Zm4,11h2l2-9H11.89L9.07,10H2v6.42a7.48,7.48,0,0,1,12.93,4.1L19,21V19l-4-3ZM13,9V8h4l-1,5H15Z"
+              fill="#7e7e7e"/>
+    </g>
+</svg>

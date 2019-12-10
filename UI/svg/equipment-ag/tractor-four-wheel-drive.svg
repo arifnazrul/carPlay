@@ -1,0 +1,39 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.highlight{opacity:0.2;fill:#FFFFFF;}
+	.grey{fill:#808082;}
+	.window{opacity:0.3;fill:#5DC9E8;}
+	.stripe{fill:#EBD909;}
+</style>
+<path class="primary" d="M31,15l-2,0l0-5H10v1L5,9l-5,3l5,4l0,2h8v1h6v-1h12c0.6,0,1-0.4,1-1v-1C32,15.4,31.6,15,31,15z"/>
+<path class="shadow" d="M31,15l-2,0l0-5H10v1L5,9l-5,3l5,4l0,2h8v1h6v-1h12c0.6,0,1-0.4,1-1v-1C32,15.4,31.6,15,31,15z"/>
+<path class="shadow" d="M31,15l-2,0l0-5H10v1L5,9l-5,3l5,4l0,2h8v1h6v-1h12c0.6,0,1-0.4,1-1v-1C32,15.4,31.6,15,31,15z"/>
+<polygon class="grey" points="17.7,4.3 17.2,4 16,6 16.5,6.3 "/>
+<polygon class="grey" points="19.4,5 19.4,9 17,5 "/>
+<circle class="black" cx="5.5" cy="16.5" r="5.5"/>
+<circle class="secondary" cx="5.5" cy="16.5" r="3"/>
+<circle class="shadow" cx="5.5" cy="16.5" r="1"/>
+<path class="primary" d="M30.6,16L30,16c0,0-1,0-1.3-1c-0.4-1.5-1-5-7.7-5c0,0,0-4,0-4c7,0,11,3,11,3L30.6,16z"/>
+<path class="stripe" d="M21,7c5,0,8,1,8,1s-2.5-1.5-8-1.5V7z"/>
+<path class="black" d="M32,9l-1.2,6c0,0-0.8,0-1.1-1c-0.3-1-1.2-5.5-1.2-5.5L32,9z"/>
+<polygon class="black" points="28,12 27,11 26.4,8.1 27,8.2 "/>
+<polygon class="black" points="26.4,10.5 25.6,10 25.2,7.8 25.8,8 "/>
+<path class="primary" d="M22,1H11c0-0.6,0.4-1,1-1h10V1z"/>
+<path class="black" d="M20,1h-9c0,0.6,0.4,1,1,1h8V1z"/>
+<path class="black" d="M12,1v11h6l3-2V1H12z M19,10h-2c0-2-2-4-4-4V3c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V10z"/>
+<path class="window" d="M19,10h-2c0-2-2-4-4-4V3c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V10z"/>
+<rect x="20" y="4" class="grey" width="0.5px" height="5px"/>
+<path class="primary" d="M16,11v1h-4v-1h-1l-1-2V7h2C14.2,7,16,8.8,16,11L16,11z"/>
+<rect x="10" y="9" transform="matrix(1 -2.929675e-03 2.929675e-03 1 -2.925478e-02 3.226935e-02)" class="black" width="2px" height="2px"/>
+<path class="highlight" d="M16,11L16,11c0-2.2-1.8-4-4-4h-2v1c0,0,0.6,0,2,0C15,8,16,11,16,11z"/>
+<path class="black" d="M13,13h4c0,0-1,1-1,3.9c0,1.1,0,2.1,0,2.1h-3V13z"/>
+<polygon class="grey" points="15,17 13,17 12,13 14,13 "/>
+<circle class="black" cx="22.5" cy="16.5" r="5.5"/>
+<circle class="secondary" cx="22.5" cy="16.5" r="3"/>
+<circle class="shadow" cx="22.5" cy="16.5" r="1"/>
+<path class="primary" d="M5.5,10c3.3,0,3.3,2,5.5,2c0,0-1.1-3-5.5-3S0,12,0,12C2.2,12,2.2,10,5.5,10z"/>
+<circle class="black" cx="16" cy="11" r="1"/>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#FFCC22;}
+	.white{fill:#FFFFFF;}
+	.grey{fill:#808082;}
+	.highlight{opacity:0.2;fill:#FFFFFF;}
+	.shadow{opacity:0.3;}
+	.window{fill:#BBE3F3;}
+</style>
+<polygon class="primary" points="27,17 18,17 18,10 21,6 27,6 32,8 32,15 "/>
+<rect x="5" y="12" class="primary" width="13px" height="5px"/>
+<rect x="5" y="12" class="shadow" width="13px" height="5px"/>
+<polygon class="primary" points="0,2 18,0 18,4 15,14 13,14 10,12 5,12 2,9 0,9 "/>
+<polygon class="shadow" points="15,14 6.5,5.5 7,5 15.2,13.2 "/>
+<polygon class="black" points="32,9 32,8 27,5 27,8 "/>
+<polygon class="grey" points="18,9 21,4 21,10 18,10 "/>
+<rect x="20" class="primary" width="6px" height="1px"/>
+<rect x="18" y="12" class="white" width="1px" height="2px"/>
+<path class="black" d="M26,1h-5v5l6,0V5L26,1z M22,5V2h3l1,3H22z"/>
+<polygon class="window" points="26,5 22,5 22,2 25,2 "/>
+<polygon class="grey" points="19,17 27,17 32,15 32,13 27,13 27,11 22,11 "/>
+<circle class="black" cx="4" cy="18" r="4"/>
+<circle class="primary" cx="4" cy="18" r="2"/>
+<circle class="black" cx="10" cy="18" r="4"/>
+<circle class="primary" cx="10" cy="18" r="2"/>
+<rect x="27" y="6" class="black" width="0.5px" height="7px"/>
+<polygon class="shadow" points="5,5.3 3,4 2,9 "/>
+<polygon class="shadow" points="8.4,3.6 7.3,4.7 18,4 18,3 "/>
+<polygon class="highlight" points="18,0 0,2 0,9 2,9 3,4 6,6 8.4,3.6 18,3 "/>
+<polygon class="highlight" points="18,0 0,2 0,9 2,9 3,4 6,6 8.4,3.6 18,3 "/>
+<circle class="black" cx="24" cy="18" r="4"/>
+<circle class="primary" cx="24" cy="18" r="2"/>
+<polygon class="black" points="9,3 18,2 18,1 10,2 "/>
+</svg>

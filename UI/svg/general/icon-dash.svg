@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32px" height="32px" fill="#333">
+<style type="text/css">
+	.primary{fill:#fff;}
+	.secondary{fill:#fff;}
+	.tertiary{fill:#333;}
+</style>
+<rect y="5.167" class="tertiary" width="32px" height="18.667px"/>
+<rect x="2.667" y="7.833" class="secondary" width="26.667px" height="13.333px"/>
+<rect x="5.333" y="10.5" class="primary" width="21.333px" height="8px"/>
+</svg>

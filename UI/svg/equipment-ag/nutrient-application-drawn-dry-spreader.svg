@@ -1,0 +1,30 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.highlight{opacity:0.2;fill:#FFFFFF;}
+	.grey{fill:#808082;}
+</style>
+<polygon class="primary" points="2,10 2,12 8,13 8,10 	"/>
+<rect x="5" y="10" class="black" width="3px" height="5px"/>
+<polygon class="primary" points="32,17 6.9,17 4,2 4,0 30,0 30,2 28,12 32,15 	"/>
+<rect x="2" y="14" class="black" width="1px" height="2px"/>
+<rect x="2" y="14" class="black" width="4px" height="1px"/>
+<rect x="0" y="16" class="grey" width="5px" height="1px"/>
+<polygon class="shadow" points="32,17 27,17 28,12 32,15 	"/>
+<polygon class="shadow" points="26.2,7 25.5,4 8.5,4 7.8,7 7,2 27,2 	"/>
+<polygon class="highlight" points="26.2,7 7.8,7 8.5,4 25.5,4 	"/>
+<polygon class="shadow" points="18,12 25.7,12 26,9 18,9 	"/>
+<polygon class="shadow" points="26,9 25.7,12 25.4,10 18.5,10 18,12 18,9 	"/>
+<polygon class="shadow" points="16,12 8.3,12 8,9 16,9 	"/>
+<polygon class="shadow" points="8,9 8.3,12 8.6,10 15.5,10 16,12 16,9 	"/>
+<circle class="black" cx="10.5" cy="17.5" r="4.5"/>
+<circle class="secondary" cx="10.5" cy="17.5" r="2.5"/>
+<circle class="shadow" cx="10.5" cy="17.5" r="1"/>
+<circle class="black" cx="23.5" cy="17.5" r="4.5"/>
+<circle class="secondary" cx="23.5" cy="17.5" r="2.5"/>
+<circle class="shadow" cx="23.5" cy="17.5" r="1"/>
+<polygon class="shadow" points="8.5,4 7.8,7 7,2 	"/>
+<polygon class="shadow" points="25.5,4 26.2,7 27,2 	"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.shadow{opacity:0.3;}
+	.window{fill:#BBE3F3;}
+	.primary{fill:#339647;}
+	.stripe{fill:#EBD909;}
+	.secondary{fill:#EBD909;}
+</style>
+<polygon class="black" points="25,12 21,10 22,9 26,11 "/>
+<polygon class="secondary" points="29,22 25,22 25,9 27,4 29,9 "/>
+<polygon class="primary" points="20,13 23,13 22,9 21,9 "/>
+<polygon class="secondary" points="26,18 32,20 32,22 26,22 "/>
+<polygon class="secondary" points="27,14 32,14 32,13 27,12 "/>
+<polygon class="secondary" points="27,9 32,9 32,10 27,11 "/>
+<polygon class="primary" points="0,15 6,18 12,18 12,6 2,6 0,7 "/>
+<polygon class="primary" points="12,13 26,13 26,17 17,17 16,18 12,18 "/>
+<polygon class="primary" points="12,1 19,1 19,8 20,13 12,13 "/>
+<rect x="11" class="primary" width="10px" height="1px"/>
+<rect x="6" y="9" class="shadow" width="6px" height="4px"/>
+<rect x="2" y="12" class="shadow" width="4px" height="4px"/>
+<rect x="12" y="1" class="window" width="1px" height="7px"/>
+<rect x="4" y="7" class="stripe" width="8px" height="1px"/>
+<polygon class="window" points="19,8 18,8 18,1 21,1 "/>
+<polygon class="black" points="12,6 2,6 2,7 2,11 5,11 5,7 12,7 "/>
+<rect x="8" y="13" class="black" width="12px" height="1px"/>
+<rect x="13" y="12" class="black" width="4px" height="1px"/>
+<rect x="6" y="9" class="black" width="6px" height="1px"/>
+<rect x="13" y="1" class="window" width="4px" height="7px"/>
+<rect x="13" y="1" class="shadow" width="4px" height="7px"/>
+<rect x="13" y="1" class="shadow" width="1px" height="7px"/>
+<circle class="black" cx="23" cy="17" r="5"/>
+<circle class="secondary" cx="23" cy="17" r="2.2"/>
+<polygon class="shadow" points="10,18 14,18 13,13 10,13 "/>
+<polygon class="shadow" points="20,17 17,17 16,18 17,13 20,13 "/>
+<circle class="black" cx="7" cy="17" r="5"/>
+<circle class="secondary" cx="7" cy="17" r="2.2"/>
+<circle class="shadow" cx="7" cy="17" r="1"/>
+<circle class="shadow" cx="23" cy="17" r="1"/>
+<rect x="26" y="9" class="shadow" width="2px" height="2px"/>
+<rect x="26" y="12" class="shadow" width="2px" height="2px"/>
+<polygon class="black" points="12,1 7,1 6,1 2,6 3,6 7,2 12,2 "/>
+<polygon class="black" points="9,5 9,3 8,3 8,5 7,7 10,7 "/>
+<polygon class="secondary" points="27,7 27,4 32,4 32,5 "/>
+</svg>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="blank-file-colored" viewBox="-11 -15 23 29">
+	<g>
+		<polygon fill="#333333" points="-10,13 -10,-15 12,-15 12,9 8,13 		"/>
+	</g>
+	<g>
+		<polygon fill="#CDCDCD" points="-11,14 -11,-14 11,-14 11,8 5,14 		"/>
+	</g>
+	<g>
+		<polygon fill="#EBEBEB" points="11,8 5,14 5,8 		"/>
+	</g>
+	<g>
+		<polygon fill="#8B8B8B" points="-1,14 5,8 5,14 		"/>
+	</g>
+</symbol>
+<symbol id="generic-file" viewBox="-11 -14 22 28">
+	<g>
+		<polygon fill="#FFFFFF" points="-10.5,-13.5 -10.5,13.5 4.8,13.5 10.5,7.8 10.5,-13.5 		"/>
+		<path fill="#333333" d="M4.6,13L10,7.6V-13h-20v26H4.6 M5,14h-16v-28h22V8L5,14L5,14z"/>
+	</g>
+	<polyline fill="none" stroke="#333333" stroke-miterlimit="10" points="11,7 4,7 4,14 	"/>
+</symbol>
+<symbol id="usb-icon" viewBox="-8 -9.5 16 17">
+	<polygon fill="#FFFFFF" points="6,-6.5 6,6.5 -6,6.5 -6,-6.5 	"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-6" y1="3" x2="6" y2="3">
+		<stop offset="0" style="stop-color:#F9EC31"/>
+		<stop offset="1" style="stop-color:#FAAF40"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" points="6,2.5 -6,2.5 -6,3.5 6,3.5 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-6" y1="5" x2="6" y2="5">
+		<stop offset="0" style="stop-color:#009345"/>
+		<stop offset="1" style="stop-color:#006838"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_2_)" points="6,3.5 -6,3.5 -6,6.5 6,6.5 	"/>
+	<path fill="#333333" d="M7,5.5v1c0,0.6-0.4,1-1,1H-6c-0.6,0-1-0.4-1-1v-1c0-0.5,0.5-0.9,1-1l-1-9v-2H7v2l-1,9C6.5,4.6,7,5,7,5.5z
+		 M-6-5.5v1l1,10H5l1-10v-1H-6z"/>
+	<path fill="#333333" d="M7-4.5H-7c-0.6,0-1-0.4-1-1l0-1l0.8-2.3c0.1-0.4,0.5-0.7,0.9-0.7H6.3c0.4,0,0.8,0.3,0.9,0.7L8-6.5l0,1
+		C8-4.9,7.6-4.5,7-4.5z"/>
+</symbol>
+<use xlink:href="#blank-file-colored" width="23px" height="29px" id="XMLID_3_" x="-11" y="-15" transform="matrix(1 0 0 -1 16 16)" overflow="visible"/>
+<use xlink:href="#usb-icon" width="16px" height="17px" id="XMLID_2_" x="-8" y="-9.5" transform="matrix(1 0 0 -1 16 17.5)" overflow="visible"/>
+<g>
+	<path fill="#333333" d="M14.8,16v0.7l-1.5,3.6h1.5V21h-2.3v-0.7l1.5-3.6h-1.4V16H14.8z"/>
+	<path fill="#333333" d="M15.6,16h0.8v5h-0.8V16z"/>
+	<path fill="#333333" d="M19.5,17.2v0.7c0,0.8-0.4,1.2-1.2,1.2H18V21h-0.8v-5h1.2C19.1,16,19.5,16.4,19.5,17.2z M18,16.7v1.7h0.4
+		c0.3,0,0.4-0.1,0.4-0.5v-0.8c0-0.4-0.1-0.5-0.4-0.5H18z"/>
+</g>
+</svg>

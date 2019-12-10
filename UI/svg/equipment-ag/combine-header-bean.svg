@@ -1,0 +1,22 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.grey{fill:#808082;}
+</style>
+<polygon class="primary" points="24,11 16,11 16,16 32,20 "/>
+<polygon class="secondary" points="28,15.5 32,20 28,19 "/>
+<path class="primary" d="M16,22H5.3C4.5,22,4,21.5,4,20.5V15l16,2c0,0-1.6,3.2-2,4C17.5,22,16,22,16,22z"/>
+<path class="shadow" d="M16,22H5.3C4.5,22,4,21.5,4,20.5V15l15,2l-1,3L16,22z"/>
+<polygon class="black" points="11,14 7,7 11,0 20,0 24,7 20,14 "/>
+<path class="grey" d="M17.4,7.8c-0.6-0.5-0.6-1.2,0-1.7l1.8-1.4c0.6-0.5,1.3-0.3,1.5,0.4c0,0,0.2,0.6,0.2,1.8s-0.2,1.8-0.2,1.8c-0.2,0.7-0.9,0.9-1.5,0.4L17.4,7.8z"/>
+<path class="grey" d="M13.6,7.8c0.6-0.5,0.6-1.2,0-1.7l-1.8-1.4c-0.6-0.5-1.3-0.3-1.5,0.4c0,0-0.2,0.6-0.2,1.8s0.2,1.8,0.2,1.8c0.2,0.7,0.9,0.9,1.5,0.4L13.6,7.8z"/>
+<path class="grey" d="M14.7,8.9c0.5-0.6,1.2-0.6,1.7,0l1.4,1.8c0.5,0.6,0.3,1.3-0.4,1.5c0,0-0.6,0.2-1.8,0.2s-1.8-0.2-1.8-0.2c-0.7-0.2-0.9-0.9-0.4-1.5L14.7,8.9z"/>
+<path class="grey" d="M14.7,5.1c0.5,0.6,1.2,0.6,1.7,0l1.4-1.8C18.2,2.6,18,2,17.3,1.7c0,0-0.6-0.2-1.8-0.2s-1.8,0.2-1.8,0.2C13,2,12.8,2.6,13.2,3.2L14.7,5.1z"/>
+<path class="primary" d="M22,19L0,16l0-9c0-2,2.3-3,4-2l11,7L22,19z"/>
+<polygon class="shadow" points="13,11 11,11 9,16 11,16 "/>
+<circle class="secondary" cx="3.5" cy="8.5" r="1.5"/>
+<path class="secondary" d="M19.2,18.6c0,0-0.8,1.6-1.2,2.4c-0.5,1-2,1-2,1h-6v-1h7l0-5L19.2,18.6z"/>
+<polygon class="secondary" points="17,18.3 17,14 22,19 "/>
+</svg>

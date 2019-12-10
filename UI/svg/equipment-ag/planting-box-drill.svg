@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.highlight{opacity:0.2;fill:#FFFFFF;}
+</style>
+<path class="black" d="M2,16.5c0-3,2.5-5.5,5.5-5.5c3,0,5.5,2.5,5.5,5.5c0,3-2.5,5.5-5.5,5.5C4.5,22,2,19.5,2,16.5z"/>
+<path class="primary" d="M24,11l4-2V5.3C28,4.7,27.8,4,26.5,4H24L24,11z"/>
+<path class="shadow" d="M24,11l4-2V5.3C28,4.7,27.8,4,26.5,4H24L24,11z"/>
+<polygon class="primary" points="24,14 24,2 15,2 15,0 10,0 8,13 0,15.8 0,18 7,18 11,18 22,18 24,18 32,18 32,14 	"/>
+<circle class="black" cx="16.5" cy="15.5" r="6.5"/>
+<circle class="secondary" cx="16.5" cy="15.5" r="3.5"/>
+<circle class="shadow" cx="16.5" cy="15.5" r="1.5"/>
+<rect x="11" y="1" class="highlight" width="3px" height="2px"/>
+<polygon class="shadow" points="16,7 11,5 16,5 	"/>
+</svg>

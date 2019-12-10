@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<symbol id="Generic-Pin" viewBox="-7.001 -11 14 22">
+	<path style="fill:#333333;" d="M6.999,4c0,3.866-3.134,7-7,7s-7-3.134-7-7c0-2.547,1.364-4.769,3.397-5.994L-0.001-11l3.603,9.006
+		C5.635-0.769,6.999,1.453,6.999,4z M-0.001,7c1.657,0,3-1.343,3-3s-1.343-3-3-3s-3,1.343-3,3S-1.658,7-0.001,7z"/>
+</symbol>
+<use xlink:href="#Generic-Pin" width="14px" height="22px" id="XMLID_2_" x="-7.001" y="-11" transform="matrix(1 0 0 -1 16 11)" style="overflow:visible;"/>
+</svg>

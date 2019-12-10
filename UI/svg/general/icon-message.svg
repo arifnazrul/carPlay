@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="File2" viewBox="-15 -11 30 22">
+	<g>
+		<polygon fill="#E3E3E3" points="-15,11 -15,-11 15,-11 15,11 		"/>
+	</g>
+	<polygon fill="#47803C" points="7,-1 -7,-1 -7,1 7,1 	"/>
+	<polygon fill="#ABABAB" points="5,-3 -7,-3 -7,-2 5,-2 	"/>
+	<polygon fill="#ABABAB" points="7,-5 -7,-5 -7,-4 7,-4 	"/>
+	<polygon fill="#ABABAB" points="-5,8 -13,8 -13,9 -5,9 	"/>
+	<polygon fill="#ABABAB" points="-7,6 -13,6 -13,7 -7,7 	"/>
+	<polygon fill="#ECAD1F" points="14,5 9,5 9,10 14,10 	"/>
+	<path fill="#E3E3E3" d="M14,4.2c-0.5,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8"/>
+	<path fill="#E3E3E3" d="M9,5.8c0.5,0,0.8-0.4,0.8-0.8S9.5,4.2,9,4.2"/>
+	<path fill="#E3E3E3" d="M14,9.2c-0.5,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8"/>
+	<path fill="#E3E3E3" d="M9,10.8c0.5,0,0.8-0.4,0.8-0.8S9.5,9.2,9,9.2"/>
+	<g>
+		<path fill="#785430" d="M11.5,6C11.8,6,12,6.2,12,6.4H11C11,6.2,11.2,6,11.5,6z"/>
+		<path fill="#785430" d="M11.3,9c-0.4-0.1-0.7-0.5-0.7-0.9h0V7.8C10.5,7.3,10,7,10,7V6.6h3V7c0,0-0.5,0.3-0.6,0.8v0.3h0
+			c0,0.4-0.3,0.8-0.7,0.9L11.3,9z"/>
+	</g>
+</symbol>
+<symbol id="generic-file" viewBox="-11 -14 22 28">
+	<g>
+		<polygon fill="#FFFFFF" points="-10.5,-13.5 -10.5,13.5 4.8,13.5 10.5,7.8 10.5,-13.5 		"/>
+		<path fill="#333333" d="M4.6,13L10,7.6V-13h-20v26H4.6 M5,14h-16v-28h22V8L5,14L5,14z"/>
+	</g>
+	<polyline fill="none" stroke="#333333" stroke-miterlimit="10" points="11,7 4,7 4,14 	"/>
+</symbol>
+<use xlink:href="#File2" width="30px" height="22px" id="XMLID_3_" x="-15" y="-11" transform="matrix(1 0 0 -1 16 16)" overflow="visible"/>
+</svg>

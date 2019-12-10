@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve" width="70px" height="70px" fill="#333">
+<style type="text/css">
+	.st0{fill:url(#background_1_);}
+	.st1{fill:url(#shadow_1_);}
+	.st2{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+	.st3{opacity:0.3;enable-background:new    ;}
+	.st4{fill:#F2F2F2;}
+	.st5{fill:#D8D8D8;}
+	.st6{fill:url(#path-4_1_);}
+	.st7{fill:none;stroke:#979797;}
+	.st8{fill:url(#path-6_1_);}
+	.st9{fill:url(#path-8_1_);}
+	.st10{fill:#FFDE00;stroke:#F2F2F2;stroke-width:0.5;}
+	.st11{fill:#D8D8D8;stroke:#F2F2F2;stroke-width:0.5;}
+</style>
+<title>Artboard Copy 19</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="group">
+		<g id="Group">
+			
+				<radialGradient id="background_1_" cx="-17.2429" cy="91.5088" r="0.7247" gradientTransform="matrix(70 0 0 -70 1242 6442)" gradientUnits="userSpaceOnUse">
+				<stop offset="0" style="stop-color:#5F5F5F"/>
+				<stop offset="1" style="stop-color:#333333"/>
+			</radialGradient>
+			<path id="background" class="st0" d="M70,68c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2c0-1.1,0.9-2,2-2h66c1.1,0,2,0.9,2,2V68z"/>
+			
+				<linearGradient id="shadow_1_" gradientUnits="userSpaceOnUse" x1="-17.166" y1="91.1085" x2="-17.2366" y2="92.6803" gradientTransform="matrix(59.0818 0 0 -18.1221 1053.5415 1717.2676)">
+				<stop offset="0" style="stop-color:#000000;stop-opacity:0"/>
+				<stop offset="1" style="stop-color:#000000"/>
+			</linearGradient>
+			<polygon id="shadow" class="st1" points="8.069,48.037 14.141,58.942 29.191,66.159 44.672,57.098 61.906,65.182 67.151,60.659 
+				61.906,57.89 43.969,48.037 26.04,57.89 			"/>
+			<path id="Shape_1_" class="st2" d="M0,3c0-1.1,0.9-2,2-2h66c1.1,0,2,0.9,2,2V2c0-1.1-0.9-2-2-2H2C0.9,0,0,0.9,0,2V3z"/>
+			<path id="shape" class="st3" d="M0,67c0,1.1,0.9,2,2,2h66c1.1,0,2-0.9,2-2v1c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V67z"/>
+			<polygon id="rectangle_2_" class="st4" points="44,11 62,21 62,58 44,48 			"/>
+			<polygon id="rectangle_1_" class="st4" points="8,11 26,21 26,58 8,48 			"/>
+			<polygon id="rectangle" class="st5" points="26,21 44,11 44,48 26,58 			"/>
+			<g id="Rectangle-5">
+				<g>
+					
+						<linearGradient id="path-4_1_" gradientUnits="userSpaceOnUse" x1="-16.2985" y1="92.5141" x2="-16.2985" y2="91.054" gradientTransform="matrix(14.981 0 0 -37.0142 262.6572 3424.3027)">
+						<stop offset="0" style="stop-color:#B4EC51"/>
+						<stop offset="1" style="stop-color:#429321"/>
+					</linearGradient>
+					<polygon id="path-4" class="st6" points="11,17 25.981,25.014 25.981,54.014 11,45.573 					"/>
+				</g>
+				<path class="st7" d="M11.5,17.835v27.446l13.981,7.878V25.314L11.5,17.835z"/>
+			</g>
+			<g id="Rectangle-5-Copy">
+				<g>
+					
+						<linearGradient id="path-6_1_" gradientUnits="userSpaceOnUse" x1="-16.3" y1="92.4451" x2="-16.3" y2="91.0541" gradientTransform="matrix(15 0 0 -37 296 3421)">
+						<stop offset="0" style="stop-color:#B4EC51"/>
+						<stop offset="1" style="stop-color:#429321"/>
+					</linearGradient>
+					<polygon id="path-6" class="st8" points="44,15 59,23 59,52 44,43.573 					"/>
+				</g>
+				<path class="st7" d="M44.5,15.833V43.28l14,7.865V23.3L44.5,15.833z"/>
+			</g>
+			<g id="Path-9">
+				<g>
+					
+						<linearGradient id="path-8_1_" gradientUnits="userSpaceOnUse" x1="-16.4165" y1="91.9056" x2="-16.4165" y2="90.6311" gradientTransform="matrix(16.6133 0 0 -37.6548 307.5732 3481.7593)">
+						<stop offset="0" style="stop-color:#429321"/>
+						<stop offset="1" style="stop-color:#B4EC51"/>
+					</linearGradient>
+					<polygon id="path-8" class="st9" points="26.534,25.228 43.147,15.519 43.147,43.054 26.534,53.174 					"/>
+				</g>
+				<path class="st7" d="M27.034,25.515v26.769l15.613-9.511V16.39L27.034,25.515z"/>
+			</g>
+			<circle id="Mask-Copy-13" class="st10" cx="20.5" cy="28.5" r="3.5"/>
+			<circle id="Mask-Copy-14" class="st10" cx="32.5" cy="38.5" r="3.5"/>
+			<circle id="Mask-Copy-15" class="st11" cx="51.5" cy="26.5" r="3.5"/>
+			<circle id="Mask-Copy-20" class="st10" cx="53.5" cy="31.5" r="3.5"/>
+			<circle id="Mask-Copy-18" class="st10" cx="17.5" cy="33.5" r="3.5"/>
+			<circle id="Mask-Copy-19" class="st11" cx="20.5" cy="43.5" r="3.5"/>
+			<circle id="Mask-Copy-16" class="st10" cx="49.5" cy="39.5" r="3.5"/>
+			<circle id="Mask-Copy-17" class="st11" cx="36.5" cy="28.5" r="3.5"/>
+		</g>
+	</g>
+</g>
+</svg>

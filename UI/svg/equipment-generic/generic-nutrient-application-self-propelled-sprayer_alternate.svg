@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32px" height="32px" fill="#333">
+<style type="text/css">
+	.primary{fill:#7E7E7E;}
+	.secondary{fill:#D3D3D3;}
+	.tertiary{opacity:0.3;fill:#7E7E7E;}
+	.quaternary{fill:#020303;}
+	.quinary{opacity:0.3;fill:#020303;}
+</style>
+<polygon class="primary" points="0,14 6,20 24,20 30,16 30,12 0,12 "/>
+<polygon class="quinary" points="0,12 0,14 6,20 24,20 30,16 30,12 "/>
+<path class="secondary" d="M5,10H2V7c0-0.6,0.4-1,1-1h1c0.6,0,1,0.4,1,1V10z"/>
+<path class="primary" d="M6,10h7V7c0-0.6-0.4-1-1-1H7C6.4,6,6,6.4,6,7V10z"/>
+<path class="quaternary" d="M24,5c0,0-2,0-2,2v3h1V7L24,5z"/>
+<rect x="15" y="7" class="tertiary" width="5px" height="3px"/>
+<polygon class="primary" points="22,5 14,5 14,6 21,6 "/>
+<rect x="14" y="6" class="quaternary" width="1px" height="4px"/>
+<rect x="14" y="6" class="quaternary" width="7px" height="1px"/>
+<circle class="quaternary" cx="7" cy="22" r="5"/>
+<path class="quaternary" d="M1,22H0c0-3.9,3.1-7,7-7v1C3.7,16,1,18.7,1,22z"/>
+<circle class="secondary" cx="7" cy="22" r="3"/>
+<circle class="quinary" cx="7" cy="22" r="1"/>
+<rect y="7" class="quaternary" width="1px" height="8px"/>
+<rect x="20" y="6" class="quaternary" width="1px" height="4px"/>
+<path class="primary" d="M31,18l-3,1h-6l5-2c0,0,0-4-4-4c-3,0-3-1-3-1h12L31,18z"/>
+<circle class="quaternary" cx="24" cy="22" r="5"/>
+<path class="quaternary" d="M18,22h-1c0-3.9,3.1-7,7-7v1C20.7,16,18,18.7,18,22z"/>
+<circle class="secondary" cx="24" cy="22" r="3"/>
+<circle class="quinary" cx="24" cy="22" r="1"/>
+<path class="quaternary" d="M32,13l-1,5c0,0,0-4-3-5c-0.6-1-2-3-2-3l6,1V13z"/>
+<polygon class="quaternary" points="32,12 1,13 1,10 32,11 "/>
+<polygon class="primary" points="9,9 7,9 3,13 5,13 "/>
+<polygon class="primary" points="16,10 14,10 11,13 13,13 "/>
+<polygon class="primary" points="24,10 22,10 19,13 21,13 "/>
+<polygon class="quaternary" points="16,18 11,18 11,14 18,14 "/>
+<polygon class="quinary" points="31,15 0,15 0,14 32,12 32,13 "/>
+<polygon class="primary" points="32,11 0,10 0,8 32,10 "/>
+<polygon class="primary" points="32,13 0,14 0,12 27,12 32,12 "/>
+<polygon class="primary" points="32,13 26,13 29,10 32,10 "/>
+</svg>

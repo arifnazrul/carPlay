@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<symbol id="Fuel" viewBox="-10.001 -11 20.002 22">
+	<path style="fill:#D1D3D4;" d="M7,10.016c0,0,3,0.172,3-2.016L9.99,7h-1c0,0,0,0.485,0,1.001c0,0.641-0.803,1.016-1.99,1.016
+		V10.016z"/>
+	<path style="fill:#7C5F53;" d="M-7,9.996V-11H7V9.996C7,10.551,6.551,11,5.996,11H-5.996C-6.551,11-7,10.551-7,9.996z"/>
+	<polygon points="10,4 7,4 7,-5.5 10,-5.5 	"/>
+	<path d="M10-5.5C10-6.328,9.328-7,8.5-7S7-6.328,7-5.5S7.672-4,8.5-4S10-4.672,10-5.5z"/>
+	<polygon style="fill:#009444;" points="9.99,7 8.99,7 8.99,4 9.99,4 	"/>
+	<polygon style="fill:#009444;" points="9.99,3.984 7.99,3.984 7.99,5.984 9.99,5.984 	"/>
+	<polygon style="fill:#89CDE7;" points="4.984,2 -5.016,2 -5.016,9 4.984,9 	"/>
+	<polygon style="fill:#BCE3F2;" points="4.004,3 -4.004,3 -4.004,8 4.004,8 	"/>
+	<polygon style="fill:#6A463B;" points="4.984,2 -5.016,2 -5.016,3 4.984,3 	"/>
+	<polygon style="fill:#6A463B;" points="2.979,-2 -3.021,-2 -3.021,0 2.979,0 	"/>
+	<polygon points="0.979,9.019 -1.021,9.019 -1.021,10.022 0.979,10.022 	"/>
+	<path style="fill:#6A463B;" d="M5.996-11H7V9.996C7,10.551,6.551,11,5.996,11V-11z"/>
+	<polygon points="10.001,-11 -10.001,-11 -10.001,-9 10.001,-9 	"/>
+</symbol>
+<use xlink:href="#Fuel" width="20.002px" height="22px" x="-10.001" y="-11" transform="matrix(1 0 0 -1 16 11)" style="overflow:visible;"/>
+</svg>

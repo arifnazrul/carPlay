@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<symbol id="C_x26_F_Dealer" viewBox="-14 -11 28 22">
+	<polygon style="fill:#EFB01E;" points="-14,-7 -13.144,-11 -6.043,-11 -6.043,10.089 -7,11 -11.958,11 	"/>
+	<polygon style="opacity:0.25;fill:#212120;" points="-6.008,-11 -7,-11 -7,11 -6.008,10.089 	"/>
+	<polygon style="fill:#EFB01E;" points="14,-7 13.098,-11 5.997,-11 5.997,10.089 6.958,11 11.958,11 	"/>
+	<polygon style="opacity:0.25;fill:#212120;" points="5.997,-11 7,-11 7,11 5.997,10.089 	"/>
+	<polygon style="opacity:0.25;fill:#212120;" points="-7,-9 -9.085,-9 -10.021,-8.016 -7,-7 	"/>
+	<polygon style="opacity:0.25;fill:#212120;" points="11,-9 7,-9 7,9 9.979,9 11,7 	"/>
+	<path style="fill:#FFFFFF;" d="M9.979,9V-8h-20V9H9.979z"/>
+	<polygon style="fill:#D1D3D4;" points="9.979,-7.016 -10.021,-7.016 -10.021,-8.016 9.979,-8.016 	"/>
+	<polygon style="fill:#EFB01E;" points="9.979,9 -10.021,9 -10.021,8.5 9.979,8.5 	"/>
+	<polygon style="fill:#EFB01E;" points="4.498,0 -4.498,0 -4.498,1 4.498,1 	"/>
+	<polygon style="fill:#BCBEC0;" points="8,-3.991 -8,-3.991 -8,-2.991 8,-2.991 	"/>
+	<polygon style="fill:#BCBEC0;" points="6,-4.991 -6,-4.991 -6,-3.991 6,-3.991 	"/>
+	<path style="fill:#EFB01E;" d="M2.479,4.5c0-1.381-1.119-2.5-2.5-2.5s-2.5,1.119-2.5,2.5S-1.402,7-0.021,7S2.479,5.881,2.479,4.5z"/>
+</symbol>
+<use xlink:href="#C_x26_F_Dealer" width="28px" height="22px" x="-14" y="-11" transform="matrix(1 0 0 -1 16 11)" style="overflow:visible;"/>
+</svg>

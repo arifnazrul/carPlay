@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="agronomic-benchmarking" viewBox="-14 -14 28 28">
+	<polygon fill="#333333" points="-14,-14 -14,14 -10,14 -10,12 -12,12 -12,-12 12,-12 12,-10 14,-10 14,-14 	"/>
+	<polygon fill="#333333" points="-9,2 -4,2 -4,-10 -9,-10 	"/>
+	<polygon fill="#333333" points="-2,-2 3,-2 3,-10 -2,-10 	"/>
+	<polygon fill="#333333" points="5,2 10,2 10,-10 5,-10 	"/>
+	<polygon fill="#333333" points="5,11 10,11 10,5 5,5 	"/>
+	<path fill="#333333" d="M-6,4V3h-4v1H-6z"/>
+	<path fill="#333333" d="M-1,4V3h-4v1H-1z"/>
+	<path fill="#333333" d="M4,4V3H0v1H4z"/>
+	<path fill="#333333" d="M9,4V3H5v1H9z"/>
+	<path fill="#333333" d="M14,3.5C14,2.7,13.3,2,12.5,2S10,3.5,10,3.5S11.7,5,12.5,5S14,4.3,14,3.5z"/>
+	<polygon display="none" fill="none" points="-14,14 14,14 14,-14 -14,-14 	"/>
+</symbol>
+<use xlink:href="#agronomic-benchmarking" width="28px" height="28px" id="XMLID_1_" x="-14" y="-14" transform="matrix(1 0 0 -1 16 16)" overflow="visible"/>
+</svg>

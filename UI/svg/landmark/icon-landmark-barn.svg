@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<symbol id="Shed" viewBox="-16 -11.004 32 22.008">
+	<polygon style="fill:#EF4540;" points="5.539,1.187 -5.539,1.187 -5.539,7.876 0,10.105 5.539,7.876 	"/>
+	<polygon style="fill:#EF4540;" points="15,-11.004 -15,-11.004 -15,-0.108 0,5.996 15,-0.108 	"/>
+	<polygon style="fill:#F15954;" points="-11.49,-8.004 -11.99,-8.004 -11.99,-11.004 -11.49,-11.004 	"/>
+	<polygon style="fill:#F15954;" points="-9.5,-8.004 -10,-8.004 -10,-11.004 -9.5,-11.004 	"/>
+	<polygon style="fill:#F15954;" points="-5.498,2.943 -5.998,2.943 -5.998,-1.016 -5.498,-1.016 	"/>
+	<polygon style="fill:#F15954;" points="-3.498,8.96 -3.998,8.96 -3.998,-1.016 -3.498,-1.016 	"/>
+	<polygon style="fill:#F15954;" points="-1.5,10.017 -2,10.017 -2,-1.016 -1.5,-1.016 	"/>
+	<polygon style="fill:#F15954;" points="0.506,10.017 0.006,10.017 0.006,-1.016 0.506,-1.016 	"/>
+	<polygon style="fill:#F15954;" points="2.512,10.017 2.012,10.017 2.012,-1.016 2.512,-1.016 	"/>
+	<polygon style="fill:#F15954;" points="4.512,9.005 4.012,9.005 4.012,-1.016 4.512,-1.016 	"/>
+	<polygon style="fill:#F15954;" points="6.485,3.098 5.985,3.098 5.985,-10.962 6.485,-10.962 	"/>
+	<polygon style="fill:#F15954;" points="8.506,2.485 8.006,2.485 8.006,-10.962 8.506,-10.962 	"/>
+	<polygon style="fill:#F15954;" points="10.52,2.016 10.02,2.016 10.02,-10.962 10.52,-10.962 	"/>
+	<polygon style="fill:#F15954;" points="12.5,1.013 12,1.013 12,-10.962 12.5,-10.962 	"/>
+	<polygon style="fill:#F15954;" points="14.5,0.023 14,0.023 14,-10.962 14.5,-10.962 	"/>
+	<polygon style="fill:#F15954;" points="-11.49,1.007 -11.99,1.007 -11.99,-2.004 -11.49,-2.004 	"/>
+	<polygon style="fill:#F15954;" points="-9.5,2.017 -10,2.017 -10,-2.004 -9.5,-2.004 	"/>
+	<polygon style="fill:#F15954;" points="-7.5,2.621 -8,2.621 -8,-10.991 -7.5,-10.991 	"/>
+	<polygon style="fill:#F15954;" points="-13.49,0.329 -13.99,0.329 -13.99,-11.004 -13.49,-11.004 	"/>
+	<polygon style="fill:#FFFFFF;" points="5.975,-11.004 -5.998,-11.004 -5.998,-1.01 5.975,-1.01 	"/>
+	<polygon style="fill:#BCE3F2;" points="-8,-2.004 -13,-2.004 -13,-7.004 -8,-7.004 	"/>
+	<polygon style="fill:#592727;" points="-8,-8.004 -13,-8.004 -13,-7.004 -8,-7.004 	"/>
+	<polygon style="fill:#EF4540;" points="2.012,-8.004 -2,-8.004 -2,-7.004 2.012,-7.004 	"/>
+	<polygon style="opacity:0.2;" points="5.985,-2.01 -6.015,-2.01 -6.015,-1.01 5.985,-1.01 	"/>
+	<polygon style="fill:#BCE3F2;" points="13.02,-2.004 8.02,-2.004 8.02,-7.004 13.02,-7.004 	"/>
+	<polygon style="fill:#592727;" points="13.02,-8.004 8.02,-8.004 8.02,-7.004 13.02,-7.004 	"/>
+	<polygon style="fill:#BCE3F2;" points="3,5.996 -3,5.996 -3,1.996 3,1.996 	"/>
+	<polygon style="fill:#592727;" points="2.968,0.996 -3,0.996 -3,1.996 2.968,1.996 	"/>
+	<polygon style="opacity:0.2;" points="-5.539,1.996 -15,-1.775 -15,-0.69 -5.539,3.043 	"/>
+	<polygon style="opacity:0.2;" points="5.539,1.996 15,-1.775 15,-0.69 5.539,3.043 	"/>
+	<polygon style="fill:#592727;" points="-6.932,8.217 0,11.004 6.932,8.217 6.932,7.318 0,9.975 -6.932,7.318 	"/>
+	<polygon style="opacity:0.2;" points="0.006,8.965 -5.539,6.793 -5.539,7.878 0,9.975 5.545,7.876 5.539,6.793 	"/>
+	<g>
+		<polygon style="fill:#592727;" points="-5.539,4.142 -16,0.015 -16,-1.084 -5.539,3.043 		"/>
+		<polygon style="fill:#592727;" points="5.545,4.14 5.545,3.04 16,-1.084 16,0.015 		"/>
+	</g>
+</symbol>
+<use xlink:href="#Shed" width="32px" height="22.008px" x="-16" y="-11.004" transform="matrix(1 0 0 -1 16 11)" style="overflow:visible;"/>
+</svg>

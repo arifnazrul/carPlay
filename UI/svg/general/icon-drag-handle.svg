@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" fill="#333" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="96.6438138%" id="linearGradient-1">
+            <stop stop-color="#FEFEFE" offset="0%"></stop>
+            <stop stop-color="#E1E1E1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1px" fill="none" fill-rule="evenodd">
+        <g id="temp/crop-planner/operation-plans" transform="translate(-157.000000, 0.000000)">
+            <g id="Group-2">
+                <g id="drag-n-drop" transform="translate(157.000000, 0.000000)">
+                    <path d="M1.06752081,0.5 L9.18472531,10.2406454 C9.84970369,11.0386195 10.8347703,11.5 11.8734998,11.5 L41.1265002,11.5 C42.1652297,11.5 43.1502963,11.0386195 43.8152747,10.2406454 L51.9324792,0.5 L1.06752081,0.5 Z" id="Rectangle-9" stroke="#CCCCCC" fill="url(#linearGradient-1)"></path>
+                    <circle fill="#585858" cx="19" cy="4" r="1"></circle>
+                    <circle fill="#585858" cx="23" cy="4" r="1"></circle>
+                    <circle fill="#585858" cx="27" cy="4" r="1"></circle>
+                    <circle fill="#585858" cx="31" cy="4" r="1"></circle>
+                    <circle fill="#585858" cx="35" cy="4" r="1"></circle>
+                    <circle fill="#585858" cx="21" cy="7" r="1"></circle>
+                    <circle fill="#585858" cx="25" cy="7" r="1"></circle>
+                    <circle fill="#585858" cx="29" cy="7" r="1"></circle>
+                    <circle fill="#585858" cx="33" cy="7" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
