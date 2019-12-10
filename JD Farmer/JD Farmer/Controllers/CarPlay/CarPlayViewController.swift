@@ -23,21 +23,25 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     var mainView: UIView?
     
     /// These variables are used to pin-point users current location and make panning feature implementation possible
-    var lat       : Double =  49.431581
-    var long      : Double =  7.753751
+    var lat       : Double =  49.428581
+    var long      : Double =  7.751151
     var offsetLat : Double =  0.000000
     var offsetLong: Double =  0.000000
-    var tractorPositionLat: Double = 49.430681
-    var tractorPositionLong: Double = 7.752251
-    var flagPositionLat: Double = 49.430381
-    var flagPositionLong: Double = 7.756051
-    
+    var tractorPositionLat: Double = 49.431945
+    var tractorPositionLong: Double = 7.750757
+    var flagPositionLat: Double = 49.431299
+    var flagPositionLong: Double = 7.759964
+    var flagPositionLat2: Double = 49.428197
+    var flagPositionLong2: Double = 7.746529
+    var notePositionLat: Double = 49.430571
+    var notePositionLong: Double = 7.759704
     /// Radius of the circle showing the user's location
     /// - Todo: implement the logic of interval, tick and growth so circle grows and shrinks dynamically for better user experience
-    var radius : Double! = 35
+    var radius : Double! = 30
     var interval = 0
     var tick     = 0
     var growth   = 3
+    var changeCounter: Int = 0
     
     /// Variable containing all overlays appearing on the MKMapView object
     var overlays: [MKOverlay]!
@@ -56,7 +60,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         [146, 202, 110],
         [245, 159, 61],
         [203, 156, 115],
-        [254, 42, 254]
+        [254, 42, 254],
+        [146, 202, 110]
     ]
     /// Contains all inside colours
     let inside: [[CGFloat]] = [
@@ -64,7 +69,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         [183, 217, 160],
         [244, 193, 136],
         [222, 194, 171],
-        [255, 178, 255]
+        [255, 178, 255],
+        [183, 217, 160]
     ]
     
     /// Iterator helping select the correct colour
@@ -91,15 +97,38 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
        - Returns: void
     */
     func moveUser() {
-        mapView.removeOverlays(overlays)
-        lat = 49.429866
-        long = 7.754808
-        changedPosition = true
-        addPolyline()
-        addPolygon()
-        addAnnotations()
-        
-        overlays = mapView.overlays
+        if(changeCounter == 0) {
+            mapView.removeOverlays(overlays)
+            lat = 49.429866
+            long = 7.754808
+            changedPosition = true
+            addPolyline()
+            addPolygon()
+            addAnnotations()
+            changeCounter += 1
+            overlays = mapView.overlays
+        }else if(changeCounter == 1) {
+            mapView.removeOverlays(overlays)
+            lat = 49.431351
+            long = 7.761142
+            changedPosition = true
+            addPolyline()
+            addPolygon()
+            addAnnotations()
+            changeCounter += 1
+            overlays = mapView.overlays
+        }else if(changeCounter == 2) {
+            mapView.removeOverlays(overlays)
+            lat = 49.428169
+            long = 7.759661
+            changedPosition = true
+            addPolyline()
+            addPolygon()
+            addAnnotations()
+            addSecondAnnotations()
+            changeCounter += 1
+            overlays = mapView.overlays
+        }
     }
     
     /**
@@ -122,9 +151,23 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         annotationFlag.coordinate = CLLocationCoordinate2D(latitude: flagPositionLat, longitude: flagPositionLong)
         mapView?.addAnnotation(annotationFlag)
         
+        let annotationFlag2 = MKPointAnnotation()
+        annotationFlag2.title = "zastava2"
+        annotationFlag2.subtitle = "Flag Annotation"
+        annotationFlag2.coordinate = CLLocationCoordinate2D(latitude: flagPositionLat2, longitude: flagPositionLong2)
+        mapView?.addAnnotation(annotationFlag2)
+        
         let overlays = [MKCircle(center: CLLocationCoordinate2D(latitude: lat, longitude: long), radius: radius)]
         mapView?.addOverlays(overlays)
         
+    }
+    
+    func addSecondAnnotations(){
+        let annotationNote = MKPointAnnotation()
+        annotationNote.title = "beleska"
+        annotationNote.subtitle = "Note Annotation"
+        annotationNote.coordinate = CLLocationCoordinate2D(latitude: notePositionLat, longitude: notePositionLong)
+        mapView?.addAnnotation(annotationNote)
     }
     
     /**
@@ -244,8 +287,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         if overlay is MKCircle {
             print("CIRCLE")
             let renderer = MKCircleRenderer(overlay: overlay)
-            renderer.fillColor = UIColor.blue
-            renderer.strokeColor = UIColor.blue
+            renderer.fillColor = UIColor(red: 51/255, green: 133/255, blue: 253/255, alpha: 1.0)
+            renderer.strokeColor = UIColor(red: 51/255, green: 133/255, blue: 253/255, alpha: 0.8)
             renderer.lineWidth = 2
             return renderer
         } else if overlay is MKPolyline {
@@ -270,7 +313,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             
             iterator += 1
             
-            if(iterator == 5) {
+            if(iterator == 6) {
               iterator = 0
             }
             return renderer
@@ -298,6 +341,14 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             } else if(annotation.title == "zastava") {
                 annotationRenderer.image = UIImage(named: "flagMarker")
                 annotationRenderer.center = CGPoint(x: flagPositionLat, y: flagPositionLong)
+                return annotationRenderer
+            } else if(annotation.title == "zastava2") {
+                annotationRenderer.image = UIImage(named: "flagMarker")
+                annotationRenderer.center = CGPoint(x: flagPositionLat2, y: flagPositionLong2)
+                return annotationRenderer
+            } else if(annotation.title == "beleska") {
+                annotationRenderer.image = UIImage(named: "beleska")
+                annotationRenderer.center = CGPoint(x: notePositionLat, y: notePositionLong)
                 return annotationRenderer
             }
         }
