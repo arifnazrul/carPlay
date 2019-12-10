@@ -22,7 +22,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate{
         sandboxConfig.consentToUseDataURI = "https://sandboxapi.deere.com:443/consentToUseOfData/"
         sandboxConfig.consumerKey = "johndeere-rOs5TBJA6sC8BZgIbHJHycNwRJ4YtmxboePjabzr"
         sandboxConfig.secretKey = "99048dfc0694d284ad1ce11be6c3d1e6bacc382720e18ddb12e48899eda11280"
-        
         JDServicesSetup.setupSandboxEnvironment(with: sandboxConfig)
         
         let myConsumerKey = "johndeere-rOs5TBJA6sC8BZgIbHJHycNwRJ4YtmxboePjabzr"
