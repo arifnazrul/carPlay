@@ -214,6 +214,85 @@
 					<key>INEnumValuePronunciationHintID</key>
 					<string>vvtU8o</string>
 				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Sugar Beet</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>whjv5f</string>
+					<key>INEnumValueIndex</key>
+					<integer>3</integer>
+					<key>INEnumValueName</key>
+					<string>sugar_beet</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>Sugar Beet</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>CZXlwh</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>INEnumDisplayName</key>
+			<string>Enum 4</string>
+			<key>INEnumDisplayNameID</key>
+			<string>v12pRy</string>
+			<key>INEnumGeneratesHeader</key>
+			<true/>
+			<key>INEnumName</key>
+			<string>Enum4</string>
+			<key>INEnumType</key>
+			<string>Regular</string>
+			<key>INEnumValues</key>
+			<array>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>unknown</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>YCbPbL</string>
+					<key>INEnumValueName</key>
+					<string>unknown</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Potato</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>lyNSIh</string>
+					<key>INEnumValueIndex</key>
+					<integer>1</integer>
+					<key>INEnumValueName</key>
+					<string>Potato</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>potato</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>K6nepw</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Tomato</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>lcQtZh</string>
+					<key>INEnumValueIndex</key>
+					<integer>2</integer>
+					<key>INEnumValueName</key>
+					<string>Tomato</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>tomato</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>c9b66o</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>Sugar Beet</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>iqo79G</string>
+					<key>INEnumValueIndex</key>
+					<integer>3</integer>
+					<key>INEnumValueName</key>
+					<string>Sugar_beet</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>Sugar Beet</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>cAglKl</string>
+				</dict>
 			</array>
 		</dict>
 	</array>
@@ -222,11 +301,11 @@
 	<key>INIntentDefinitionNamespace</key>
 	<string>IBSigj</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>19B88</string>
+	<string>18G103</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>11B500</string>
+	<string>11B52</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>11.2.1</string>
+	<string>11.2</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -729,6 +808,159 @@
 			<string>Create Note</string>
 			<key>INIntentTitleID</key>
 			<string>GgD9JO</string>
+			<key>INIntentType</key>
+			<string>Custom</string>
+			<key>INIntentVerb</key>
+			<string>Do</string>
+		</dict>
+		<dict>
+			<key>INIntentCategory</key>
+			<string>generic</string>
+			<key>INIntentConfigurable</key>
+			<true/>
+			<key>INIntentDescription</key>
+			<string>Gives Alerts about Machines</string>
+			<key>INIntentDescriptionID</key>
+			<string>veCAvr</string>
+			<key>INIntentLastParameterTag</key>
+			<integer>2</integer>
+			<key>INIntentManagedParameterCombinations</key>
+			<dict>
+				<key>fieldName</key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>JD Driver give me machine alerts.</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>rlrpQk</string>
+				</dict>
+			</dict>
+			<key>INIntentName</key>
+			<string>MachineAlerts</string>
+			<key>INIntentParameterCombinations</key>
+			<dict>
+				<key></key>
+				<dict>
+					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
+					<true/>
+					<key>INIntentParameterCombinationTitle</key>
+					<string>JD Driver give me machine alerts.</string>
+					<key>INIntentParameterCombinationTitleID</key>
+					<string>kagVQg</string>
+				</dict>
+			</dict>
+			<key>INIntentParameters</key>
+			<array>
+				<dict>
+					<key>INIntentParameterCustomDisambiguation</key>
+					<true/>
+					<key>INIntentParameterDisplayName</key>
+					<string>Field Name</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>UlgZfM</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>1</integer>
+					<key>INIntentParameterEnumType</key>
+					<string>Enum4</string>
+					<key>INIntentParameterEnumTypeNamespace</key>
+					<string>IBSigj</string>
+					<key>INIntentParameterName</key>
+					<string>fieldName</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>There are ${count} options matching ‘${fieldName}’.</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>BGit07</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationIntroduction</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Of which field?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>MjLqBx</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>DisambiguationSelection</string>
+						</dict>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Just to confirm, you wanted ‘${fieldName}’?</string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>sqGf3y</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Confirmation</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>2</integer>
+					<key>INIntentParameterType</key>
+					<string>Integer</string>
+				</dict>
+			</array>
+			<key>INIntentResponse</key>
+			<dict>
+				<key>INIntentResponseCodes</key>
+				<array>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>The updates are: ${updates}.</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>WvxiD0</string>
+						<key>INIntentResponseCodeName</key>
+						<string>success</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Sorry, something went wrong.</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>sBSPRa</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
+				</array>
+				<key>INIntentResponseLastParameterTag</key>
+				<integer>1</integer>
+				<key>INIntentResponseParameters</key>
+				<array>
+					<dict>
+						<key>INIntentResponseParameterDisplayName</key>
+						<string>Updates</string>
+						<key>INIntentResponseParameterDisplayNameID</key>
+						<string>rMN3lB</string>
+						<key>INIntentResponseParameterDisplayPriority</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterName</key>
+						<string>updates</string>
+						<key>INIntentResponseParameterTag</key>
+						<integer>1</integer>
+						<key>INIntentResponseParameterType</key>
+						<string>String</string>
+					</dict>
+				</array>
+			</dict>
+			<key>INIntentTitle</key>
+			<string>Machine Alerts</string>
+			<key>INIntentTitleID</key>
+			<string>OAij7i</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentVerb</key>

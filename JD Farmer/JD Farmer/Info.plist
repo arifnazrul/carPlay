@@ -30,6 +30,7 @@
 	<array>
 		<string>CreateNoteIntent</string>
 		<string>LastVisitIntent</string>
+		<string>MachineAlertsIntent</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

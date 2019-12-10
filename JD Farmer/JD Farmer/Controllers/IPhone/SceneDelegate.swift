@@ -43,6 +43,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         donateInteraction()
         donateInteractionCreateNote()
+        donateInteractionMachineAlerts()
         
         
         // Use a UIHostingController as window root view controller.
@@ -88,6 +89,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
           }
         }
       }
+    }
+    
+    func donateInteractionMachineAlerts() {
+    let intent = MachineAlertsIntent()
+    
+    intent.suggestedInvocationPhrase = "JD Driver machine alerts"
+    
+    let interaction = INInteraction(intent: intent, response: nil)
+    
+    interaction.donate { (error) in
+      if error != nil {
+        if let error = error as NSError? {
+          os_log("Interaction donation failed: %@", log: OSLog.default, type: .error, error)
+        } else {
+          os_log("Successfully donated interaction")
+        }
+      }
+    }
     }
     
     

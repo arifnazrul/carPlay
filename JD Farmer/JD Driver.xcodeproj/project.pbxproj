@@ -61,6 +61,15 @@
 		7914C2DD237483F2008E2B24 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C2DC237483F2008E2B24 /* Note.swift */; };
 		7914C3062375A5E2008E2B24 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3052375A5E2008E2B24 /* JSONParser.swift */; };
 		7914C3082375B0CE008E2B24 /* DatabaseConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */; };
+		793741EF23A019C800E724E0 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793741EE23A019C800E724E0 /* IntentHandler.swift */; };
+		793741F623A019C800E724E0 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C9C63282382FB3400DD5BA9 /* IntentsUI.framework */; };
+		793741F923A019C800E724E0 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793741F823A019C800E724E0 /* IntentViewController.swift */; };
+		793741FC23A019C800E724E0 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793741FA23A019C800E724E0 /* MainInterface.storyboard */; };
+		7937420023A019C800E724E0 /* MachineAlertsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 793741F523A019C800E724E0 /* MachineAlertsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7937420323A019C800E724E0 /* MachineAlerts.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 793741EC23A019C800E724E0 /* MachineAlerts.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7937420A23A019E300E724E0 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
+		7937420B23A019E300E724E0 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B812423842C7100BEED9B /* Intents.intentdefinition */; };
+		7937420D23A01A1500E724E0 /* MachineAlertsIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7937420C23A01A1500E724E0 /* MachineAlertsIntentHandler.swift */; };
 		799D8F03239A7FA3002B641E /* FraunhoferCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 799D8F02239A7FA3002B641E /* FraunhoferCoordinates.plist */; };
 /* End PBXBuildFile section */
 
@@ -107,6 +116,20 @@
 			remoteGlobalIDString = 2CA71A0723671BB600727CAE;
 			remoteInfo = "JD Farmer";
 		};
+		793741FE23A019C800E724E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793741F423A019C800E724E0;
+			remoteInfo = MachineAlertsUI;
+		};
+		7937420123A019C800E724E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA71A0023671BB600727CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 793741EB23A019C800E724E0;
+			remoteInfo = MachineAlerts;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +143,8 @@
 				2C7B818223842ECD00BEED9B /* LastVisitUI.appex in Embed App Extensions */,
 				2C87C85C2384533E00AF3C87 /* CreateNote.appex in Embed App Extensions */,
 				2C7B818523842ECD00BEED9B /* LastVisit.appex in Embed App Extensions */,
+				7937420023A019C800E724E0 /* MachineAlertsUI.appex in Embed App Extensions */,
+				7937420323A019C800E724E0 /* MachineAlerts.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +207,14 @@
 		7914C2DC237483F2008E2B24 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		7914C3052375A5E2008E2B24 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		7914C3072375B0CE008E2B24 /* DatabaseConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConfiguration.swift; sourceTree = "<group>"; };
+		793741EC23A019C800E724E0 /* MachineAlerts.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MachineAlerts.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		793741EE23A019C800E724E0 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		793741F023A019C800E724E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		793741F523A019C800E724E0 /* MachineAlertsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MachineAlertsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		793741F823A019C800E724E0 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		793741FB23A019C800E724E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		793741FD23A019C800E724E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7937420C23A01A1500E724E0 /* MachineAlertsIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineAlertsIntentHandler.swift; sourceTree = "<group>"; };
 		799D8F02239A7FA3002B641E /* FraunhoferCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FraunhoferCoordinates.plist; sourceTree = "<group>"; };
 		885BBD8951E5AFE44F15B05D /* Pods_JD_Driver_JD_DriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JD_Driver_JD_DriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887EF6DBC4DFA2538A27C27D /* Pods-JD Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JD Driver.debug.xcconfig"; path = "Target Support Files/Pods-JD Driver/Pods-JD Driver.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,6 +283,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		793741E923A019C800E724E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793741F223A019C800E724E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793741F623A019C800E724E0 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -314,6 +362,8 @@
 				2C7B817923842ECD00BEED9B /* LastVisitUI */,
 				2C87C8462384533D00AF3C87 /* CreateNote */,
 				2C87C8502384533E00AF3C87 /* CreateNoteUI */,
+				793741ED23A019C800E724E0 /* MachineAlerts */,
+				793741F723A019C800E724E0 /* MachineAlertsUI */,
 				2CA71A0923671BB600727CAE /* Products */,
 				3E87DB84F809F17092FC78DB /* Pods */,
 				1942787D24ADC969894532F7 /* Frameworks */,
@@ -330,6 +380,8 @@
 				2C7B817723842ECD00BEED9B /* LastVisitUI.appex */,
 				2C87C8452384533D00AF3C87 /* CreateNote.appex */,
 				2C87C84E2384533E00AF3C87 /* CreateNoteUI.appex */,
+				793741EC23A019C800E724E0 /* MachineAlerts.appex */,
+				793741F523A019C800E724E0 /* MachineAlertsUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -477,6 +529,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		793741ED23A019C800E724E0 /* MachineAlerts */ = {
+			isa = PBXGroup;
+			children = (
+				793741EE23A019C800E724E0 /* IntentHandler.swift */,
+				793741F023A019C800E724E0 /* Info.plist */,
+				7937420C23A01A1500E724E0 /* MachineAlertsIntentHandler.swift */,
+			);
+			path = MachineAlerts;
+			sourceTree = "<group>";
+		};
+		793741F723A019C800E724E0 /* MachineAlertsUI */ = {
+			isa = PBXGroup;
+			children = (
+				793741F823A019C800E724E0 /* IntentViewController.swift */,
+				793741FA23A019C800E724E0 /* MainInterface.storyboard */,
+				793741FD23A019C800E724E0 /* Info.plist */,
+			);
+			path = MachineAlertsUI;
+			sourceTree = "<group>";
+		};
 		799D8EFF239A7F47002B641E /* Coordinates */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,6 +646,8 @@
 				2C7B818423842ECD00BEED9B /* PBXTargetDependency */,
 				2C87C8582384533E00AF3C87 /* PBXTargetDependency */,
 				2C87C85B2384533E00AF3C87 /* PBXTargetDependency */,
+				793741FF23A019C800E724E0 /* PBXTargetDependency */,
+				7937420223A019C800E724E0 /* PBXTargetDependency */,
 			);
 			name = "JD Driver";
 			productName = "JD Farmer";
@@ -620,6 +694,40 @@
 			productReference = 2CA71A2923671BB800727CAE /* JD DriverUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		793741EB23A019C800E724E0 /* MachineAlerts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7937420723A019C800E724E0 /* Build configuration list for PBXNativeTarget "MachineAlerts" */;
+			buildPhases = (
+				793741E823A019C800E724E0 /* Sources */,
+				793741E923A019C800E724E0 /* Frameworks */,
+				793741EA23A019C800E724E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachineAlerts;
+			productName = MachineAlerts;
+			productReference = 793741EC23A019C800E724E0 /* MachineAlerts.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		793741F423A019C800E724E0 /* MachineAlertsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7937420423A019C800E724E0 /* Build configuration list for PBXNativeTarget "MachineAlertsUI" */;
+			buildPhases = (
+				793741F123A019C800E724E0 /* Sources */,
+				793741F223A019C800E724E0 /* Frameworks */,
+				793741F323A019C800E724E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachineAlertsUI;
+			productName = MachineAlertsUI;
+			productReference = 793741F523A019C800E724E0 /* MachineAlertsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -654,6 +762,12 @@
 						CreatedOnToolsVersion = 11.1;
 						TestTargetID = 2CA71A0723671BB600727CAE;
 					};
+					793741EB23A019C800E724E0 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					793741F423A019C800E724E0 = {
+						CreatedOnToolsVersion = 11.2;
+					};
 				};
 			};
 			buildConfigurationList = 2CA71A0323671BB600727CAE /* Build configuration list for PBXProject "JD Driver" */;
@@ -676,6 +790,8 @@
 				2C7B817623842ECD00BEED9B /* LastVisitUI */,
 				2C87C8442384533D00AF3C87 /* CreateNote */,
 				2C87C84D2384533E00AF3C87 /* CreateNoteUI */,
+				793741EB23A019C800E724E0 /* MachineAlerts */,
+				793741F423A019C800E724E0 /* MachineAlertsUI */,
 			);
 		};
 /* End PBXProject section */
@@ -736,6 +852,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793741EA23A019C800E724E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793741F323A019C800E724E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793741FC23A019C800E724E0 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,6 +1079,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		793741E823A019C800E724E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7937420D23A01A1500E724E0 /* MachineAlertsIntentHandler.swift in Sources */,
+				7937420A23A019E300E724E0 /* Intents.intentdefinition in Sources */,
+				793741EF23A019C800E724E0 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793741F123A019C800E724E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7937420B23A019E300E724E0 /* Intents.intentdefinition in Sources */,
+				793741F923A019C800E724E0 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -981,6 +1131,16 @@
 			target = 2CA71A0723671BB600727CAE /* JD Driver */;
 			targetProxy = 2CA71A2A23671BB800727CAE /* PBXContainerItemProxy */;
 		};
+		793741FF23A019C800E724E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793741F423A019C800E724E0 /* MachineAlertsUI */;
+			targetProxy = 793741FE23A019C800E724E0 /* PBXContainerItemProxy */;
+		};
+		7937420223A019C800E724E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 793741EB23A019C800E724E0 /* MachineAlerts */;
+			targetProxy = 7937420123A019C800E724E0 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1006,6 +1166,14 @@
 				2CA71A1723671BB800727CAE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		793741FA23A019C800E724E0 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				793741FB23A019C800E724E0 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1430,6 +1598,86 @@
 			};
 			name = Release;
 		};
+		7937420523A019C800E724E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MachineAlertsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.MachineAlertsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7937420623A019C800E724E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MachineAlertsUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.MachineAlertsUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7937420823A019C800E724E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MachineAlerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.MachineAlerts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7937420923A019C800E724E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MachineAlerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arian.JD-Farmer.MachineAlerts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1501,6 +1749,24 @@
 			buildConfigurations = (
 				2CA71A3923671BB800727CAE /* Debug */,
 				2CA71A3A23671BB800727CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7937420423A019C800E724E0 /* Build configuration list for PBXNativeTarget "MachineAlertsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7937420523A019C800E724E0 /* Debug */,
+				7937420623A019C800E724E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7937420723A019C800E724E0 /* Build configuration list for PBXNativeTarget "MachineAlerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7937420823A019C800E724E0 /* Debug */,
+				7937420923A019C800E724E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

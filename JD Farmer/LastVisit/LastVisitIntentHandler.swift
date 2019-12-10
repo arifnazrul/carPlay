@@ -38,7 +38,7 @@ class LastVisitIntentHandler: NSObject, LastVisitIntentHandling {
         if intent.fieldName == .potato{
             completion(LastVisitIntentResponse.success(updates: "Potatoes are very healthy. Try them out!"))
         } else {
-            completion(LastVisitIntentResponse.success(updates: "Since your last visit on the 7th of July, crocodiles ate 60% of the strawberries on the Strawberry Field!"))
+            completion(LastVisitIntentResponse.success(updates: "The first update: Since your last visit on the 10th of December the seeding of the sugar beet has started on the 11th of December. The second update: Since your last visit on the 7th of July, crocodiles ate 60% of the sugar beets on the Sugar Beet Field!"))
            
         }
         
