@@ -139,6 +139,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     func addAnnotations() {
         mapView?.delegate = self
         
+       
         let annotationTractor = MKPointAnnotation()
         annotationTractor.title = "traktor"
         annotationTractor.subtitle = "Tractor Annotation"

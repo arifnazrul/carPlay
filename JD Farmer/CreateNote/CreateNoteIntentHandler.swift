@@ -11,6 +11,14 @@ import Intents
 
 
 class CreateNoteIntentHandler: NSObject, CreateNoteIntentHandling {
+    func resolveCreateReminderPrompt(for intent: CreateNoteIntent, with completion: @escaping (Enum5ResolutionResult) -> Void) {
+        if intent.createReminderPrompt == .unknown {
+            completion(Enum5ResolutionResult.needsValue())
+        } else {
+            completion(Enum5ResolutionResult.success(with: intent.createReminderPrompt))
+        }
+    }
+    
     func resolveFieldName(for intent: CreateNoteIntent, with completion: @escaping (Enum2ResolutionResult) -> Void) {
         if intent.noteType == .field {
             if intent.fieldName == .unknown {
