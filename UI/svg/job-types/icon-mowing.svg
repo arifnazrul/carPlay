@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" fill="#333">
+    <title>mowing_32</title>
+    <g id="718653b0-4934-48a4-9036-6dedede8fa5d">
+        <g id="4f90aaa9-a3dc-452b-9486-3219bd5b9114">
+            <path d="M20,15V10.11c-.34.6-.67,1.23-1,1.89-1.5,6.3,1,13.9,1,13.9A75.21,75.21,0,0,1,21.68,15ZM4.6,21.36A26.76,26.76,0,0,0,9.93,23.9C9.23,12.47,3,8,3,8A35.38,35.38,0,0,1,4.6,21.36ZM28,26a107.89,107.89,0,0,1-.95-11H23.33A45,45,0,0,0,21,26C24.24,26.15,26.82,26,28,26ZM18,2s-7.55,2.84-7.06,22.25a39,39,0,0,0,8,1.56C14.43,11.91,18,2,18,2Zm3,28h7V27H21ZM11,30h8V27H11ZM4,30h6V27H4Z"
+                  fill="#828282"/>
+            <rect x="24" y="6" width="4px" height="4px" fill="#7e93a8"/>
+            <rect x="24" y="2" width="1px" height="2px" fill="#7e93a8"/>
+            <rect x="27" y="2" width="1px" height="2px" fill="#7e93a8"/>
+            <path d="M22,3V13h8V3Zm7,9H23V4h6Z" fill="#7e93a8"/>
+        </g>
+    </g>
+</svg>

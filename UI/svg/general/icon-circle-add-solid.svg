@@ -1,0 +1,8 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32px" height="32px" fill="#333">
+<style type="text/css">
+	.primary{fill:#333;}
+	.secondary{fill:#FFF;}
+</style>
+<path class="primary" d="M16,2C8.3,2,2,8.3,2,16s6.3,14,14,14s14-6.3,14-14S23.7,2,16,2z"/>
+<polygon class="secondary" points="23,15 17,15 17,9 15,9 15,15 9,15 9,17 15,17 15,23 17,23 17,17 23,17 "/>
+</svg>

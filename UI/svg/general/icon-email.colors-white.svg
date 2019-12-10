@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="Mail" viewBox="-15 -11 30 22">
+	<path fill="#333333" d="M-15,11v-22h30v22H-15z M13.8,10L0-1.4L-13.7,10H13.8z M-4.5,1.1L-14-9.3V8.9L-4.5,1.1z M-13.4-10l9.6,10.4
+		L0-2.7l3.7,3.1L13.2-10H-13.4z M14-9.4L4.5,1L14,8.9V-9.4z"/>
+</symbol>
+<symbol id="generic-file" viewBox="-11 -14 22 28">
+	<g>
+		<polygon fill="#FFFFFF" points="-10.5,-13.5 -10.5,13.5 4.8,13.5 10.5,7.8 10.5,-13.5 		"/>
+		<path fill="#333333" d="M4.6,13L10,7.6V-13h-20v26H4.6 M5,14h-16v-28h22V8L5,14L5,14z"/>
+	</g>
+	<polyline fill="none" stroke="#333333" stroke-miterlimit="10" points="11,7 4,7 4,14 	"/>
+</symbol>
+<use xlink:href="#Mail" width="30px" height="22px" id="XMLID_16_" x="-15" y="-11" transform="matrix(1 0 0 -1 16.0005 16)" overflow="visible"/>
+</svg>

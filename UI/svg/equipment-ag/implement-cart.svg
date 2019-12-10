@@ -1,0 +1,17 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.stripe{fill:#EBD909;}
+</style>
+<polygon class="primary" points="32,18 18,18 18,14 32,16 "/>
+<polygon class="shadow" points="32,18 18,18 18,14 32,16 "/>
+<polygon class="primary" points="26,1 1,1 1,8 4,11 4,13 10,17 18,17 23,13 23,11 26,8 "/>
+<circle class="black" cx="14" cy="17" r="5"/>
+<circle class="secondary" cx="14" cy="17" r="3"/>
+<polygon class="shadow" points="23,11 4,11 1,8 26,8 "/>
+<rect x="1" y="2" class="stripe" width="25px" height="1px"/>
+<circle class="shadow" cx="14" cy="17" r="1"/>
+<rect x="0" y="0" class="black" width="27px" height="2px"/>
+</svg>

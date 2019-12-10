@@ -1,0 +1,37 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.shadow{opacity:0.3;}
+	.grey{fill:#808082;}
+	.window{fill:#BBE3F3;}
+	.primary{fill:#339647;}
+	.highlight{opacity:0.2;fill:#FFFFFF;}
+	.stripe{fill:#EBD909;}
+	.secondary{fill:#EBD909;}
+</style>
+<polygon class="secondary" points="30,22 26,22 26,13 28,8 30,13 "/>
+<polygon class="secondary" points="27,18 32,20 32,22 27,22 "/>
+<polygon class="secondary" points="28,17 32,17 32,16 28,15 "/>
+<polygon class="secondary" points="28,13 32,13 32,14 28,15 "/>
+<rect x="27" y="16" class="shadow" width="2px" height="2px"/>
+<rect x="27" y="13" class="shadow" width="2px" height="2px"/>
+<polygon class="secondary" points="28,11 28,8 32,8 32,9 "/>
+<polygon class="secondary" points="24,16 27,17 27,14 24,14 "/>
+<path class="black" d="M28,11l-2,3l-1,0l-1-1v-1l1-2V1l1,1c0,0,2,2,2,4S28,11,28,11z"/>
+<polygon class="black" points="22,3 23,3 27,10 26,10 "/>
+<circle class="black" cx="28" cy="6" r="1"/>
+<rect x="21" y="4" class="black" width="2px" height="2px"/>
+<rect x="3" y="6" class="primary" width="8px" height="2px"/>
+<rect x="3" y="6" class="shadow" width="8px" height="2px"/>
+<polygon class="primary" points="17,15 20,4 11,3 11,15 "/>
+<polygon class="window" points="19,8 12,8 12,4 19,5 "/>
+<polygon class="black" points="17,15 16,15 22,7 23,7 "/>
+<path class="grey" d="M28,2l-1-2c0,0-3.1,0.5-6,3s-7,7-7,7l2,3c0,0,4-4,6-6S28,2,28,2z"/>
+<path class="black" d="M20,18l-3-1h-3v-2h-4v2H7l-3,1c-1.1,0-2,0.9-2,2c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2C22,18.9,21.1,18,20,18z"/>
+<path class="grey" d="M20,19H4c-0.6,0-1,0.4-1,1c0,0.6,0.4,1,1,1h16c0.6,0,1-0.4,1-1C21,19.4,20.6,19,20,19z"/>
+<polygon class="primary" points="1,7 0,9 0,16 16,16 16,9 15,7 "/>
+<path class="shadow" d="M5,15H1v-4L5,15z M10,15h4v-4L10,15z M7,15v-4H3L7,15z M12,11H8v4L12,11z"/>
+<polygon class="black" points="16,12 16,16 18,16 18,15 "/>
+<polygon class="highlight" points="16,9 0,9 1,7 15,7 "/>
+<rect x="1" y="9" class="stripe" width="14px" height="1px"/>
+<path class="black" d="M23,5v2c0,0.6-0.4,1-1,1h-2L23,5z"/>
+</svg>

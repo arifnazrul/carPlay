@@ -1,0 +1,6 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" fill="#333" width="32px" height="32px">
+<style type="text/css">
+	.primary{fill:#333333;}
+</style>
+<path class="primary" d="M22,16l2-1l4,2l-2,1L22,16z M9,30h6v-2H9V30z M23,9h-2v5l2-1V9z M17,30h6v-2h-6V30z M15,2H9v2h6V2z M28,19v4h2v-5L28,19z M4,9H2v6h2V9z M28,28h-3v2h4c0.6,0,1-0.4,1-1v-4h-2V28z M4,25H2v4c0,0.6,0.4,1,1,1h4v-2H4V25z M21,7h2V3c0-0.6-0.4-1-1-1h-5v2h4V7z M4,17H2v6h2V17z M4,4h3V2H3C2.4,2,2,2.4,2,3v4h2V4z"/>
+</svg>

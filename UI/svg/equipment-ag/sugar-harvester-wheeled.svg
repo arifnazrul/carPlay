@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32px" height="32px" fill="#333">
+<style type="text/css">
+	.primary{fill:#009245;}
+	.secondary{fill:#FFE500;}
+	.tertiary{fill:#808080;}
+	.quaternary{fill:#333333;}
+	.window{opacity:0.3;fill:#5DC9E8;}
+	.shadow{opacity:0.3;fill:#333333;}
+	.highlight{opacity:0.3;fill:#FFFFFF;}
+</style>
+<polygon class="secondary" points="29,7.247 29,8.247 21.911,18.53 20.998,17.916 "/>
+<polygon class="primary" points="21.911,18.53 23.262,19.643 29,9.599 29,8.247 	"/>
+<polygon class="shadow" points="21.911,18.53 23.262,19.643 29,9.599 29,8.247 "/>
+<polygon class="primary" points="20.998,17.916 29,7.247 29,6.247 20.001,17.246 	"/>
+<polygon class="primary" points="20.998,17.916 29,7.247 29,6.247 20.001,17.246 	"/>
+<polygon class="shadow" points="20.998,17.916 29,7.247 29,6.247 20.001,17.246 "/>
+<polygon class="primary" points="23,16.628 13,16.628 13,6.247 6.838,6.247 6.879,12.247 6.143,12.247 6.143,20.656 6.141,24.247 
+		9,24.247 13,26.247 20,26.247 20,24.247 23,24.247 	"/>
+<polygon class="shadow" points="13,22.247 10,17.247 6.142,17.247 6.142,24.247 23,24.247 23,22.247 "/>
+<polygon class="shadow" points="11,14.247 11,12.247 6.143,12.247 6.143,15.247 12,15.247 13,22.247 13,14.247 "/>
+<rect x="29" y="8.247" class="primary" width="3px" height="3px"/>
+<rect x="29" y="8.247" class="shadow" width="3px" height="3px"/>
+<circle class="shadow" cx="8.461" cy="19.342" r="1"/>
+<polygon class="primary" points="31,8.247 29.2,11.247 29,11.247 29,6.247 31,6.247 	"/>
+<polygon class="shadow" points="13,22.247 12,15.247 6.143,15.247 6.143,14.247 13,14.247 "/>
+<rect x="13" y="16.628" class="primary" width="8.617px" height="5.619px"/>
+<ellipse transform="matrix(0.0038 -1 1 0.0038 -6.5507 46.181)" class="quaternary" cx="19.902" cy="26.378" rx="2.753" ry="2.753"/>
+<ellipse transform="matrix(0.0038 -1 1 0.0038 -6.5507 46.181)" class="secondary" cx="19.902" cy="26.378" rx="1.502" ry="1.502"/>
+<ellipse transform="matrix(0.0038 -1 1 0.0038 -6.5507 46.181)" class="shadow" cx="19.902" cy="26.378" rx="0.501" ry="0.501"/>
+<polygon class="quaternary" points="15.45,27.038 11.843,27.038 11.843,24.878 16.343,24.878 "/>
+<path class="quaternary" d="M13.787,6.795v9.833h7.815l1.469-9.833H13.787z M20.735,15.668l-5.948-0.041V7.795h7.124L20.735,15.668z
+	"/>
+<polygon class="primary" points="13.787,5.866 23.947,5.866 23.072,6.795 13.787,6.795 	"/>
+<polygon class="tertiary" points="19.902,10.767 19.345,10.489 18.138,12.346 18.695,12.624 "/>
+<polygon class="tertiary" points="21.398,11.231 20.735,15.668 19.253,11.231 "/>
+<polygon class="window" points="14.787,15.628 14.787,7.795 21.911,7.795 20.735,15.668 "/>
+<path class="quaternary" d="M4.259,2.869c-1.005,0-1.883,0.879-1.883,2.009v1.758h3.767V4.878C6.143,3.748,5.264,2.869,4.259,2.869z
+	"/>
+<polygon class="primary" points="6.143,24.881 0.698,24.881 0.698,9.599 2.477,9.599 6.143,9.599 	"/>
+<rect x="0.698" y="18.247" class="shadow" width="5.444px" height="1px"/>
+<rect x="2.376" y="4.871" class="primary" width="3.767px" height="8.429px"/>
+<path class="quaternary" d="M6.141,7.712H2.303C1.228,7.712,0,8.019,0,9.631v1.152h6.141V7.712z"/>
+<circle class="quaternary" cx="6.143" cy="24.881" r="4.25"/>
+<circle class="secondary" cx="6.143" cy="24.881" r="2.318"/>
+<circle class="shadow" cx="6.143" cy="24.881" r="0.773"/>
+<rect x="0.698" y="14.247" class="shadow" width="5.444px" height="1px"/>
+<polygon class="primary" points="26,28.247 20,20.247 20,18.247 23,15.247 29,25.247 32,28.247 	"/>
+<polygon class="shadow" points="21,19.247 25.4,19.247 24.8,18.247 20,18.247 "/>
+<polygon class="shadow" points="26.5,25.247 29,25.247 28.4,24.247 25.6,24.247 "/>
+<polygon class="shadow" points="23.7,22.247 27.2,22.247 26.6,21.247 22.8,21.247 "/>
+<polygon class="shadow" points="29,25.247 28,28.247 32,28.247 "/>
+<polygon class="highlight" points="28,28.247 26,28.247 20,20.247 20,18.247 28.3,27.247 "/>
+<rect x="14.249" y="17.437" class="shadow" width="2px" height="4px"/>
+<polygon class="shadow" points="18.751,20.437 16.751,21.437 16.751,17.437 18.751,17.437 "/>
+<polygon class="highlight" points="9.116,9.687 10.225,8.673 12.554,8.673 12.554,10.821 9.116,10.821 "/>
+<rect x="7.376" y="7.195" class="highlight" width="1.199px" height="3.625px"/>
+</svg>

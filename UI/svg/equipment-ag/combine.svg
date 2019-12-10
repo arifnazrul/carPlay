@@ -1,0 +1,31 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.grey{fill:#808082;}
+	.window{opacity:0.3;fill:#5DC9E8;}
+	.stripe{fill:#EBD909;}
+</style>
+<polygon class="grey" points="29.4,6.4 28.8,6.1 27.6,8.1 28.2,8.4 "/>
+<polygon class="grey" points="31.2,7 29.4,11 28.3,7 "/>
+<rect x="1" y="4" class="primary" width="11px" height="2px"/>
+<polygon class="primary" points="5,13 5,11 27,11 27,13 32,16 32,18 20.2,18 8.3,18 "/>
+<polygon class="primary" points="27,0 11,0 13,3 25,3 "/>
+<polygon class="window" points="29,12 25,12 25,7.1 25,5 32,5 "/>
+<rect x="1" y="4" class="shadow" width="11px" height="2px"/>
+<polygon class="shadow" points="5,13 5,11 27,11 27,13 32,16 32,18 20.2,18 8.3,18 "/>
+<polygon class="black" points="25.7,11 29.4,11 29,12 25.7,12 "/>
+<path class="primary" d="M27,12l-2-6V3H13v1H5c0,0-2,3.8-2,8l2,1c0,0,0-1.2,2.6-1.2c2,0,5.3,3.2,8.4,3.2s2.8-3,6-3C24.4,12,27,12,27,12z"/>
+<polygon class="shadow" points="27,0 11,0 13,3 25,3 "/>
+<circle class="black" cx="23.5" cy="17.5" r="4.5"/>
+<circle class="secondary" cx="23.5" cy="17.5" r="2.5"/>
+<circle class="shadow" cx="23.5" cy="17.5" r="1.5"/>
+<circle class="black" cx="9" cy="19" r="3"/>
+<circle class="secondary" cx="9" cy="19" r="1"/>
+<rect x="24" y="3" class="primary" width="8px" height="1px"/>
+<polygon class="black" points="0,7 1,7 2,6 1,4 "/>
+<rect x="25" y="4" class="black" width="7px" height="1px"/>
+<path class="stripe" d="M3.5,8c6.7,0,15.6,0.9,21.5,2c0,0-15.5-1-21.7-1L3.5,8z"/>
+<polygon class="shadow" points="25,5.5 13.5,5.5 13.5,3 13,3 13,14.2 13.5,14.4 13.5,6 25,6 "/>
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve" width="70px" height="70px" fill="#333">
+<style type="text/css">
+	.st0{clip-path:url(#XMLID_2_);fill:#404040;}
+	.st1{clip-path:url(#XMLID_2_);fill:#FFE2FB;stroke:#FF47E5;stroke-width:3;stroke-miterlimit:10;}
+	.st2{clip-path:url(#XMLID_2_);}
+	.st3{fill:#93C94A;stroke:#FF47E5;stroke-width:3;stroke-miterlimit:10;}
+	.st4{clip-path:url(#XMLID_3_);fill:#54894B;}
+	.st5{clip-path:url(#XMLID_3_);fill:#FCEF2B;}
+	.st6{clip-path:url(#XMLID_3_);fill:#EE0000;}
+	.st7{clip-path:url(#XMLID_3_);fill:#F7AC24;}
+</style>
+<g id="XMLID_30_">
+	<defs>
+		<rect id="XMLID_29_" width="70px" height="70px"/>
+	</defs>
+	<clipPath id="XMLID_2_">
+		<use xlink:href="#XMLID_29_" style="overflow:visible;"/>
+	</clipPath>
+	<rect id="XMLID_14_" class="st0" width="70px" height="70px"/>
+	<path id="XMLID_16_" class="st1" d="M-25.95,20.55c-1.8,0-3.2,1.4-3.2,3.2v22.5c0,1.8,1.4,3.2,3.2,3.2h20.5c1.8,0,4.2-1,5.5-2.2
+		l4.9-4.7c1.3-1.2,2.3-3.6,2.3-5.4v-13.4c0-1.8-1.4-3.2-3.2-3.2H-25.95z"/>
+	<path id="XMLID_17_" class="st1" d="M66.925,20.55c-1.8,0-3.2,1.4-3.2,3.2v22.5c0,1.8,1.4,3.2,3.2,3.2h20.5c1.8,0,4.2-1,5.5-2.2
+		l4.9-4.7c1.3-1.2,2.3-3.6,2.3-5.4v-13.4c0-1.8-1.4-3.2-3.2-3.2H66.925z"/>
+	<g id="XMLID_28_" class="st2">
+		<path id="XMLID_15_" class="st3" d="M16.679,54.018c0,2.282,1.775,4.057,4.057,4.057h28.527c2.282,0,4.057-1.775,4.057-4.057
+			V28.027c0-2.282-1.268-5.325-2.789-6.973l-5.959-6.212c-1.521-1.648-4.564-2.916-6.846-2.916H20.737
+			c-2.282,0-4.057,1.775-4.057,4.057V54.018z"/>
+		<g id="XMLID_27_">
+			<defs>
+				<path id="XMLID_19_" d="M18.41,54.263c0,2.133,0.902,2.294,3.005,2.294l26.725,0.005c2.102,0,3.738-1.659,3.738-3.791V28.484
+					c0-2.133-1.168-4.976-2.57-6.516l-5.49-5.805c-1.402-1.54-4.205-2.725-6.307-2.725H20.878c-2.102,0-2.756,1.659-2.756,3.791
+					L18.41,54.263z"/>
+			</defs>
+			<clipPath id="XMLID_3_">
+				<use xlink:href="#XMLID_19_" style="overflow:visible;"/>
+			</clipPath>
+			<rect id="XMLID_79_" x="31.794" y="11.925" class="st4" width="4.682px" height="19.138px"/>
+			<rect id="XMLID_82_" x="30.316" y="26.533" class="st5" width="7.75px" height="27.448px"/>
+			<rect id="XMLID_80_" x="43.789" y="23.5" class="st6" width="6.729px" height="16.421px"/>
+			<rect id="XMLID_77_" x="40.566" y="43.75" class="st5" width="12.821px" height="21.027px"/>
+			<rect id="XMLID_78_" x="37.566" y="24.487" class="st7" width="4.41px" height="21.027px"/>
+			<rect id="XMLID_18_" x="40.566" y="11.925" class="st5" width="5.429px" height="16.102px"/>
+			<rect id="XMLID_84_" x="21.415" y="30.862" class="st4" width="8.9px" height="8.138px"/>
+			<rect id="XMLID_81_" x="26.655" y="47.911" class="st4" width="4.069px" height="8.9px"/>
+			<rect id="XMLID_21_" x="29.655" y="50.911" class="st4" width="4.069px" height="8.9px"/>
+			<rect id="XMLID_20_" x="45.566" y="15.925" class="st5" width="5.429px" height="16.102px"/>
+			<rect id="XMLID_22_" x="43.789" y="31.237" class="st7" width="4.41px" height="21.027px"/>
+			<rect id="XMLID_23_" x="16.965" y="26.792" class="st4" width="8.9px" height="8.138px"/>
+			<rect id="XMLID_24_" x="18.122" y="37.3" class="st4" width="4.069px" height="8.9px"/>
+			<rect id="XMLID_25_" x="41.843" y="33.661" class="st4" width="3.269px" height="25.339px"/>
+			<rect id="XMLID_26_" x="33.155" y="19.23" class="st7" width="4.41px" height="21.027px"/>
+		</g>
+	</g>
+</g>
+</svg>

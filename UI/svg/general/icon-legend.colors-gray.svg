@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="legend-expand" viewBox="-14 -14 28 28">
+    <path d="M0,14c-7.7,0-14-6.3-14-14s6.3-14,14-14S14-7.7,14,0S7.7,14,0,14z M-5,9h3V3h-3V9z M-2-9h-3v6h3V-9z M4-4v3
+        h-9v2h9v3l6-4L4-4z"/>
+</symbol>
+<use xlink:href="#legend-expand" width="28px" height="28px" x="-14" y="-14" transform="matrix(1 0 0 -1 16 16)" overflow="visible"/>
+</svg>

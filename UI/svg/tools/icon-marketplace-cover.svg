@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve" width="70px" height="70px" fill="#333">
+<style type="text/css">
+	.st0{fill:#F2F2F2;}
+	.st1{fill:#367C2B;}
+	.st2{fill:#AF845B;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#5DC9E8;fill-opacity:0.5;}
+	.st5{fill:url(#XMLID_6_);}
+	.st6{fill:url(#XMLID_7_);}
+	.st7{fill:url(#XMLID_23_);}
+	.st8{fill:#FFFFFF;fill-opacity:0.3;}
+	.st9{fill:#333333;fill-opacity:0.3;}
+	.st10{fill:#BABABA;}
+</style>
+<rect id="XMLID_1_" class="st0" width="70px" height="70px"/>
+<rect id="XMLID_3_" x="2.5" y="16.5" class="st1" width="65px" height="9px"/>
+<rect id="XMLID_2_" x="4" y="25.5" class="st2" width="62px" height="27px"/>
+<rect id="XMLID_9_" x="6.5" y="30" class="st3" width="41px" height="20px"/>
+<rect id="XMLID_3995_" x="7.5" y="31" class="st4" width="39px" height="18px"/>
+<rect id="XMLID_10_" x="7" y="35.5" class="st3" width="40px" height="1px"/>
+<rect id="XMLID_18_" x="7" y="42.5" class="st3" width="40px" height="1px"/>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="15" y1="10" x2="15" y2="16" gradientTransform="matrix(-1 0 0 1 50 8)">
+	<stop offset="0" style="stop-color:#000000;stop-opacity:0.3"/>
+	<stop offset="1" style="stop-color:#000000;stop-opacity:0"/>
+</linearGradient>
+<rect id="XMLID_20_" x="4" y="18" class="st5" width="62px" height="6px"/>
+<linearGradient id="XMLID_7_" gradientUnits="userSpaceOnUse" x1="34" y1="-946.494" x2="34" y2="-905.494" gradientTransform="matrix(1 0 0 1 0 957.994)">
+	<stop offset="0" style="stop-color:#FFFFFF"/>
+	<stop offset="0.117" style="stop-color:#F4F4F4"/>
+	<stop offset="0.2958" style="stop-color:#E9E9E9"/>
+	<stop offset="0.5094" style="stop-color:#E6E6E6"/>
+	<stop offset="0.7184" style="stop-color:#E9E9E9"/>
+	<stop offset="0.8855" style="stop-color:#F3F3F3"/>
+	<stop offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path id="XMLID_4_" class="st6" d="M26,11.5h16.6c0,0-8.4,20,0.4,41H27.2l0.1-1l2.6-6.3C29.9,45.2,22.4,32.5,26,11.5z"/>
+<rect id="XMLID_11_" x="21.5" y="30.5" class="st3" width="1px" height="19px"/>
+<linearGradient id="XMLID_23_" gradientUnits="userSpaceOnUse" x1="35" y1="-927.8007" x2="35" y2="-926.2861" gradientTransform="matrix(1 0 0 1 0 957.994)">
+	<stop offset="0" style="stop-color:#000000;stop-opacity:0.3"/>
+	<stop offset="1" style="stop-color:#000000;stop-opacity:0"/>
+</linearGradient>
+<rect id="XMLID_8_" x="4" y="28.5" class="st7" width="62px" height="3.3px"/>
+<rect id="XMLID_12_" x="51.5" y="35.5" class="st3" width="11px" height="17px"/>
+<rect id="XMLID_3964_" x="52" y="36" class="st4" width="10px" height="16px"/>
+<rect id="XMLID_14_" x="5.5" y="50.5" class="st8" width="3px" height="1px"/>
+<rect id="XMLID_15_" x="8" y="51.5" class="st9" width="2px" height="1px"/>
+<rect id="XMLID_21_" x="47.5" y="32.5" class="st8" width="3px" height="1px"/>
+<rect id="XMLID_16_" x="49" y="34.5" class="st9" width="2px" height="1px"/>
+<rect id="XMLID_25_" x="63.5" y="47.5" class="st8" width="1px" height="1px"/>
+<rect id="XMLID_17_" x="64" y="46.5" class="st9" width="2px" height="1px"/>
+<rect id="XMLID_30_" x="61" y="30.5" class="st8" width="2px" height="1px"/>
+<rect id="XMLID_19_" x="63" y="31.5" class="st9" width="2px" height="1px"/>
+<rect id="XMLID_13_" x="52" y="43.5" class="st10" width="10px" height="1px"/>
+<polygon id="XMLID_38_" class="st10" points="4,25 66.4,25 69,29 1,29 "/>
+</svg>

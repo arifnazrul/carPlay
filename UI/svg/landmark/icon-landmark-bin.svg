@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<symbol id="Bin" viewBox="-14 -11 28 22">
+	<polygon style="fill:#D1D3D4;" points="2.004,11 -2.005,11 -14,4 14,4 	"/>
+	<polygon style="fill:#E6E7E8;" points="13.989,3 -13.99,3 -13.99,4 13.989,4 	"/>
+	<polygon style="fill:#D1D3D4;" points="11.996,-11 -11.999,-11 -11.999,3 11.996,3 	"/>
+	<polygon style="fill:#939598;" points="11.996,-11 10.996,-11 10.996,3 11.996,3 	"/>
+	<polygon style="fill:#D1D3D4;" points="10.996,-11 9.996,-11 9.996,3 10.996,3 	"/>
+	<polygon style="fill:#E6E7E8;" points="-11.004,-11 -12.004,-11 -12.004,3 -11.004,3 	"/>
+	<polygon style="fill:#BCBEC0;" points="10.002,-11 8.002,-11 8.002,3 10.002,3 	"/>
+	<polygon style="fill:#BCBEC0;" points="6,-11 3,-11 3,3 6,3 	"/>
+	<polygon style="fill:#E6E7E8;" points="-8.995,-11 -9.995,-11 -9.995,3 -8.995,3 	"/>
+	<polygon style="fill:#939598;" points="11.996,2 -12.004,2 -12.004,3 11.996,3 	"/>
+	<polygon style="fill:#E6E7E8;" points="-2.005,11 -14,4 -11.004,4 -1,11 	"/>
+	<polygon style="fill:#939598;" points="2.004,11 14,4 11,4 	"/>
+	<polygon style="fill:#D1D3D4;" points="2.004,11 11,4 9.996,4 	"/>
+	<polygon style="fill:#BCBEC0;" points="2.004,11 9.996,4 8.002,4 	"/>
+	<polygon style="fill:#BCBEC0;" points="1,11 6,4 3,4 	"/>
+</symbol>
+<use xlink:href="#Bin" width="28px" height="22px" x="-14" y="-11" transform="matrix(1 0 0 -1 16.0004 11)" style="overflow:visible;"/>
+</svg>

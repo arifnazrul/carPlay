@@ -1,0 +1,39 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+<style type="text/css">
+	.primary{fill:#339647;}
+	.secondary{fill:#EBD909;}
+	.shadow{opacity:0.3;}
+	.highlight{opacity:0.2;fill:#FFFFFF;}
+	.grey{fill:#808082;}
+	.window{opacity:0.3;fill:#5DC9E8;}
+	.white{fill:#FFFFFF;}
+</style>
+<rect x="9" y="3" class="grey" width="4px" height="4px"/>
+<rect x="8" y="3" class="grey" width="5px" height="1px"/>
+<rect x="8" y="3" class="shadow" width="5px" height="1px"/>
+<path class="black" d="M25,4v2h5C30,6,28.7,4.1,25,4z"/>
+<polygon class="black" points="30,9 2,9 2,14 7,17 13,15 20,15 24,17 30,13 "/>
+<path class="primary" d="M32,7c0,0-1.4-2.1-8-2h-1l-3-3l1,0l-1-1h-7v5H0v7l2,1l0.8-3c0.1-0.6,0.6-1,1.2-1h5l3.5,4H20l4-4h4c0.4,0,0.8,0.2,1,0.6l1,2.4l2-1v-1l-0.5,0L32,7z M14,5V2h5l3,3H14z"/>
+<path class="highlight" d="M2.7,14.5C3.6,13,5.2,12,7,12c2.2,0,4.1,1.4,4.7,3.4L7,17L2.7,14.5z"/>
+<polygon class="highlight" points="30,11 30,7 32,7 31.5,11 "/>
+<polygon class="secondary" points="30,9 30,7 31,7 "/>
+<polygon class="secondary" points="30,11 30,9 31,9 "/>
+<path class="highlight" d="M21.2,15.6c0.6-2.1,2.5-3.6,4.8-3.6c1.3,0,2.5,0.5,3.4,1.4L24,17L21.2,15.6z"/>
+<path class="highlight" d="M2.7,14.5C3.6,13,5.2,12,7,12c2.2,0,4.1,1.4,4.7,3.4L7,17L2.7,14.5z"/>
+<path class="highlight" d="M21.2,15.6c0.6-2.1,2.5-3.6,4.8-3.6c1.3,0,2.5,0.5,3.4,1.4L24,17L21.2,15.6z"/>
+<path class="shadow" d="M9,7L3.1,7C2,7,2,9,2,9l1-1h7L9,7z"/>
+<path class="shadow" d="M28,7l-4.9,0C22,7,22,9,22,9l1-1c0,0,5.5,0,6,0L28,7z"/>
+<polygon class="highlight" points="0,13 2,14 2.8,11 0,11 "/>
+<polygon class="secondary" points="1,8 0,9 0,6 1,6 "/>
+<polygon class="highlight" points="22,9 13,9 13,10 23,10 "/>
+<rect x="12.5" y="3" class="black" width="0.5px" height="11px"/>
+<path class="white" d="M17,6.5h-2.7c0,0-0.3,0-0.3-0.2S14.3,6,14.3,6H17V6.5z"/>
+<polyline class="window" points="24,5 23,5 20,2 21,2 "/>
+<polygon class="window" points="14,5 14,2 19,2 22,5 "/>
+<circle class="black" cx="7" cy="17" r="4"/>
+<circle class="white" cx="7" cy="17" r="2"/>
+<circle class="shadow" cx="7" cy="17" r="1"/>
+<circle class="black" cx="26" cy="17" r="4"/>
+<circle class="white" cx="26" cy="17" r="2"/>
+<circle class="shadow" cx="26" cy="17" r="1"/>
+</svg>

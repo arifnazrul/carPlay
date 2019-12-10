@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32px" height="32px" fill="#333">
+<style type="text/css">
+	.primary{fill:#FFA500;}
+	.black{fill:#333333;}
+	.shadow{opacity:0.3;fill:#333333;}
+	.highlight{opacity:0.3;fill:#FFFFFF;}
+	.grey{fill:#808082;}
+	.window{opacity:0.3;fill:#5DC9E8;}
+</style>
+<rect x="26.042" y="9.903" class="grey" width="1.917px" height="14px"/>
+<rect x="8.744" y="9.895" class="grey" width="1.917px" height="14px"/>
+<polygon class="grey" points="29.665,16.903 4.235,16.903 3.074,14.657 6.071,9.478 29.665,9.403 "/>
+<polygon class="highlight" points="28.438,15.35 6.018,15.059 5.769,14.657 28.438,14.947 "/>
+<polygon class="black" points="28.438,14.947 5.769,14.657 6.459,13.495 28.438,13.785 "/>
+<polygon class="shadow" points="5.799,9.947 29.665,12.184 29.665,13.561 5.044,11.253 "/>
+<rect x="23.666" y="5.405" class="window" width="5px" height="3px"/>
+<polygon class="primary" points="30.666,3.405 22.666,3.405 22.666,4.405 29.666,4.405 "/>
+<rect x="22.666" y="4.405" class="black" width="1px" height="4px"/>
+<rect x="22.666" y="4.405" class="black" width="7px" height="1px"/>
+<rect x="28.666" y="4.405" class="black" width="1px" height="4px"/>
+<circle class="black" cx="27" cy="23.595" r="5"/>
+<circle class="primary" cx="27" cy="23.595" r="3"/>
+<circle class="shadow" cx="27" cy="23.595" r="1"/>
+<ellipse transform="matrix(0.021 -0.9998 0.9998 0.021 -14.3008 32.5705)" class="black" cx="9.481" cy="23.588" rx="5" ry="5"/>
+<ellipse transform="matrix(0.021 -0.9998 0.9998 0.021 -14.3008 32.5705)" class="primary" cx="9.481" cy="23.588" rx="3" ry="3"/>
+<ellipse transform="matrix(0.021 -0.9998 0.9998 0.021 -14.3008 32.5705)" class="shadow" cx="9.481" cy="23.588" rx="1" ry="1"/>
+<polygon class="shadow" points="10.042,16.588 16.711,10.977 10.458,10.384 8.004,14.431 8.536,16.662 "/>
+<path class="black" d="M3.481,23.588h-1c0-3.9,3.1-7,7-7v1C6.181,17.588,3.481,20.288,3.481,23.588z"/>
+<rect x="9.481" y="16.588" class="black" width="1.357px" height="1px"/>
+<rect x="26.042" y="16.903" class="shadow" width="1.917px" height="1.231px"/>
+<rect x="8.744" y="16.895" class="shadow" width="1.917px" height="1.231px"/>
+<rect x="31" y="5.403" class="black" width="1px" height="8px"/>
+<polygon class="black" points="0,6.403 32,6.403 32,12.403 0,9.403 "/>
+<polygon class="primary" points="23,11.403 25,11.403 29,7.403 27,7.403 "/>
+<polygon class="primary" points="16,10.403 18,10.403 21,7.403 19,7.403 "/>
+<polygon class="primary" points="8.338,10.065 10.338,10.065 13.338,7.065 11.338,7.065 "/>
+<polygon class="primary" points="0,8.403 32,10.403 32,12.403 0,9.403 "/>
+<polygon class="primary" points="0,6.403 6,6.403 2.743,9.66 0,9.403 "/>
+<polygon class="primary" points="0,6.403 32,6.403 32,8.403 0,7.403 "/>
+<path class="grey" d="M27.227,14.112c-0.153-0.546-0.501-1.03-1.036-1.438l-0.178-0.088c-2.424-0.66-4.915-1.14-7.406-1.428
+	c-2.387-0.276-4.814-0.381-7.221-0.31c0,0-0.122,0.018-0.157,0.029c-0.035,0.011-0.11,0.056-0.11,0.056
+	c-0.106,0.069-0.187,0.208-1.924,3.107l-0.196,0.358c0,0,0.771,3.297,0.836,3.388l0.107,0.15l3.883,1.049l1.427,0.937
+	c0,0,0.868,0.023,1.231,0.023c1.165,0,2.342-0.062,3.51-0.185c2.146-0.225,3.441-0.361,4.694-1.189
+	C25.875,17.789,27.746,15.969,27.227,14.112z"/>
+<path class="highlight" d="M25.642,13.554c-2.343-0.632-4.748-1.093-7.154-1.371c-2.269-0.262-4.575-0.366-6.863-0.309
+	c-0.226,0.324-0.939,1.461-1.583,2.531c0.21,1.044,0.465,2.196,0.599,2.652l3.681,1.021l1.254,0.823
+	c1.427,0.04,2.875-0.015,4.31-0.166c2.214-0.232,3.235-0.363,4.235-1.024c0.993-0.655,2.446-2.136,2.115-3.322
+	C26.15,14.088,25.951,13.808,25.642,13.554z"/>
+<polygon class="shadow" points="10.928,14.398 11.343,16.428 14.735,17.25 15.883,18.134 22.858,17.534 24.309,15.301 "/>
+<polygon class="highlight" points="22.858,17.534 24.309,15.301 24.066,14.568 19.377,13.034 25.121,13.949 25.219,14.652 
+	25.322,15.386 "/>
+</svg>

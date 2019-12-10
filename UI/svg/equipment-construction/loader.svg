@@ -1,0 +1,37 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 22" style="enable-background:new 0 0 32 22;" xml:space="preserve" width="32px" height="22px" fill="#333">
+
+<style type="text/css">
+	.primary{fill:#FFCC22;}
+	.white{fill:#FFFFFF;}
+	.window{opacity:0.3;fill:#5DC9E8;}
+	.grey{fill:#808082;}
+	.shadow{opacity:0.3;}
+</style>
+
+<polygon class="shadow" points="25,7 21,7 21,8 25,8 23,11 24,11 26,8 "/>
+<circle class="black" cx="23.5" cy="11.5" r="1.5"/>
+<polygon class="window" points="10,1 16,1 17,6 17,9 10,9 "/>
+<path class="black" d="M5,2c0,0,2,0,2,2c0,1.1,0,3,0,3H6V4L5,2z"/>
+<polygon class="primary" points="0,8 4,6 9,6 9,11 15,11 15,19 4,19 0,17 "/>
+<rect x="5" y="6" class="grey" width="5px" height="2px"/>
+<rect x="0" y="10" class="shadow" width="2px" height="5px"/>
+<polygon class="white" points="11,10 5,10 5,11 7,11 8,12 11,12 "/>
+<path class="black" d="M22,7h-3c-0.6,0-1,0.4-1,1v1h4V7z"/>
+<rect x="24" y="14" class="black" width="3px" height="1px"/>
+<path class="grey" d="M26,20l-7,0V8c0,0,2.4,1.6,3.6,2.4c1.2,0.8,1.7,1.2,1.9,1.8C24.7,12.8,26,18,26,18V20z"/>
+<polygon class="primary" points="24,18 16,18 16,12 17,10 17,8 19,8 "/>
+<rect x="9" y="0" class="primary" width="7px" height="1px"/>
+<circle class="black" cx="21" cy="18" r="4"/>
+<circle class="primary" cx="21" cy="18" r="2"/>
+<circle class="black" cx="25" cy="8" r="1"/>
+<circle class="black" cx="8" cy="18" r="4"/>
+<circle class="primary" cx="8" cy="18" r="2"/>
+<path class="black" d="M15,9V1H9v10h5v4h3V9H15z M14,9l-4-2V2h4V9z"/>
+<rect x="16" y="14" class="shadow" width="1px" height="4px"/>
+<path class="primary" d="M31,21l-2-7l1-4l-3,3v3l-1,2v3h1c0,1,1,1,1,1h4L31,21z"/>
+<polygon class="shadow" points="27,21 26,21 26,18 27,16 "/>
+<rect y="15" class="black" width="6px" height="1px"/>
+<rect x="4" y="6" class="shadow" width="1px" height="9px"/>
+<rect x="13" y="11" class="primary" width="5px" height="1px"/>
+
+</svg>

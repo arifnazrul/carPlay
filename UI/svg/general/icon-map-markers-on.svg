@@ -1,0 +1,8 @@
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="32px" height="32px" fill="#333">
+<style type="text/css">
+	.primary{fill:#333333;}
+</style>
+<path class="primary" d="M15.9,2C8.1,2.1,1.9,8.4,2,16.1C2.1,23.9,8.4,30.1,16.1,30c7.7-0.1,13.9-6.4,13.9-14.1
+	C29.9,8.1,23.6,1.9,15.9,2z M22,19c-1.2,1.9-4.5,5.3-6,7c-1.5-1.7-4.8-5.1-6-7c-1-1.5-2-3.6-2-5c0-4.4,3.6-8,8-8s8,3.6,8,8
+	C24,15.4,23,17.5,22,19z M20.5,13.5c0,2.5-2,4.5-4.5,4.5c-2.5,0-4.5-2-4.5-4.5c0-2.5,2-4.5,4.5-4.5C18.4,9,20.5,11,20.5,13.5z"/>
+</svg>

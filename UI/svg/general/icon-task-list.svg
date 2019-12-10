@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="List" viewBox="-14 -14 28 28">
+	<g>
+		<polygon fill="#E3E3E3" points="-14,-14 14,-14 14,11 -14,11 		"/>
+	</g>
+	<g>
+		<polygon fill="#ECAD1F" points="-14,5 14,5 14,12 -14,12 		"/>
+	</g>
+	<polygon fill="#ABABAB" points="12,-2 -3,-2 -3,0 12,0 	"/>
+	<polygon fill="#377E3D" points="-8.9,-4 -11,-2 -10.3,-1.3 -9.1,-2.5 -6.6,1.4 -5.8,0.8 	"/>
+	<polygon fill="#ABABAB" points="12,-9 -3,-9 -3,-7 12,-7 	"/>
+	<polygon fill="#377E3D" points="-8.9,-11 -11,-9 -10.3,-8.3 -9.1,-9.5 -6.6,-5.6 -5.8,-6.2 	"/>
+	<g>
+		<polygon fill="#464646" points="-10,8 -12,8 -12,14 -10,14 		"/>
+	</g>
+	<g>
+		<polygon fill="#464646" points="-3,8 -5,8 -5,14 -3,14 		"/>
+	</g>
+	<g>
+		<polygon fill="#464646" points="5,8 3,8 3,14 5,14 		"/>
+	</g>
+	<g>
+		<polygon fill="#464646" points="12,8 10,8 10,14 12,14 		"/>
+	</g>
+	<polygon fill="#F5D695" points="14,6 -14,6 -14,5 14,5 	"/>
+</symbol>
+<symbol id="generic-file" viewBox="-11 -14 22 28">
+	<g>
+		<polygon fill="#FFFFFF" points="-10.5,-13.5 -10.5,13.5 4.8,13.5 10.5,7.8 10.5,-13.5 		"/>
+		<path fill="#333333" d="M4.6,13L10,7.6V-13h-20v26H4.6 M5,14h-16v-28h22V8L5,14L5,14z"/>
+	</g>
+	<polyline fill="none" stroke="#333333" stroke-miterlimit="10" points="11,7 4,7 4,14 	"/>
+</symbol>
+<use xlink:href="#List" width="28px" height="28px" id="XMLID_4_" x="-14" y="-14" transform="matrix(1 0 0 -1 16 16)" overflow="visible"/>
+</svg>

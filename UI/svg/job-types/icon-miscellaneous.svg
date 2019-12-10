@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 0 32 32" fill="#333">
+    <title>miscellaneous_32</title>
+    <g id="1fb8de4c-057c-4d11-810b-1b545c279eef">
+        <g id="a4c48254-3610-4234-a592-d3e79b254236">
+            <path d="M23.72,15a2,2,0,1,1-3.44,0H20V4.7A11.8,11.8,0,0,0,16,4,12,12,0,1,0,28,16c0-.34,0-.67-.05-1ZM10,18a2,2,0,1,1,2-2A2,2,0,0,1,10,18Zm6,0a2,2,0,1,1,2-2A2,2,0,0,1,16,18Z"
+                  fill="#828282"/>
+            <rect x="24" y="6" width="4px" height="4px" fill="#b080ab"/>
+            <rect x="24" y="2" width="1px" height="2px" fill="#b080ab"/>
+            <rect x="27" y="2" width="1px" height="2px" fill="#b080ab"/>
+            <path d="M22,3V13h8V3Zm7,9H23V4h6Z" fill="#b080ab"/>
+        </g>
+    </g>
+</svg>

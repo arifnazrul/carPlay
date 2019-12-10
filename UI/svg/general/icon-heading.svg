@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve" width="32px" height="32px" fill="#333">
+<symbol id="Navigation" viewBox="-10 -13.5 20 27">
+	<polygon fill="#7483BB" points="0,-9 -10,-13.5 0,13.5 	"/>
+	<polygon fill="#4D5880" points="0,13.5 10,-13.5 0,-9 	"/>
+</symbol>
+<use xlink:href="#Navigation" width="20px" height="27px" x="-10" y="-13.5" transform="matrix(1 0 0 -1 15.9998 16.0002)" overflow="visible"/>
+</svg>
