@@ -11,6 +11,24 @@ import Intents
 
 
 class CreateNoteIntentHandler: NSObject, CreateNoteIntentHandling {
+    func resolveDate(for intent: CreateNoteIntent, with completion: @escaping (INStringResolutionResult) -> Void) {
+        if intent.createReminderPrompt == .yes {
+            guard let date = intent.date else {
+                       completion(INStringResolutionResult.needsValue())
+                       return
+                   }
+            completion(INStringResolutionResult.success(with: date))
+        }else {
+            completion(INStringResolutionResult.success(with: ""))
+        }
+        
+       
+    }
+    
+    
+    
+    
+    
     func resolveCreateReminderPrompt(for intent: CreateNoteIntent, with completion: @escaping (Enum5ResolutionResult) -> Void) {
         if intent.createReminderPrompt == .unknown {
             completion(Enum5ResolutionResult.needsValue())

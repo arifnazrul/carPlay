@@ -27,12 +27,12 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     var long      : Double =  7.751151
     var offsetLat : Double =  0.000000
     var offsetLong: Double =  0.000000
-    var tractorPositionLat: Double = 49.431945
-    var tractorPositionLong: Double = 7.750757
+    var tractorPositionLat: Double =   49.428197
+    var tractorPositionLong: Double = 7.746529
     var flagPositionLat: Double = 49.431299
     var flagPositionLong: Double = 7.759964
-    var flagPositionLat2: Double = 49.428197
-    var flagPositionLong2: Double = 7.746529
+    var flagPositionLat2: Double = 49.431945
+    var flagPositionLong2: Double =  7.750757
     var notePositionLat: Double = 49.430571
     var notePositionLong: Double = 7.759704
     /// Radius of the circle showing the user's location
@@ -45,6 +45,10 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     /// Variable containing all overlays appearing on the MKMapView object
     var overlays: [MKOverlay]!
+    
+    var tractorOverlay: [MKAnnotation]!
+    
+    var removeTractor: Bool = false
     
     /// Variable containing user's location
     /// - Todo: Test with real device containing GPS capabilities to check for the precision of locating the user
@@ -88,6 +92,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         addPolyline()
         addPolygon()
         addAnnotations()
+        addTractor()
         overlays = mapView.overlays
     }
     
@@ -105,6 +110,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             addPolyline()
             addPolygon()
             addAnnotations()
+            addTractor()
             changeCounter += 1
             overlays = mapView.overlays
         }else if(changeCounter == 1) {
@@ -115,9 +121,12 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             addPolyline()
             addPolygon()
             addAnnotations()
+            addTractor()
             changeCounter += 1
             overlays = mapView.overlays
         }else if(changeCounter == 2) {
+            tractorOverlay = mapView.annotations
+            mapView.removeAnnotations(tractorOverlay)
             mapView.removeOverlays(overlays)
             lat = 49.428169
             long = 7.759661
@@ -131,6 +140,19 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         }
     }
     
+    
+    func addTractor()
+    {
+        let annotationTractor = MKPointAnnotation()
+       
+        annotationTractor.title = "traktor"
+       annotationTractor.subtitle = "Tractor Annotation"
+       annotationTractor.coordinate = CLLocationCoordinate2D(latitude: tractorPositionLat, longitude: tractorPositionLong)
+       mapView?.addAnnotation(annotationTractor)
+        
+      
+        
+    }
     /**
        - Parameters: void
        - Description: Creates a circle with specified parameters pinpointing user's location
@@ -140,11 +162,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         mapView?.delegate = self
         
        
-        let annotationTractor = MKPointAnnotation()
-        annotationTractor.title = "traktor"
-        annotationTractor.subtitle = "Tractor Annotation"
-        annotationTractor.coordinate = CLLocationCoordinate2D(latitude: tractorPositionLat, longitude: tractorPositionLong)
-        mapView?.addAnnotation(annotationTractor)
+       
         
         let annotationFlag = MKPointAnnotation()
         annotationFlag.title = "zastava"
@@ -274,6 +292,9 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             let center = CLLocationCoordinate2D(latitude: lat + offsetLat , longitude: long + offsetLong)
             let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
             self.mapView.setRegion(region, animated: true)
+            
+            
+            
         }
     }
     
@@ -304,13 +325,10 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             renderer.strokeColor = UIColor(red: borders[iterator][0]/255 , green: borders[iterator][1]/255, blue: borders[iterator][2]/255, alpha: 1)
             renderer.fillColor = UIColor(red: inside[iterator][0]/255 , green: inside[iterator][1]/255, blue: inside[iterator][2]/255, alpha: 0.7)
             
-            if(iterator == 0 && !changedPosition) {
-                renderer.lineWidth = 5
-            } else if(iterator == 1 && changedPosition){
-                renderer.lineWidth = 5
-            } else {
-                renderer.lineWidth = 2
-            }
+           
+           
+           
+            renderer.lineWidth = 2
             
             iterator += 1
             

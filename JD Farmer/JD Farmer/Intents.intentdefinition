@@ -137,15 +137,15 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>potato</string>
+					<string>corn</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>XPpHBd</string>
 					<key>INEnumValueIndex</key>
 					<integer>1</integer>
 					<key>INEnumValueName</key>
-					<string>potato</string>
+					<string>corn</string>
 					<key>INEnumValuePronunciationHint</key>
-					<string>potato</string>
+					<string>corn</string>
 					<key>INEnumValuePronunciationHintID</key>
 					<string>qI3Lzf</string>
 				</dict>
@@ -162,6 +162,20 @@
 					<string>tomato</string>
 					<key>INEnumValuePronunciationHintID</key>
 					<string>oejnEs</string>
+				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>wheat</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>mHAeJb</string>
+					<key>INEnumValueIndex</key>
+					<integer>3</integer>
+					<key>INEnumValueName</key>
+					<string>wheat</string>
+					<key>INEnumValuePronunciationHint</key>
+					<string>wheat</string>
+					<key>INEnumValuePronunciationHintID</key>
+					<string>5tosMh</string>
 				</dict>
 			</array>
 		</dict>
@@ -267,15 +281,15 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>Tomato</string>
+					<string>Strawberry</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>lcQtZh</string>
 					<key>INEnumValueIndex</key>
 					<integer>2</integer>
 					<key>INEnumValueName</key>
-					<string>Tomato</string>
+					<string>Strawberry</string>
 					<key>INEnumValuePronunciationHint</key>
-					<string>tomato</string>
+					<string>strawberry</string>
 					<key>INEnumValuePronunciationHintID</key>
 					<string>c9b66o</string>
 				</dict>
@@ -470,7 +484,7 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>The updates are: ${updates}.</string>
+						<string>${updates}.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>7pV7Ts</string>
 						<key>INIntentResponseCodeName</key>
@@ -560,10 +574,10 @@
 			<key>INIntentDescriptionID</key>
 			<string>aok35t</string>
 			<key>INIntentLastParameterTag</key>
-			<integer>13</integer>
+			<integer>16</integer>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
-				<key>noteType,content,createNotePrompt,fieldName,createReminderPrompt</key>
+				<key>noteType,content,createNotePrompt,fieldName,createReminderPrompt,date</key>
 				<dict>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
@@ -590,7 +604,7 @@
 					<key>INIntentParameterCombinationTitleID</key>
 					<string>8XioB2</string>
 				</dict>
-				<key>noteType,content,createNotePrompt,fieldName,createReminderPrompt</key>
+				<key>noteType,content,createNotePrompt,fieldName,createReminderPrompt,date</key>
 				<dict>
 					<key>INIntentParameterCombinationIsLinked</key>
 					<true/>
@@ -599,7 +613,7 @@
 					<key>INIntentParameterCombinationTitle</key>
 					<string>JD Driver take a note</string>
 					<key>INIntentParameterCombinationTitleID</key>
-					<string>OCrVRS</string>
+					<string>jnrj9n</string>
 				</dict>
 			</dict>
 			<key>INIntentParameters</key>
@@ -706,7 +720,7 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Of which type?</string>
+							<string>For which field?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>m4IMAw</string>
 							<key>INIntentParameterPromptDialogType</key>
@@ -801,7 +815,7 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>${content}. Do you want to save it?</string>
+							<string>Your note is: ${content}. Do you want to save it?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>X54scs</string>
 							<key>INIntentParameterPromptDialogType</key>
@@ -859,8 +873,10 @@
 							<string>DisambiguationIntroduction</string>
 						</dict>
 						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Which one?</string>
+							<string>Do you want to set it as a reminder?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>a2j1un</string>
 							<key>INIntentParameterPromptDialogType</key>
@@ -883,6 +899,40 @@
 					<integer>13</integer>
 					<key>INIntentParameterType</key>
 					<string>Integer</string>
+				</dict>
+				<dict>
+					<key>INIntentParameterDisplayName</key>
+					<string>Date</string>
+					<key>INIntentParameterDisplayNameID</key>
+					<string>jLC0zO</string>
+					<key>INIntentParameterDisplayPriority</key>
+					<integer>6</integer>
+					<key>INIntentParameterMetadata</key>
+					<dict>
+						<key>INIntentParameterMetadataCapitalization</key>
+						<string>Sentences</string>
+					</dict>
+					<key>INIntentParameterName</key>
+					<string>date</string>
+					<key>INIntentParameterPromptDialogs</key>
+					<array>
+						<dict>
+							<key>INIntentParameterPromptDialogCustom</key>
+							<true/>
+							<key>INIntentParameterPromptDialogFormatString</key>
+							<string>Tell me the date. </string>
+							<key>INIntentParameterPromptDialogFormatStringID</key>
+							<string>ljB8AB</string>
+							<key>INIntentParameterPromptDialogType</key>
+							<string>Primary</string>
+						</dict>
+					</array>
+					<key>INIntentParameterSupportsResolution</key>
+					<true/>
+					<key>INIntentParameterTag</key>
+					<integer>16</integer>
+					<key>INIntentParameterType</key>
+					<string>String</string>
 				</dict>
 			</array>
 			<key>INIntentResponse</key>
@@ -1054,7 +1104,7 @@
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>The updates are: ${updates}.</string>
+						<string>${updates}.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>WvxiD0</string>
 						<key>INIntentResponseCodeName</key>
