@@ -23,18 +23,18 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     var mainView: UIView?
     
     /// These variables are used to pin-point users current location and make panning feature implementation possible
-    var lat       : Double =  49.428581
-    var long      : Double =  7.751151
+    var lat       : Double =  49.370204
+    var long      : Double =  7.726008
     var offsetLat : Double =  0.000000
     var offsetLong: Double =  0.000000
-    var tractorPositionLat: Double =   49.428197
-    var tractorPositionLong: Double = 7.746529
-    var flagPositionLat: Double = 49.431299
-    var flagPositionLong: Double = 7.759964
-    var flagPositionLat2: Double = 49.431945
-    var flagPositionLong2: Double =  7.750757
-    var notePositionLat: Double = 49.430571
-    var notePositionLong: Double = 7.759704
+    var tractorPositionLat: Double =   49.370799
+    var tractorPositionLong: Double = 7.719316
+    var flagPositionLat: Double = 49.377248
+    var flagPositionLong: Double = 7.723031
+    var flagPositionLat2: Double =  49.375017
+    var flagPositionLong2: Double = 7.731103
+    var notePositionLat: Double =  49.374717
+    var notePositionLong: Double =  7.731103
     /// Radius of the circle showing the user's location
     /// - Todo: implement the logic of interval, tick and growth so circle grows and shrinks dynamically for better user experience
     var radius : Double! = 30
@@ -60,21 +60,21 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     
     /// Contains all border colours
     let borders: [[CGFloat]] = [
-        [74, 178, 216],
-        [146, 202, 110],
         [245, 159, 61],
+        [146, 202, 110],
+        [74, 178, 216],
+        [74, 178, 216],
         [203, 156, 115],
-        [254, 42, 254],
-        [146, 202, 110]
+        [255, 178, 255]
     ]
     /// Contains all inside colours
     let inside: [[CGFloat]] = [
-        [147, 205, 226],
-        [183, 217, 160],
         [244, 193, 136],
+        [183, 217, 160],
+        [147, 205, 226],
+        [147, 205, 226],
         [222, 194, 171],
-        [255, 178, 255],
-        [183, 217, 160]
+        [254, 42, 254]
     ]
     
     /// Iterator helping select the correct colour
@@ -104,8 +104,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     func moveUser() {
         if(changeCounter == 0) {
             mapView.removeOverlays(overlays)
-            lat = 49.429866
-            long = 7.754808
+            lat = 49.371829
+            long = 7.726896
             changedPosition = true
             addPolyline()
             addPolygon()
@@ -113,10 +113,10 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             addTractor()
             changeCounter += 1
             overlays = mapView.overlays
-        }else if(changeCounter == 1) {
+        }   else if(changeCounter == 1) {
             mapView.removeOverlays(overlays)
-            lat = 49.431351
-            long = 7.761142
+            lat = 49.372717
+            long = 7.728726
             changedPosition = true
             addPolyline()
             addPolygon()
@@ -125,11 +125,22 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
             changeCounter += 1
             overlays = mapView.overlays
         }else if(changeCounter == 2) {
+            mapView.removeOverlays(overlays)
+            lat = 49.374878
+            long = 7.734471
+            changedPosition = true
+            addPolyline()
+            addPolygon()
+            addAnnotations()
+            addTractor()
+            changeCounter += 1
+            overlays = mapView.overlays
+        }else if(changeCounter == 3) {
             tractorOverlay = mapView.annotations
             mapView.removeAnnotations(tractorOverlay)
             mapView.removeOverlays(overlays)
-            lat = 49.428169
-            long = 7.759661
+            lat = 49.371863
+            long = 7.732561
             changedPosition = true
             addPolyline()
             addPolygon()
@@ -290,7 +301,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         
         if locations.last != nil{
             let center = CLLocationCoordinate2D(latitude: lat + offsetLat , longitude: long + offsetLong)
-            let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+            let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.017, longitudeDelta: 0.017))
             self.mapView.setRegion(region, animated: true)
             
             

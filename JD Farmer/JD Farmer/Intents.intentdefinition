@@ -137,13 +137,13 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>corn</string>
+					<string>Corn</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>XPpHBd</string>
 					<key>INEnumValueIndex</key>
 					<integer>1</integer>
 					<key>INEnumValueName</key>
-					<string>corn</string>
+					<string>Corn</string>
 					<key>INEnumValuePronunciationHint</key>
 					<string>corn</string>
 					<key>INEnumValuePronunciationHintID</key>
@@ -151,27 +151,27 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>tomato</string>
+					<string>Barley</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>tpA7lV</string>
 					<key>INEnumValueIndex</key>
 					<integer>2</integer>
 					<key>INEnumValueName</key>
-					<string>tomato</string>
+					<string>Barley</string>
 					<key>INEnumValuePronunciationHint</key>
-					<string>tomato</string>
+					<string>barley</string>
 					<key>INEnumValuePronunciationHintID</key>
 					<string>oejnEs</string>
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>wheat</string>
+					<string>Wheat</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>mHAeJb</string>
 					<key>INEnumValueIndex</key>
 					<integer>3</integer>
 					<key>INEnumValueName</key>
-					<string>wheat</string>
+					<string>Wheat</string>
 					<key>INEnumValuePronunciationHint</key>
 					<string>wheat</string>
 					<key>INEnumValuePronunciationHintID</key>
@@ -281,15 +281,15 @@
 				</dict>
 				<dict>
 					<key>INEnumValueDisplayName</key>
-					<string>Strawberry</string>
+					<string>Barley</string>
 					<key>INEnumValueDisplayNameID</key>
 					<string>lcQtZh</string>
 					<key>INEnumValueIndex</key>
 					<integer>2</integer>
 					<key>INEnumValueName</key>
-					<string>Strawberry</string>
+					<string>Barley</string>
 					<key>INEnumValuePronunciationHint</key>
-					<string>strawberry</string>
+					<string>barley</string>
 					<key>INEnumValuePronunciationHintID</key>
 					<string>c9b66o</string>
 				</dict>
@@ -876,7 +876,7 @@
 							<key>INIntentParameterPromptDialogCustom</key>
 							<true/>
 							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Do you want to set it as a reminder?</string>
+							<string>Okay. Do you want to set it as a reminder  .?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
 							<string>a2j1un</string>
 							<key>INIntentParameterPromptDialogType</key>

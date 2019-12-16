@@ -14,8 +14,8 @@ class MachineAlertsIntentHandler: NSObject, MachineAlertsIntentHandling {
     func handle(intent: MachineAlertsIntent, completion: @escaping (MachineAlertsIntentResponse) -> Void) {
         if intent.fieldName == .potato {
             completion(MachineAlertsIntentResponse.success(updates: "Since your last visit on the 5th of December the tractor T41 broke."))
-        }else if intent.fieldName == .strawberry {
-            completion(MachineAlertsIntentResponse.success(updates: "Since your last visit on the 10th of December two flags were set. A huge stone was reported in the middle of the field and crocodiles ate 60% of the strawberries on the Strawberry Field!"))
+        }else if intent.fieldName == .barley {
+            completion(MachineAlertsIntentResponse.success(updates: "Since your last visit on the 10th of December two flags were set. A huge stone was reported in the middle of the field and crocodiles ate 60% of the grapevines on the Grapevine Field!"))
         } else if intent.fieldName == .sugar_beet {
             completion(MachineAlertsIntentResponse.success(updates: "Since your last visit on 10th of December the seeding of the sugar beet has started on the 11th of December and 60% of the field is seeded."))
         }

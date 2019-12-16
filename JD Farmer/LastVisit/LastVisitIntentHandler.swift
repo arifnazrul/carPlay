@@ -38,7 +38,7 @@ class LastVisitIntentHandler: NSObject, LastVisitIntentHandling {
         if intent.fieldName == .potato{
             completion(LastVisitIntentResponse.success(updates: "You have one reminder. The reminder is: Call the agronomist"))
         } else if intent.fieldName == .strawberry{
-            completion(LastVisitIntentResponse.gettingNotes(gettingNotes: "Call the agronomist after 14th of December. There are no more reminders."))
+            completion(LastVisitIntentResponse.gettingNotes(gettingNotes: "Call the agronomist after 21th of December. There are no more reminders."))
         } else {
             completion(LastVisitIntentResponse.success(updates: "The first update: Since your last visit on the 10th of December the seeding of the sugar beet has started on the 11th of December. The second update: Since your last visit on the 7th of July, crocodiles ate 60% of the sugar beets on the Sugar Beet Field!"))
            
