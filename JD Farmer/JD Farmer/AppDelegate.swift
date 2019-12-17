@@ -1,10 +1,12 @@
-//
-//  AppDelegate.swift
-//  JD Farmer
-//
-//  Created by Ajdari, Arian on 28.10.19.
-//  Copyright © 2019 Ajdari, Arian. All rights reserved.
-//
+/**
+  - **Name**:         AppDelegate.swift
+  - Description: This file contains back end methods of every iPhone application
+ 
+  - Author:    Ajdari, Arian [arianajdari94@gmail.com]
+  - Date:      28.10.19
+  - Copyright: 2019 JD Driver. All rights reserved ©
+*/
+
 
 import UIKit
 import CarPlay
@@ -44,13 +46,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         
         cp = CarPlayViewController()
         window.rootViewController = cp
-        
-      
-        
-     
-        
-        //let rootTemplate: CPMapTemplate = createTemplate()
-       //self.interfaceController?.setRootTemplate(rootTemplate, animated: false)
         
     }
     
@@ -160,10 +155,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CPApplicationDelegate,  CP
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
     
-    func appDelegate() -> AppDelegate {
-        return UIApplication.shared.delegate as! AppDelegate
-    }
-
-
 }
 

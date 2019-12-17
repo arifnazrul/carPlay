@@ -1,10 +1,11 @@
-//
-//  User_Organization.swift
-//  JD Farmer
-//
-//  Created by capstone on 07.11.19.
-//  Copyright © 2019 Ajdari, Arian. All rights reserved.
-//
+/**
+  - **Name**:         UserOrganization.swift
+  - Description: This file contains UserOrganization Model for Realm
+ 
+  - Author:    Ajdari, Arian [arianajdari94@gmail.com]
+  - Date:      07.11.19
+  - Copyright: 2019 JD Driver. All rights reserved ©
+*/
 
 import Foundation
 import RealmSwift

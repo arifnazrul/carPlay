@@ -1,10 +1,12 @@
-//
-//  DatabaseConfiguration.swift
-//  JD Farmer
-//
-//  Created by capstone on 08.11.19.
-//  Copyright © 2019 Ajdari, Arian. All rights reserved.
-//
+/**
+  - **Name**:         DatabaseConfiguration.swift
+  - Description: This file contains methods which parse .json file with database relations and convert them into objects which can be written into Realm
+ 
+  - Author:    Ajdari, Arian [arianajdari94@gmail.com]
+  - Date:      08.11.19
+  - Copyright: 2019 JD Driver. All rights reserved ©
+*/
+
 
 import Foundation
 import RealmSwift
@@ -12,6 +14,13 @@ import RealmSwift
 class DatabaseConfiguration {
     private var data: NSDictionary
     
+    /**
+       DatabaseConfiguration ctor method. It parses a .json file and it returns each relation as NSArray
+    
+       - Parameters:
+           - path: The path of the file
+       - Returns: void
+    */
     init(path: String)
     {
         self.data = parseJSON(path: path)
@@ -40,9 +49,15 @@ class DatabaseConfiguration {
             realm.add(notes)
         }
         
-       // print(Realm.Configuration.defaultConfiguration.fileURL)
     }
     
+    /**
+       This method iterates through every User and it places them into a Array
+    
+       - Parameters:
+           - userArray: Contains all users
+       - Returns: User array that can be written into Realm
+    */
     private func createUsers(usersArray: NSArray) -> [User] {
         
         var i = 0
@@ -61,6 +76,13 @@ class DatabaseConfiguration {
         return users
     }
     
+    /**
+       This method iterates through every Organization and it places them into a Array
+    
+       - Parameters:
+           - organizationsArray: Contains all organizations
+       - Returns: Organization array that can be written into Realm
+    */
     private func createOrganizations(organizationsArray: NSArray) -> [Organization]
     {
         var i = 0
@@ -80,6 +102,13 @@ class DatabaseConfiguration {
         return organizations
     }
     
+    /**
+       This method iterates through every UserOrganization and it places them into a Array
+    
+       - Parameters:
+           - userOrganizationArray: Contains all userOrganizations
+       - Returns: User array that can be written into Realm
+    */
     private func createUserOrganizations(userOrganizationsArray: NSArray) -> [UserOrganization]    {
         var i = 0
         var userOrganizations = [UserOrganization]()
@@ -98,6 +127,13 @@ class DatabaseConfiguration {
         return userOrganizations
     }
     
+    /**
+       This method iterates through every Field and it places them into a Array
+    
+       - Parameters:
+           - fieldArray: Contains all fields
+       - Returns: Field array that can be written into Realm
+    */
     private func createFields(fieldsArray: NSArray) -> [Field]    {
         var i = 0
         var fields = [Field]()
@@ -117,6 +153,13 @@ class DatabaseConfiguration {
         return fields
     }
     
+    /**
+       This method iterates through every Visit and it places them into a Array
+    
+       - Parameters:
+           - visitArray: Contains all visits
+       - Returns: Visit array that can be written into Realm
+    */
     private func createVisits(visitsArray: NSArray) -> [Visit]    {
         var i = 0
         var visits = [Visit]()
@@ -136,6 +179,13 @@ class DatabaseConfiguration {
         return visits
     }
     
+    /**
+       This method iterates through every Notification and it places them into a Array
+    
+       - Parameters:
+           - notificationArray: Contains all notifications
+       - Returns: Notification array that can be written into Realm
+    */
     private func createNotifications(notificationsArray: NSArray) -> [Notification]    {
         var i = 0
         var notifications = [Notification]()
@@ -158,6 +208,13 @@ class DatabaseConfiguration {
         return notifications
     }
     
+    /**
+       This method iterates through every Note and it places them into a Array
+    
+       - Parameters:
+           - noteArray: Contains all notes
+       - Returns: Note array that can be written into Realm
+    */
     private func createNote(noteArray: NSArray) -> [Note]
     {
         var i = 0
@@ -181,6 +238,13 @@ class DatabaseConfiguration {
         return notes
     }
     
+    /**
+       This method converts a string date to a Date
+    
+       - Parameters:
+           - date: String containing the date
+       - Returns: Date
+    */
     private func stringToDate(date: String) -> Date {
         let dateFormater = DateFormatter()
        

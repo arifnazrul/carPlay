@@ -1,10 +1,11 @@
-//
-//  ContentView.swift
-//  JD Farmer
-//
-//  Created by Ajdari, Arian on 28.10.19.
-//  Copyright © 2019 Ajdari, Arian. All rights reserved.
-//
+/**
+  - **Name**:         SceneDelegate.swift
+  - Description: This file contains main methods which does shortcut donation and checks screen changes
+ 
+  - Author:    Ajdari, Arian [arianajdari94@gmail.com]
+  - Date:      28.10.19
+  - Copyright: 2019 JD Driver. All rights reserved ©
+*/
 
 import SwiftUI
 

@@ -35,6 +35,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     var flagPositionLong2: Double = 7.731103
     var notePositionLat: Double =  49.374717
     var notePositionLong: Double =  7.731103
+    
     /// Radius of the circle showing the user's location
     /// - Todo: implement the logic of interval, tick and growth so circle grows and shrinks dynamically for better user experience
     var radius : Double! = 30
@@ -46,9 +47,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     /// Variable containing all overlays appearing on the MKMapView object
     var overlays: [MKOverlay]!
     
+    /// Variable containing all tractor annotation
     var tractorOverlay: [MKAnnotation]!
-    
-    var removeTractor: Bool = false
     
     /// Variable containing user's location
     /// - Todo: Test with real device containing GPS capabilities to check for the precision of locating the user
@@ -67,6 +67,7 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         [203, 156, 115],
         [255, 178, 255]
     ]
+    
     /// Contains all inside colours
     let inside: [[CGFloat]] = [
         [244, 193, 136],
@@ -151,7 +152,11 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         }
     }
     
-    
+    /**
+       - Parameters: void
+       - Description: Creates a tractor annotation on specified coordinates
+       - Returns: void
+    */
     func addTractor()
     {
         let annotationTractor = MKPointAnnotation()
@@ -160,10 +165,8 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
        annotationTractor.subtitle = "Tractor Annotation"
        annotationTractor.coordinate = CLLocationCoordinate2D(latitude: tractorPositionLat, longitude: tractorPositionLong)
        mapView?.addAnnotation(annotationTractor)
-        
-      
-        
     }
+    
     /**
        - Parameters: void
        - Description: Creates a circle with specified parameters pinpointing user's location
@@ -171,9 +174,6 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     */
     func addAnnotations() {
         mapView?.delegate = self
-        
-       
-       
         
         let annotationFlag = MKPointAnnotation()
         annotationFlag.title = "zastava"
@@ -192,6 +192,11 @@ class CarPlayViewController: UIViewController, MKMapViewDelegate, CLLocationMana
         
     }
     
+    /**
+       - Parameters: void
+       - Description: Creates a circle with specified parameters pinpointing user's location
+       - Returns: void
+    */
     func addSecondAnnotations(){
         let annotationNote = MKPointAnnotation()
         annotationNote.title = "beleska"
